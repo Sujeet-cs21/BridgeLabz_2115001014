@@ -18,3 +18,7 @@
 ### 23-01-2025:
     -Read documentions of Control flows.
     -solved and submmited the practice problems of control flows.
+
+### 24-01-2025:
+    -Read documentations of Arrays.
+    -Solved Level 1 practice problems.
