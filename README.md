@@ -22,3 +22,6 @@
 ### 24-01-2025:
     -Read documentations of Arrays.
     -Solved Level 1 practice problems.
+
+### 25-01-2025:
+    -Solved and submitted Level 1 and Level 2 problems of Arrays.
