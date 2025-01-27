@@ -25,3 +25,7 @@
 
 ### 25-01-2025:
     -Solved and submitted Level 1 and Level 2 problems of Arrays.
+
+### 27-01-2025:
+    -Read documentations of methods.
+    -Solved Level 1 and Level 2 problems of methods.
