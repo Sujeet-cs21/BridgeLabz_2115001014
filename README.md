@@ -29,3 +29,6 @@
 ### 27-01-2025:
     -Read documentations of methods.
     -Solved Level 1 and Level 2 problems of methods.
+
+### 28-01-2025
+    -solved and submitted practice problems of methods.
