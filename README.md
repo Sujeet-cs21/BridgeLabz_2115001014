@@ -32,3 +32,7 @@
 
 ### 28-01-2025
     -solved and submitted practice problems of methods.
+
+### 29-01-2025
+    -Read documetations of String.
+    -solved Practice problems of strings.
