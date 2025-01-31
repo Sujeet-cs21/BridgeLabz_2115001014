@@ -36,3 +36,11 @@
 ### 29-01-2025
     -Read documetations of String.
     -solved Practice problems of strings.
+
+### 30-01-2025
+    -Read documentations of BuiltInMethods and Time.
+    -Solved Practice problems of BuiltInMethod and Time.
+
+### 31-01-2025
+    -Read documentations of class and object;
+    -solved its practice problems.
