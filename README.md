@@ -44,3 +44,11 @@
 ### 31-01-2025
     -Read documentations of class and object;
     -solved its practice problems.
+
+### 01-02-2025
+    -Read about Constructors and modifiers.
+    -Solved constructors and modifiers practice problems.
+
+### 02-02-2025
+    -Read about instance and class variables.
+    -Solved modifiers and variables practice problems.
