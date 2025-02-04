@@ -52,3 +52,10 @@
 ### 02-02-2025
     -Read about instance and class variables.
     -Solved modifiers and variables practice problems.
+
+### 03-02-2025
+    -Read the concept of Object Oriented Programming.
+
+### 04-02-2025
+    -Read about this, sealed, static keyword and is operator.
+    -solved and submitted their practice problems.
