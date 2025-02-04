@@ -1,0 +1,7 @@
+C:\Users\Sujeet\OneDrive\Desktop\BL_Cpg(practice)\PP_04-02-25\PP_04-02-25\obj\Debug\PP_04-02-25.csproj.AssemblyReference.cache
+C:\Users\Sujeet\OneDrive\Desktop\BL_Cpg(practice)\PP_04-02-25\PP_04-02-25\obj\Debug\PP_04-02-25.csproj.CoreCompileInputs.cache
+C:\Users\Sujeet\OneDrive\Desktop\BL_Cpg(practice)\PP_04-02-25\PP_04-02-25\bin\Debug\PP_04-02-25.exe.config
+C:\Users\Sujeet\OneDrive\Desktop\BL_Cpg(practice)\PP_04-02-25\PP_04-02-25\bin\Debug\PP_04-02-25.exe
+C:\Users\Sujeet\OneDrive\Desktop\BL_Cpg(practice)\PP_04-02-25\PP_04-02-25\bin\Debug\PP_04-02-25.pdb
+C:\Users\Sujeet\OneDrive\Desktop\BL_Cpg(practice)\PP_04-02-25\PP_04-02-25\obj\Debug\PP_04-02-25.exe
+C:\Users\Sujeet\OneDrive\Desktop\BL_Cpg(practice)\PP_04-02-25\PP_04-02-25\obj\Debug\PP_04-02-25.pdb

@@ -1,0 +1,164 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_04-02-25\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2BF5268C-31A5-44F9-8D27-2FCC6EE73140}|PP_04-02-25\\PP_04-02-25.csproj|c:\\users\\sujeet\\onedrive\\desktop\\bl_cpg(practice)\\pp_04-02-25\\pp_04-02-25\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BF5268C-31A5-44F9-8D27-2FCC6EE73140}|PP_04-02-25\\PP_04-02-25.csproj|solutionrelative:pp_04-02-25\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BF5268C-31A5-44F9-8D27-2FCC6EE73140}|PP_04-02-25\\PP_04-02-25.csproj|c:\\users\\sujeet\\onedrive\\desktop\\bl_cpg(practice)\\pp_04-02-25\\pp_04-02-25\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BF5268C-31A5-44F9-8D27-2FCC6EE73140}|PP_04-02-25\\PP_04-02-25.csproj|solutionrelative:pp_04-02-25\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BF5268C-31A5-44F9-8D27-2FCC6EE73140}|PP_04-02-25\\PP_04-02-25.csproj|c:\\users\\sujeet\\onedrive\\desktop\\bl_cpg(practice)\\pp_04-02-25\\pp_04-02-25\\vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BF5268C-31A5-44F9-8D27-2FCC6EE73140}|PP_04-02-25\\PP_04-02-25.csproj|solutionrelative:pp_04-02-25\\vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BF5268C-31A5-44F9-8D27-2FCC6EE73140}|PP_04-02-25\\PP_04-02-25.csproj|c:\\users\\sujeet\\onedrive\\desktop\\bl_cpg(practice)\\pp_04-02-25\\pp_04-02-25\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BF5268C-31A5-44F9-8D27-2FCC6EE73140}|PP_04-02-25\\PP_04-02-25.csproj|solutionrelative:pp_04-02-25\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BF5268C-31A5-44F9-8D27-2FCC6EE73140}|PP_04-02-25\\PP_04-02-25.csproj|c:\\users\\sujeet\\onedrive\\desktop\\bl_cpg(practice)\\pp_04-02-25\\pp_04-02-25\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BF5268C-31A5-44F9-8D27-2FCC6EE73140}|PP_04-02-25\\PP_04-02-25.csproj|solutionrelative:pp_04-02-25\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BF5268C-31A5-44F9-8D27-2FCC6EE73140}|PP_04-02-25\\PP_04-02-25.csproj|c:\\users\\sujeet\\onedrive\\desktop\\bl_cpg(practice)\\pp_04-02-25\\pp_04-02-25\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BF5268C-31A5-44F9-8D27-2FCC6EE73140}|PP_04-02-25\\PP_04-02-25.csproj|solutionrelative:pp_04-02-25\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BF5268C-31A5-44F9-8D27-2FCC6EE73140}|PP_04-02-25\\PP_04-02-25.csproj|c:\\users\\sujeet\\onedrive\\desktop\\bl_cpg(practice)\\pp_04-02-25\\pp_04-02-25\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BF5268C-31A5-44F9-8D27-2FCC6EE73140}|PP_04-02-25\\PP_04-02-25.csproj|solutionrelative:pp_04-02-25\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BF5268C-31A5-44F9-8D27-2FCC6EE73140}|PP_04-02-25\\PP_04-02-25.csproj|c:\\users\\sujeet\\onedrive\\desktop\\bl_cpg(practice)\\pp_04-02-25\\pp_04-02-25\\bankaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BF5268C-31A5-44F9-8D27-2FCC6EE73140}|PP_04-02-25\\PP_04-02-25.csproj|solutionrelative:pp_04-02-25\\bankaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Patient.cs",
+              "DocumentMoniker": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_04-02-25\\PP_04-02-25\\Patient.cs",
+              "RelativeDocumentMoniker": "PP_04-02-25\\Patient.cs",
+              "ToolTip": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_04-02-25\\PP_04-02-25\\Patient.cs*",
+              "RelativeToolTip": "PP_04-02-25\\Patient.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-04T16:26:16.402Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Vehicle.cs",
+              "DocumentMoniker": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_04-02-25\\PP_04-02-25\\Vehicle.cs",
+              "RelativeDocumentMoniker": "PP_04-02-25\\Vehicle.cs",
+              "ToolTip": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_04-02-25\\PP_04-02-25\\Vehicle.cs",
+              "RelativeToolTip": "PP_04-02-25\\Vehicle.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAgwB4AAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-04T16:20:52.57Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_04-02-25\\PP_04-02-25\\Student.cs",
+              "RelativeDocumentMoniker": "PP_04-02-25\\Student.cs",
+              "ToolTip": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_04-02-25\\PP_04-02-25\\Student.cs",
+              "RelativeToolTip": "PP_04-02-25\\Student.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAuwDwAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-04T16:14:28.617Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_04-02-25\\PP_04-02-25\\Product.cs",
+              "RelativeDocumentMoniker": "PP_04-02-25\\Product.cs",
+              "ToolTip": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_04-02-25\\PP_04-02-25\\Product.cs",
+              "RelativeToolTip": "PP_04-02-25\\Product.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwCAAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-04T16:05:06.356Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_04-02-25\\PP_04-02-25\\Employee.cs",
+              "RelativeDocumentMoniker": "PP_04-02-25\\Employee.cs",
+              "ToolTip": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_04-02-25\\PP_04-02-25\\Employee.cs",
+              "RelativeToolTip": "PP_04-02-25\\Employee.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAgwDgAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-04T15:46:44.63Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Book.cs",
+              "DocumentMoniker": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_04-02-25\\PP_04-02-25\\Book.cs",
+              "RelativeDocumentMoniker": "PP_04-02-25\\Book.cs",
+              "ToolTip": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_04-02-25\\PP_04-02-25\\Book.cs",
+              "RelativeToolTip": "PP_04-02-25\\Book.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAwCUAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-04T15:33:48.941Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BankAccount.cs",
+              "DocumentMoniker": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_04-02-25\\PP_04-02-25\\BankAccount.cs",
+              "RelativeDocumentMoniker": "PP_04-02-25\\BankAccount.cs",
+              "ToolTip": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_04-02-25\\PP_04-02-25\\BankAccount.cs",
+              "RelativeToolTip": "PP_04-02-25\\BankAccount.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-04T14:54:48.559Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_04-02-25\\PP_04-02-25\\Program.cs",
+              "RelativeDocumentMoniker": "PP_04-02-25\\Program.cs",
+              "ToolTip": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_04-02-25\\PP_04-02-25\\Program.cs*",
+              "RelativeToolTip": "PP_04-02-25\\Program.cs*",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAkwBIAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-04T14:47:30.236Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
