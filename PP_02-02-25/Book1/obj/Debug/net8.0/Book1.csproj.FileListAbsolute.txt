@@ -1,0 +1,14 @@
+C:\Users\Sujeet\OneDrive\Desktop\newConsole\ConsoleApp1\Book1\bin\Debug\net8.0\Book1.exe
+C:\Users\Sujeet\OneDrive\Desktop\newConsole\ConsoleApp1\Book1\bin\Debug\net8.0\Book1.deps.json
+C:\Users\Sujeet\OneDrive\Desktop\newConsole\ConsoleApp1\Book1\bin\Debug\net8.0\Book1.runtimeconfig.json
+C:\Users\Sujeet\OneDrive\Desktop\newConsole\ConsoleApp1\Book1\bin\Debug\net8.0\Book1.dll
+C:\Users\Sujeet\OneDrive\Desktop\newConsole\ConsoleApp1\Book1\bin\Debug\net8.0\Book1.pdb
+C:\Users\Sujeet\OneDrive\Desktop\newConsole\ConsoleApp1\Book1\obj\Debug\net8.0\Book1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sujeet\OneDrive\Desktop\newConsole\ConsoleApp1\Book1\obj\Debug\net8.0\Book1.AssemblyInfoInputs.cache
+C:\Users\Sujeet\OneDrive\Desktop\newConsole\ConsoleApp1\Book1\obj\Debug\net8.0\Book1.AssemblyInfo.cs
+C:\Users\Sujeet\OneDrive\Desktop\newConsole\ConsoleApp1\Book1\obj\Debug\net8.0\Book1.csproj.CoreCompileInputs.cache
+C:\Users\Sujeet\OneDrive\Desktop\newConsole\ConsoleApp1\Book1\obj\Debug\net8.0\Book1.dll
+C:\Users\Sujeet\OneDrive\Desktop\newConsole\ConsoleApp1\Book1\obj\Debug\net8.0\refint\Book1.dll
+C:\Users\Sujeet\OneDrive\Desktop\newConsole\ConsoleApp1\Book1\obj\Debug\net8.0\Book1.pdb
+C:\Users\Sujeet\OneDrive\Desktop\newConsole\ConsoleApp1\Book1\obj\Debug\net8.0\Book1.genruntimeconfig.cache
+C:\Users\Sujeet\OneDrive\Desktop\newConsole\ConsoleApp1\Book1\obj\Debug\net8.0\ref\Book1.dll

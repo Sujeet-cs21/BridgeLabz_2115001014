@@ -1,0 +1,14 @@
+C:\Users\Sujeet\OneDrive\Desktop\newConsole\ConsoleApp1\BankAccount\bin\Debug\net8.0\BankAccount.exe
+C:\Users\Sujeet\OneDrive\Desktop\newConsole\ConsoleApp1\BankAccount\bin\Debug\net8.0\BankAccount.deps.json
+C:\Users\Sujeet\OneDrive\Desktop\newConsole\ConsoleApp1\BankAccount\bin\Debug\net8.0\BankAccount.runtimeconfig.json
+C:\Users\Sujeet\OneDrive\Desktop\newConsole\ConsoleApp1\BankAccount\bin\Debug\net8.0\BankAccount.dll
+C:\Users\Sujeet\OneDrive\Desktop\newConsole\ConsoleApp1\BankAccount\bin\Debug\net8.0\BankAccount.pdb
+C:\Users\Sujeet\OneDrive\Desktop\newConsole\ConsoleApp1\BankAccount\obj\Debug\net8.0\BankAccount.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sujeet\OneDrive\Desktop\newConsole\ConsoleApp1\BankAccount\obj\Debug\net8.0\BankAccount.AssemblyInfoInputs.cache
+C:\Users\Sujeet\OneDrive\Desktop\newConsole\ConsoleApp1\BankAccount\obj\Debug\net8.0\BankAccount.AssemblyInfo.cs
+C:\Users\Sujeet\OneDrive\Desktop\newConsole\ConsoleApp1\BankAccount\obj\Debug\net8.0\BankAccount.csproj.CoreCompileInputs.cache
+C:\Users\Sujeet\OneDrive\Desktop\newConsole\ConsoleApp1\BankAccount\obj\Debug\net8.0\BankAccount.dll
+C:\Users\Sujeet\OneDrive\Desktop\newConsole\ConsoleApp1\BankAccount\obj\Debug\net8.0\refint\BankAccount.dll
+C:\Users\Sujeet\OneDrive\Desktop\newConsole\ConsoleApp1\BankAccount\obj\Debug\net8.0\BankAccount.pdb
+C:\Users\Sujeet\OneDrive\Desktop\newConsole\ConsoleApp1\BankAccount\obj\Debug\net8.0\BankAccount.genruntimeconfig.cache
+C:\Users\Sujeet\OneDrive\Desktop\newConsole\ConsoleApp1\BankAccount\obj\Debug\net8.0\ref\BankAccount.dll

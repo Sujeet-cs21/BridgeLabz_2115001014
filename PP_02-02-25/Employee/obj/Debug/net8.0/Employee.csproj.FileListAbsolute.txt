@@ -1,0 +1,14 @@
+C:\Users\Sujeet\OneDrive\Desktop\newConsole\ConsoleApp1\Employee\bin\Debug\net8.0\Employee.exe
+C:\Users\Sujeet\OneDrive\Desktop\newConsole\ConsoleApp1\Employee\bin\Debug\net8.0\Employee.deps.json
+C:\Users\Sujeet\OneDrive\Desktop\newConsole\ConsoleApp1\Employee\bin\Debug\net8.0\Employee.runtimeconfig.json
+C:\Users\Sujeet\OneDrive\Desktop\newConsole\ConsoleApp1\Employee\bin\Debug\net8.0\Employee.dll
+C:\Users\Sujeet\OneDrive\Desktop\newConsole\ConsoleApp1\Employee\bin\Debug\net8.0\Employee.pdb
+C:\Users\Sujeet\OneDrive\Desktop\newConsole\ConsoleApp1\Employee\obj\Debug\net8.0\Employee.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sujeet\OneDrive\Desktop\newConsole\ConsoleApp1\Employee\obj\Debug\net8.0\Employee.AssemblyInfoInputs.cache
+C:\Users\Sujeet\OneDrive\Desktop\newConsole\ConsoleApp1\Employee\obj\Debug\net8.0\Employee.AssemblyInfo.cs
+C:\Users\Sujeet\OneDrive\Desktop\newConsole\ConsoleApp1\Employee\obj\Debug\net8.0\Employee.csproj.CoreCompileInputs.cache
+C:\Users\Sujeet\OneDrive\Desktop\newConsole\ConsoleApp1\Employee\obj\Debug\net8.0\Employee.dll
+C:\Users\Sujeet\OneDrive\Desktop\newConsole\ConsoleApp1\Employee\obj\Debug\net8.0\refint\Employee.dll
+C:\Users\Sujeet\OneDrive\Desktop\newConsole\ConsoleApp1\Employee\obj\Debug\net8.0\Employee.pdb
+C:\Users\Sujeet\OneDrive\Desktop\newConsole\ConsoleApp1\Employee\obj\Debug\net8.0\Employee.genruntimeconfig.cache
+C:\Users\Sujeet\OneDrive\Desktop\newConsole\ConsoleApp1\Employee\obj\Debug\net8.0\ref\Employee.dll
