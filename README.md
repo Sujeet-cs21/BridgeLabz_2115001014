@@ -59,3 +59,7 @@
 ### 04-02-2025
     -Read about this, sealed, static keyword and is operator.
     -solved and submitted their practice problems.
+
+### 05-02-2025
+    -Read about object modeling and OOPS conceps.
+    -Solved Object Modeling practice problem.
