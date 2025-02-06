@@ -63,3 +63,7 @@
 ### 05-02-2025
     -Read about object modeling and OOPS conceps.
     -Solved Object Modeling practice problem.
+
+### 06-02-2025
+    -Read about object modeling, abstraction and encapsulation.
+    -Solved and submitted object modeling problems.
