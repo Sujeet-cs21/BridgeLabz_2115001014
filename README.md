@@ -67,3 +67,7 @@
 ### 06-02-2025
     -Read about object modeling, abstraction and encapsulation.
     -Solved and submitted object modeling problems.
+
+### 07-02-2025
+    -Read about Inheritance.
+    -solved practice problem of Inheritance.
