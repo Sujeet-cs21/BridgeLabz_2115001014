@@ -71,3 +71,7 @@
 ### 07-02-2025
     -Read about Inheritance.
     -solved practice problem of Inheritance.
+
+### 08-02-2025
+    -Read about Inheritance and Interface.
+    -solved and submitted Inheritance practice problem.
