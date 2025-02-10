@@ -75,3 +75,7 @@
 ### 08-02-2025
     -Read about Inheritance and Interface.
     -solved and submitted Inheritance practice problem.
+
+### 10-02-2025
+    -Read about Encapsulation, Interface, Abstract class And Polymorphism.
+    -Solved and submitted their practice problems.
