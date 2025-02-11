@@ -79,3 +79,7 @@
 ### 10-02-2025
     -Read about Encapsulation, Interface, Abstract class And Polymorphism.
     -Solved and submitted their practice problems.
+
+### 11-02-2025
+    -Read documentation of LinkedList.
+    -Practiced its implimentation.
