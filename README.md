@@ -83,3 +83,6 @@
 ### 11-02-2025
     -Read documentation of LinkedList.
     -Practiced its implimentation.
+
+### 12-02-2025
+    -Solved and submitted practice problems of LinkedList.
