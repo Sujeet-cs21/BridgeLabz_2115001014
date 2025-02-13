@@ -1,0 +1,228 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_13-02-25\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E33AA886-D430-4B0A-9E99-8DF1D903C8A9}|PP_13-02-25\\PP_13-02-25.csproj|c:\\users\\sujeet\\onedrive\\desktop\\bl_cpg(practice)\\pp_13-02-25\\pp_13-02-25\\usestack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E33AA886-D430-4B0A-9E99-8DF1D903C8A9}|PP_13-02-25\\PP_13-02-25.csproj|solutionrelative:pp_13-02-25\\usestack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E33AA886-D430-4B0A-9E99-8DF1D903C8A9}|PP_13-02-25\\PP_13-02-25.csproj|c:\\users\\sujeet\\onedrive\\desktop\\bl_cpg(practice)\\pp_13-02-25\\pp_13-02-25\\twosum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E33AA886-D430-4B0A-9E99-8DF1D903C8A9}|PP_13-02-25\\PP_13-02-25.csproj|solutionrelative:pp_13-02-25\\twosum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E33AA886-D430-4B0A-9E99-8DF1D903C8A9}|PP_13-02-25\\PP_13-02-25.csproj|c:\\users\\sujeet\\onedrive\\desktop\\bl_cpg(practice)\\pp_13-02-25\\pp_13-02-25\\hashmap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E33AA886-D430-4B0A-9E99-8DF1D903C8A9}|PP_13-02-25\\PP_13-02-25.csproj|solutionrelative:pp_13-02-25\\hashmap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E33AA886-D430-4B0A-9E99-8DF1D903C8A9}|PP_13-02-25\\PP_13-02-25.csproj|c:\\users\\sujeet\\onedrive\\desktop\\bl_cpg(practice)\\pp_13-02-25\\pp_13-02-25\\longestsequence.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E33AA886-D430-4B0A-9E99-8DF1D903C8A9}|PP_13-02-25\\PP_13-02-25.csproj|solutionrelative:pp_13-02-25\\longestsequence.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E33AA886-D430-4B0A-9E99-8DF1D903C8A9}|PP_13-02-25\\PP_13-02-25.csproj|c:\\users\\sujeet\\onedrive\\desktop\\bl_cpg(practice)\\pp_13-02-25\\pp_13-02-25\\sumpair.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E33AA886-D430-4B0A-9E99-8DF1D903C8A9}|PP_13-02-25\\PP_13-02-25.csproj|solutionrelative:pp_13-02-25\\sumpair.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E33AA886-D430-4B0A-9E99-8DF1D903C8A9}|PP_13-02-25\\PP_13-02-25.csproj|c:\\users\\sujeet\\onedrive\\desktop\\bl_cpg(practice)\\pp_13-02-25\\pp_13-02-25\\zerosumsubarrays.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E33AA886-D430-4B0A-9E99-8DF1D903C8A9}|PP_13-02-25\\PP_13-02-25.csproj|solutionrelative:pp_13-02-25\\zerosumsubarrays.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E33AA886-D430-4B0A-9E99-8DF1D903C8A9}|PP_13-02-25\\PP_13-02-25.csproj|c:\\users\\sujeet\\onedrive\\desktop\\bl_cpg(practice)\\pp_13-02-25\\pp_13-02-25\\circulartour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E33AA886-D430-4B0A-9E99-8DF1D903C8A9}|PP_13-02-25\\PP_13-02-25.csproj|solutionrelative:pp_13-02-25\\circulartour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E33AA886-D430-4B0A-9E99-8DF1D903C8A9}|PP_13-02-25\\PP_13-02-25.csproj|c:\\users\\sujeet\\onedrive\\desktop\\bl_cpg(practice)\\pp_13-02-25\\pp_13-02-25\\slidingwindowmax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E33AA886-D430-4B0A-9E99-8DF1D903C8A9}|PP_13-02-25\\PP_13-02-25.csproj|solutionrelative:pp_13-02-25\\slidingwindowmax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E33AA886-D430-4B0A-9E99-8DF1D903C8A9}|PP_13-02-25\\PP_13-02-25.csproj|c:\\users\\sujeet\\onedrive\\desktop\\bl_cpg(practice)\\pp_13-02-25\\pp_13-02-25\\stockspan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E33AA886-D430-4B0A-9E99-8DF1D903C8A9}|PP_13-02-25\\PP_13-02-25.csproj|solutionrelative:pp_13-02-25\\stockspan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E33AA886-D430-4B0A-9E99-8DF1D903C8A9}|PP_13-02-25\\PP_13-02-25.csproj|c:\\users\\sujeet\\onedrive\\desktop\\bl_cpg(practice)\\pp_13-02-25\\pp_13-02-25\\sortstackrecursive.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E33AA886-D430-4B0A-9E99-8DF1D903C8A9}|PP_13-02-25\\PP_13-02-25.csproj|solutionrelative:pp_13-02-25\\sortstackrecursive.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E33AA886-D430-4B0A-9E99-8DF1D903C8A9}|PP_13-02-25\\PP_13-02-25.csproj|c:\\users\\sujeet\\onedrive\\desktop\\bl_cpg(practice)\\pp_13-02-25\\pp_13-02-25\\queueusingstack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E33AA886-D430-4B0A-9E99-8DF1D903C8A9}|PP_13-02-25\\PP_13-02-25.csproj|solutionrelative:pp_13-02-25\\queueusingstack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E33AA886-D430-4B0A-9E99-8DF1D903C8A9}|PP_13-02-25\\PP_13-02-25.csproj|c:\\users\\sujeet\\onedrive\\desktop\\bl_cpg(practice)\\pp_13-02-25\\pp_13-02-25\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E33AA886-D430-4B0A-9E99-8DF1D903C8A9}|PP_13-02-25\\PP_13-02-25.csproj|solutionrelative:pp_13-02-25\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CircularTour.cs",
+              "DocumentMoniker": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_13-02-25\\PP_13-02-25\\CircularTour.cs",
+              "RelativeDocumentMoniker": "PP_13-02-25\\CircularTour.cs",
+              "ToolTip": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_13-02-25\\PP_13-02-25\\CircularTour.cs",
+              "RelativeToolTip": "PP_13-02-25\\CircularTour.cs",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAwwGcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T16:17:38.817Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "StockSpan.cs",
+              "DocumentMoniker": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_13-02-25\\PP_13-02-25\\StockSpan.cs",
+              "RelativeDocumentMoniker": "PP_13-02-25\\StockSpan.cs",
+              "ToolTip": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_13-02-25\\PP_13-02-25\\StockSpan.cs",
+              "RelativeToolTip": "PP_13-02-25\\StockSpan.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAwwCcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T15:19:47.836Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SlidingWindowMax.cs",
+              "DocumentMoniker": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_13-02-25\\PP_13-02-25\\SlidingWindowMax.cs",
+              "RelativeDocumentMoniker": "PP_13-02-25\\SlidingWindowMax.cs",
+              "ToolTip": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_13-02-25\\PP_13-02-25\\SlidingWindowMax.cs",
+              "RelativeToolTip": "PP_13-02-25\\SlidingWindowMax.cs",
+              "ViewState": "AgIAAGsAAAAAAAAAAAAwwH0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T15:30:43.734Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ZeroSumSubarrays.cs",
+              "DocumentMoniker": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_13-02-25\\PP_13-02-25\\ZeroSumSubarrays.cs",
+              "RelativeDocumentMoniker": "PP_13-02-25\\ZeroSumSubarrays.cs",
+              "ToolTip": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_13-02-25\\PP_13-02-25\\ZeroSumSubarrays.cs",
+              "RelativeToolTip": "PP_13-02-25\\ZeroSumSubarrays.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAwwCUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T16:56:06.514Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SumPair.cs",
+              "DocumentMoniker": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_13-02-25\\PP_13-02-25\\SumPair.cs",
+              "RelativeDocumentMoniker": "PP_13-02-25\\SumPair.cs",
+              "ToolTip": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_13-02-25\\PP_13-02-25\\SumPair.cs",
+              "RelativeToolTip": "PP_13-02-25\\SumPair.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAwwCEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T17:04:44.246Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LongestSequence.cs",
+              "DocumentMoniker": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_13-02-25\\PP_13-02-25\\LongestSequence.cs",
+              "RelativeDocumentMoniker": "PP_13-02-25\\LongestSequence.cs",
+              "ToolTip": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_13-02-25\\PP_13-02-25\\LongestSequence.cs",
+              "RelativeToolTip": "PP_13-02-25\\LongestSequence.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAwwCwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T17:09:48.847Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HashMap.cs",
+              "DocumentMoniker": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_13-02-25\\PP_13-02-25\\HashMap.cs",
+              "RelativeDocumentMoniker": "PP_13-02-25\\HashMap.cs",
+              "ToolTip": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_13-02-25\\PP_13-02-25\\HashMap.cs",
+              "RelativeToolTip": "PP_13-02-25\\HashMap.cs",
+              "ViewState": "AgIAAHIAAAAAAAAAAADwv4QAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T17:17:12.784Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TwoSum.cs",
+              "DocumentMoniker": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_13-02-25\\PP_13-02-25\\TwoSum.cs",
+              "RelativeDocumentMoniker": "PP_13-02-25\\TwoSum.cs",
+              "ToolTip": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_13-02-25\\PP_13-02-25\\TwoSum.cs",
+              "RelativeToolTip": "PP_13-02-25\\TwoSum.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAwwCgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T17:35:51.039Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UseStack.cs",
+              "DocumentMoniker": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_13-02-25\\PP_13-02-25\\UseStack.cs",
+              "RelativeDocumentMoniker": "PP_13-02-25\\UseStack.cs",
+              "ToolTip": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_13-02-25\\PP_13-02-25\\UseStack.cs",
+              "RelativeToolTip": "PP_13-02-25\\UseStack.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAswEkAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T05:43:41.934Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "SortStackRecursive.cs",
+              "DocumentMoniker": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_13-02-25\\PP_13-02-25\\SortStackRecursive.cs",
+              "RelativeDocumentMoniker": "PP_13-02-25\\SortStackRecursive.cs",
+              "ToolTip": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_13-02-25\\PP_13-02-25\\SortStackRecursive.cs",
+              "RelativeToolTip": "PP_13-02-25\\SortStackRecursive.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAADwvz4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T14:26:04.733Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "QueueUsingStack.cs",
+              "DocumentMoniker": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_13-02-25\\PP_13-02-25\\QueueUsingStack.cs",
+              "RelativeDocumentMoniker": "PP_13-02-25\\QueueUsingStack.cs",
+              "ToolTip": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_13-02-25\\PP_13-02-25\\QueueUsingStack.cs",
+              "RelativeToolTip": "PP_13-02-25\\QueueUsingStack.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAwwE8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T06:26:46.063Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_13-02-25\\PP_13-02-25\\Program.cs",
+              "RelativeDocumentMoniker": "PP_13-02-25\\Program.cs",
+              "ToolTip": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_13-02-25\\PP_13-02-25\\Program.cs",
+              "RelativeToolTip": "PP_13-02-25\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T05:43:06.437Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
