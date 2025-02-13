@@ -86,3 +86,7 @@
 
 ### 12-02-2025
     -Solved and submitted practice problems of LinkedList.
+
+### 13-02-2025
+    -Read about Stack, Queue and HashMap.
+    -Solved and submitted their practice problems.
