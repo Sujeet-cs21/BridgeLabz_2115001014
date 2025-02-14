@@ -90,3 +90,7 @@
 ### 13-02-2025
     -Read about Stack, Queue and HashMap.
     -Solved and submitted their practice problems.
+
+### 14-02-2025
+    -Read about sorting Algorithms.
+    -Solved and Submitted its Practice Problems.
