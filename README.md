@@ -94,3 +94,7 @@
 ### 14-02-2025
     -Read about sorting Algorithms.
     -Solved and Submitted its Practice Problems.
+
+### 15-02-2025
+    -Read about StringBuilder, BufferReader and Searching.
+    -Solved and Submitted their Practice Problems.
