@@ -98,3 +98,7 @@
 ### 15-02-2025
     -Read about StringBuilder, BufferReader and Searching.
     -Solved and Submitted their Practice Problems.
+
+### 17-02-2025
+    -Read about Complexity and Generic Class.
+    -Solved and Submitted Practice Problem of Complexity.
