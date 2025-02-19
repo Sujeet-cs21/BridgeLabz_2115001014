@@ -105,3 +105,7 @@
 
 ### 18-02-2025
     -Solved and submitted Practice Problems of Generic Class"
+
+### 19-02-2025
+    -Read about Collections.
+    -Solved and Sumitted its Practice Problem.
