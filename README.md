@@ -109,3 +109,6 @@
 ### 19-02-2025
     -Read about Collections.
     -Solved and Sumitted its Practice Problem.
+
+### 20-02-2025
+    -Solved and Submitted Practice Problems of Streams.
