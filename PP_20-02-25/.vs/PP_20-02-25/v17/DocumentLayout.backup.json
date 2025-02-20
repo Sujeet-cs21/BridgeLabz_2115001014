@@ -1,0 +1,143 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_20-02-25\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C04D65A6-AC44-40A8-B4DE-C08D879D82AF}|PP_20-02-25\\PP_20-02-25.csproj|C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_20-02-25\\pp_20-02-25\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C04D65A6-AC44-40A8-B4DE-C08D879D82AF}|PP_20-02-25\\PP_20-02-25.csproj|solutionrelative:pp_20-02-25\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C04D65A6-AC44-40A8-B4DE-C08D879D82AF}|PP_20-02-25\\PP_20-02-25.csproj|c:\\users\\sujeet\\onedrive\\desktop\\bl_cpg(practice)\\pp_20-02-25\\pp_20-02-25\\pipedstreams.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C04D65A6-AC44-40A8-B4DE-C08D879D82AF}|PP_20-02-25\\PP_20-02-25.csproj|solutionrelative:pp_20-02-25\\pipedstreams.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C04D65A6-AC44-40A8-B4DE-C08D879D82AF}|PP_20-02-25\\PP_20-02-25.csproj|c:\\users\\sujeet\\onedrive\\desktop\\bl_cpg(practice)\\pp_20-02-25\\pp_20-02-25\\studentdatastream.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C04D65A6-AC44-40A8-B4DE-C08D879D82AF}|PP_20-02-25\\PP_20-02-25.csproj|solutionrelative:pp_20-02-25\\studentdatastream.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C04D65A6-AC44-40A8-B4DE-C08D879D82AF}|PP_20-02-25\\PP_20-02-25.csproj|c:\\users\\sujeet\\onedrive\\desktop\\bl_cpg(practice)\\pp_20-02-25\\pp_20-02-25\\uppertolowerconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C04D65A6-AC44-40A8-B4DE-C08D879D82AF}|PP_20-02-25\\PP_20-02-25.csproj|solutionrelative:pp_20-02-25\\uppertolowerconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C04D65A6-AC44-40A8-B4DE-C08D879D82AF}|PP_20-02-25\\PP_20-02-25.csproj|C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_20-02-25\\pp_20-02-25\\filehandling.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C04D65A6-AC44-40A8-B4DE-C08D879D82AF}|PP_20-02-25\\PP_20-02-25.csproj|solutionrelative:pp_20-02-25\\filehandling.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C04D65A6-AC44-40A8-B4DE-C08D879D82AF}|PP_20-02-25\\PP_20-02-25.csproj|c:\\users\\sujeet\\onedrive\\desktop\\bl_cpg(practice)\\pp_20-02-25\\pp_20-02-25\\readuserinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C04D65A6-AC44-40A8-B4DE-C08D879D82AF}|PP_20-02-25\\PP_20-02-25.csproj|solutionrelative:pp_20-02-25\\readuserinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C04D65A6-AC44-40A8-B4DE-C08D879D82AF}|PP_20-02-25\\PP_20-02-25.csproj|c:\\users\\sujeet\\onedrive\\desktop\\bl_cpg(practice)\\pp_20-02-25\\pp_20-02-25\\bufferedstreams.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C04D65A6-AC44-40A8-B4DE-C08D879D82AF}|PP_20-02-25\\PP_20-02-25.csproj|solutionrelative:pp_20-02-25\\bufferedstreams.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PipedStreams.cs",
+              "DocumentMoniker": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_20-02-25\\PP_20-02-25\\PipedStreams.cs",
+              "RelativeDocumentMoniker": "PP_20-02-25\\PipedStreams.cs",
+              "ToolTip": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_20-02-25\\PP_20-02-25\\PipedStreams.cs*",
+              "RelativeToolTip": "PP_20-02-25\\PipedStreams.cs*",
+              "ViewState": "AgIAACEAAAAAAAAAAAA1wDMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T16:21:01.87Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ReadUserInput.cs",
+              "DocumentMoniker": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_20-02-25\\PP_20-02-25\\ReadUserInput.cs",
+              "RelativeDocumentMoniker": "PP_20-02-25\\ReadUserInput.cs",
+              "ToolTip": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_20-02-25\\PP_20-02-25\\ReadUserInput.cs",
+              "RelativeToolTip": "PP_20-02-25\\ReadUserInput.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAmwCMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T14:59:27.921Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BufferedStreams.cs",
+              "DocumentMoniker": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_20-02-25\\PP_20-02-25\\BufferedStreams.cs",
+              "RelativeDocumentMoniker": "PP_20-02-25\\BufferedStreams.cs",
+              "ToolTip": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_20-02-25\\PP_20-02-25\\BufferedStreams.cs",
+              "RelativeToolTip": "PP_20-02-25\\BufferedStreams.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAgAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T14:41:31.244Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FileHandling.cs",
+              "DocumentMoniker": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_20-02-25\\PP_20-02-25\\FileHandling.cs",
+              "RelativeDocumentMoniker": "PP_20-02-25\\FileHandling.cs",
+              "ToolTip": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_20-02-25\\PP_20-02-25\\FileHandling.cs",
+              "RelativeToolTip": "PP_20-02-25\\FileHandling.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAcwAkAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T10:26:53.116Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_20-02-25\\PP_20-02-25\\Program.cs",
+              "RelativeDocumentMoniker": "PP_20-02-25\\Program.cs",
+              "ToolTip": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_20-02-25\\PP_20-02-25\\Program.cs*",
+              "RelativeToolTip": "PP_20-02-25\\Program.cs*",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAUwA0AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T10:26:12.209Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "StudentDataStream.cs",
+              "DocumentMoniker": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_20-02-25\\PP_20-02-25\\StudentDataStream.cs",
+              "RelativeDocumentMoniker": "PP_20-02-25\\StudentDataStream.cs",
+              "ToolTip": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_20-02-25\\PP_20-02-25\\StudentDataStream.cs*",
+              "RelativeToolTip": "PP_20-02-25\\StudentDataStream.cs*",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAiwEsAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T15:43:50.875Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UpperToLowerConverter.cs",
+              "DocumentMoniker": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_20-02-25\\PP_20-02-25\\UpperToLowerConverter.cs",
+              "RelativeDocumentMoniker": "PP_20-02-25\\UpperToLowerConverter.cs",
+              "ToolTip": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_20-02-25\\PP_20-02-25\\UpperToLowerConverter.cs",
+              "RelativeToolTip": "PP_20-02-25\\UpperToLowerConverter.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAuwDMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T15:27:36.749Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
