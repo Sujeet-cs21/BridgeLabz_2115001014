@@ -1,0 +1,211 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_21-02-25\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2F6B21F6-FD57-4BC9-BF3C-5A3AD44FFD4F}|PP_21-02-25\\PP_21-02-25.csproj|c:\\users\\sujeet\\onedrive\\desktop\\bl_cpg(practice)\\pp_21-02-25\\pp_21-02-25\\filehandling.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F6B21F6-FD57-4BC9-BF3C-5A3AD44FFD4F}|PP_21-02-25\\PP_21-02-25.csproj|solutionrelative:pp_21-02-25\\filehandling.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F6B21F6-FD57-4BC9-BF3C-5A3AD44FFD4F}|PP_21-02-25\\PP_21-02-25.csproj|c:\\users\\sujeet\\onedrive\\desktop\\bl_cpg(practice)\\pp_21-02-25\\pp_21-02-25\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F6B21F6-FD57-4BC9-BF3C-5A3AD44FFD4F}|PP_21-02-25\\PP_21-02-25.csproj|solutionrelative:pp_21-02-25\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F6B21F6-FD57-4BC9-BF3C-5A3AD44FFD4F}|PP_21-02-25\\PP_21-02-25.csproj|c:\\users\\sujeet\\onedrive\\desktop\\bl_cpg(practice)\\pp_21-02-25\\pp_21-02-25\\multipleexceptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F6B21F6-FD57-4BC9-BF3C-5A3AD44FFD4F}|PP_21-02-25\\PP_21-02-25.csproj|solutionrelative:pp_21-02-25\\multipleexceptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F6B21F6-FD57-4BC9-BF3C-5A3AD44FFD4F}|PP_21-02-25\\PP_21-02-25.csproj|c:\\users\\sujeet\\onedrive\\desktop\\bl_cpg(practice)\\pp_21-02-25\\pp_21-02-25\\votingeligibility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F6B21F6-FD57-4BC9-BF3C-5A3AD44FFD4F}|PP_21-02-25\\PP_21-02-25.csproj|solutionrelative:pp_21-02-25\\votingeligibility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F6B21F6-FD57-4BC9-BF3C-5A3AD44FFD4F}|PP_21-02-25\\PP_21-02-25.csproj|c:\\users\\sujeet\\onedrive\\desktop\\bl_cpg(practice)\\pp_21-02-25\\pp_21-02-25\\division1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F6B21F6-FD57-4BC9-BF3C-5A3AD44FFD4F}|PP_21-02-25\\PP_21-02-25.csproj|solutionrelative:pp_21-02-25\\division1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F6B21F6-FD57-4BC9-BF3C-5A3AD44FFD4F}|PP_21-02-25\\PP_21-02-25.csproj|c:\\users\\sujeet\\onedrive\\desktop\\bl_cpg(practice)\\pp_21-02-25\\pp_21-02-25\\division.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F6B21F6-FD57-4BC9-BF3C-5A3AD44FFD4F}|PP_21-02-25\\PP_21-02-25.csproj|solutionrelative:pp_21-02-25\\division.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F6B21F6-FD57-4BC9-BF3C-5A3AD44FFD4F}|PP_21-02-25\\PP_21-02-25.csproj|c:\\users\\sujeet\\onedrive\\desktop\\bl_cpg(practice)\\pp_21-02-25\\pp_21-02-25\\filenotfound.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F6B21F6-FD57-4BC9-BF3C-5A3AD44FFD4F}|PP_21-02-25\\PP_21-02-25.csproj|solutionrelative:pp_21-02-25\\filenotfound.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F6B21F6-FD57-4BC9-BF3C-5A3AD44FFD4F}|PP_21-02-25\\PP_21-02-25.csproj|c:\\users\\sujeet\\onedrive\\desktop\\bl_cpg(practice)\\pp_21-02-25\\pp_21-02-25\\propogateexceptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F6B21F6-FD57-4BC9-BF3C-5A3AD44FFD4F}|PP_21-02-25\\PP_21-02-25.csproj|solutionrelative:pp_21-02-25\\propogateexceptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F6B21F6-FD57-4BC9-BF3C-5A3AD44FFD4F}|PP_21-02-25\\PP_21-02-25.csproj|c:\\users\\sujeet\\onedrive\\desktop\\bl_cpg(practice)\\pp_21-02-25\\pp_21-02-25\\nestedtrycatch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F6B21F6-FD57-4BC9-BF3C-5A3AD44FFD4F}|PP_21-02-25\\PP_21-02-25.csproj|solutionrelative:pp_21-02-25\\nestedtrycatch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F6B21F6-FD57-4BC9-BF3C-5A3AD44FFD4F}|PP_21-02-25\\PP_21-02-25.csproj|c:\\users\\sujeet\\onedrive\\desktop\\bl_cpg(practice)\\pp_21-02-25\\pp_21-02-25\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F6B21F6-FD57-4BC9-BF3C-5A3AD44FFD4F}|PP_21-02-25\\PP_21-02-25.csproj|solutionrelative:pp_21-02-25\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F6B21F6-FD57-4BC9-BF3C-5A3AD44FFD4F}|PP_21-02-25\\PP_21-02-25.csproj|c:\\users\\sujeet\\onedrive\\desktop\\bl_cpg(practice)\\pp_21-02-25\\pp_21-02-25\\interestcalculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F6B21F6-FD57-4BC9-BF3C-5A3AD44FFD4F}|PP_21-02-25\\PP_21-02-25.csproj|solutionrelative:pp_21-02-25\\interestcalculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Division1.cs",
+              "DocumentMoniker": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_21-02-25\\PP_21-02-25\\Division1.cs",
+              "RelativeDocumentMoniker": "PP_21-02-25\\Division1.cs",
+              "ToolTip": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_21-02-25\\PP_21-02-25\\Division1.cs",
+              "RelativeToolTip": "PP_21-02-25\\Division1.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAwwCAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T10:02:37.93Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "NestedTryCatch.cs",
+              "DocumentMoniker": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_21-02-25\\PP_21-02-25\\NestedTryCatch.cs",
+              "RelativeDocumentMoniker": "PP_21-02-25\\NestedTryCatch.cs",
+              "ToolTip": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_21-02-25\\PP_21-02-25\\NestedTryCatch.cs",
+              "RelativeToolTip": "PP_21-02-25\\NestedTryCatch.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAwwCoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T09:37:04.224Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PropogateExceptions.cs",
+              "DocumentMoniker": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_21-02-25\\PP_21-02-25\\PropogateExceptions.cs",
+              "RelativeDocumentMoniker": "PP_21-02-25\\PropogateExceptions.cs",
+              "ToolTip": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_21-02-25\\PP_21-02-25\\PropogateExceptions.cs",
+              "RelativeToolTip": "PP_21-02-25\\PropogateExceptions.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAkwBUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T09:30:02.45Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Division.cs",
+              "DocumentMoniker": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_21-02-25\\PP_21-02-25\\Division.cs",
+              "RelativeDocumentMoniker": "PP_21-02-25\\Division.cs",
+              "ToolTip": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_21-02-25\\PP_21-02-25\\Division.cs",
+              "RelativeToolTip": "PP_21-02-25\\Division.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAA1wBUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T09:22:33.112Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "InterestCalculator.cs",
+              "DocumentMoniker": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_21-02-25\\PP_21-02-25\\InterestCalculator.cs",
+              "RelativeDocumentMoniker": "PP_21-02-25\\InterestCalculator.cs",
+              "ToolTip": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_21-02-25\\PP_21-02-25\\InterestCalculator.cs",
+              "RelativeToolTip": "PP_21-02-25\\InterestCalculator.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAwwB0AAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T09:18:02.905Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_21-02-25\\PP_21-02-25\\Program.cs",
+              "RelativeDocumentMoniker": "PP_21-02-25\\Program.cs",
+              "ToolTip": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_21-02-25\\PP_21-02-25\\Program.cs",
+              "RelativeToolTip": "PP_21-02-25\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T09:17:24.946Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FileHandling.cs",
+              "DocumentMoniker": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_21-02-25\\PP_21-02-25\\FileHandling.cs",
+              "RelativeDocumentMoniker": "PP_21-02-25\\FileHandling.cs",
+              "ToolTip": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_21-02-25\\PP_21-02-25\\FileHandling.cs",
+              "RelativeToolTip": "PP_21-02-25\\FileHandling.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAwwB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T10:19:11.276Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MultipleExceptions.cs",
+              "DocumentMoniker": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_21-02-25\\PP_21-02-25\\MultipleExceptions.cs",
+              "RelativeDocumentMoniker": "PP_21-02-25\\MultipleExceptions.cs",
+              "ToolTip": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_21-02-25\\PP_21-02-25\\MultipleExceptions.cs",
+              "RelativeToolTip": "PP_21-02-25\\MultipleExceptions.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAwwCYAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T10:14:44.885Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "VotingEligibility.cs",
+              "DocumentMoniker": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_21-02-25\\PP_21-02-25\\VotingEligibility.cs",
+              "RelativeDocumentMoniker": "PP_21-02-25\\VotingEligibility.cs",
+              "ToolTip": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_21-02-25\\PP_21-02-25\\VotingEligibility.cs",
+              "RelativeToolTip": "PP_21-02-25\\VotingEligibility.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAwwCkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T10:06:31.998Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "FileNotFound.cs",
+              "DocumentMoniker": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_21-02-25\\PP_21-02-25\\FileNotFound.cs",
+              "RelativeDocumentMoniker": "PP_21-02-25\\FileNotFound.cs",
+              "ToolTip": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_21-02-25\\PP_21-02-25\\FileNotFound.cs",
+              "RelativeToolTip": "PP_21-02-25\\FileNotFound.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAwwBcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T09:55:05.682Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_21-02-25\\PP_21-02-25\\Class1.cs",
+              "RelativeDocumentMoniker": "PP_21-02-25\\Class1.cs",
+              "ToolTip": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_21-02-25\\PP_21-02-25\\Class1.cs",
+              "RelativeToolTip": "PP_21-02-25\\Class1.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAwwC8AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T09:45:40.081Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
