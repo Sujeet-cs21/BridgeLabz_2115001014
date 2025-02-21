@@ -112,3 +112,7 @@
 
 ### 20-02-2025
     -Solved and Submitted Practice Problems of Streams.
+
+### 21-02-2025
+    -Read about Exceptional Handling.
+    -Solved and Submitted its Practice Problem.
