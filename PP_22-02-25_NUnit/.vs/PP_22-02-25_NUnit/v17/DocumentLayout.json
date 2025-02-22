@@ -1,0 +1,483 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_22-02-25_NUnit\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D2022BCE-01DC-49D7-83CB-934E0C5BB77F}|PP_22-02-25_NUnit\\PP_22-02-25_NUnit.csproj|c:\\users\\sujeet\\onedrive\\desktop\\bl_cpg(practice)\\pp_22-02-25_nunit\\pp_22-02-25_nunit\\userregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2022BCE-01DC-49D7-83CB-934E0C5BB77F}|PP_22-02-25_NUnit\\PP_22-02-25_NUnit.csproj|solutionrelative:pp_22-02-25_nunit\\userregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40A1C821-8952-4BC3-AE87-C04AC1E3C956}|CalculatorTest\\UnitTests.csproj|c:\\users\\sujeet\\onedrive\\desktop\\bl_cpg(practice)\\pp_22-02-25_nunit\\calculatortest\\userregistrationtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40A1C821-8952-4BC3-AE87-C04AC1E3C956}|CalculatorTest\\UnitTests.csproj|solutionrelative:calculatortest\\userregistrationtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40A1C821-8952-4BC3-AE87-C04AC1E3C956}|CalculatorTest\\UnitTests.csproj|c:\\users\\sujeet\\onedrive\\desktop\\bl_cpg(practice)\\pp_22-02-25_nunit\\calculatortest\\dateformattertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40A1C821-8952-4BC3-AE87-C04AC1E3C956}|CalculatorTest\\UnitTests.csproj|solutionrelative:calculatortest\\dateformattertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2022BCE-01DC-49D7-83CB-934E0C5BB77F}|PP_22-02-25_NUnit\\PP_22-02-25_NUnit.csproj|c:\\users\\sujeet\\onedrive\\desktop\\bl_cpg(practice)\\pp_22-02-25_nunit\\pp_22-02-25_nunit\\dateformatter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2022BCE-01DC-49D7-83CB-934E0C5BB77F}|PP_22-02-25_NUnit\\PP_22-02-25_NUnit.csproj|solutionrelative:pp_22-02-25_nunit\\dateformatter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40A1C821-8952-4BC3-AE87-C04AC1E3C956}|CalculatorTest\\UnitTests.csproj|c:\\users\\sujeet\\onedrive\\desktop\\bl_cpg(practice)\\pp_22-02-25_nunit\\calculatortest\\temperatureconvertertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40A1C821-8952-4BC3-AE87-C04AC1E3C956}|CalculatorTest\\UnitTests.csproj|solutionrelative:calculatortest\\temperatureconvertertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2022BCE-01DC-49D7-83CB-934E0C5BB77F}|PP_22-02-25_NUnit\\PP_22-02-25_NUnit.csproj|c:\\users\\sujeet\\onedrive\\desktop\\bl_cpg(practice)\\pp_22-02-25_nunit\\pp_22-02-25_nunit\\temperatureconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2022BCE-01DC-49D7-83CB-934E0C5BB77F}|PP_22-02-25_NUnit\\PP_22-02-25_NUnit.csproj|solutionrelative:pp_22-02-25_nunit\\temperatureconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40A1C821-8952-4BC3-AE87-C04AC1E3C956}|CalculatorTest\\UnitTests.csproj|c:\\users\\sujeet\\onedrive\\desktop\\bl_cpg(practice)\\pp_22-02-25_nunit\\calculatortest\\passwordvalidatortests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40A1C821-8952-4BC3-AE87-C04AC1E3C956}|CalculatorTest\\UnitTests.csproj|solutionrelative:calculatortest\\passwordvalidatortests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2022BCE-01DC-49D7-83CB-934E0C5BB77F}|PP_22-02-25_NUnit\\PP_22-02-25_NUnit.csproj|c:\\users\\sujeet\\onedrive\\desktop\\bl_cpg(practice)\\pp_22-02-25_nunit\\pp_22-02-25_nunit\\passwordvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2022BCE-01DC-49D7-83CB-934E0C5BB77F}|PP_22-02-25_NUnit\\PP_22-02-25_NUnit.csproj|solutionrelative:pp_22-02-25_nunit\\passwordvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40A1C821-8952-4BC3-AE87-C04AC1E3C956}|CalculatorTest\\UnitTests.csproj|c:\\users\\sujeet\\onedrive\\desktop\\bl_cpg(practice)\\pp_22-02-25_nunit\\calculatortest\\bankaccounttests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40A1C821-8952-4BC3-AE87-C04AC1E3C956}|CalculatorTest\\UnitTests.csproj|solutionrelative:calculatortest\\bankaccounttests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2022BCE-01DC-49D7-83CB-934E0C5BB77F}|PP_22-02-25_NUnit\\PP_22-02-25_NUnit.csproj|c:\\users\\sujeet\\onedrive\\desktop\\bl_cpg(practice)\\pp_22-02-25_nunit\\pp_22-02-25_nunit\\bankaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2022BCE-01DC-49D7-83CB-934E0C5BB77F}|PP_22-02-25_NUnit\\PP_22-02-25_NUnit.csproj|solutionrelative:pp_22-02-25_nunit\\bankaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40A1C821-8952-4BC3-AE87-C04AC1E3C956}|CalculatorTest\\UnitTests.csproj|c:\\users\\sujeet\\onedrive\\desktop\\bl_cpg(practice)\\pp_22-02-25_nunit\\calculatortest\\fileprocessortests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40A1C821-8952-4BC3-AE87-C04AC1E3C956}|CalculatorTest\\UnitTests.csproj|solutionrelative:calculatortest\\fileprocessortests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2022BCE-01DC-49D7-83CB-934E0C5BB77F}|PP_22-02-25_NUnit\\PP_22-02-25_NUnit.csproj|c:\\users\\sujeet\\onedrive\\desktop\\bl_cpg(practice)\\pp_22-02-25_nunit\\pp_22-02-25_nunit\\fileprocessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2022BCE-01DC-49D7-83CB-934E0C5BB77F}|PP_22-02-25_NUnit\\PP_22-02-25_NUnit.csproj|solutionrelative:pp_22-02-25_nunit\\fileprocessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40A1C821-8952-4BC3-AE87-C04AC1E3C956}|CalculatorTest\\UnitTests.csproj|c:\\users\\sujeet\\onedrive\\desktop\\bl_cpg(practice)\\pp_22-02-25_nunit\\calculatortest\\numberutilstests1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40A1C821-8952-4BC3-AE87-C04AC1E3C956}|CalculatorTest\\UnitTests.csproj|solutionrelative:calculatortest\\numberutilstests1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2022BCE-01DC-49D7-83CB-934E0C5BB77F}|PP_22-02-25_NUnit\\PP_22-02-25_NUnit.csproj|c:\\users\\sujeet\\onedrive\\desktop\\bl_cpg(practice)\\pp_22-02-25_nunit\\pp_22-02-25_nunit\\numberutils1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2022BCE-01DC-49D7-83CB-934E0C5BB77F}|PP_22-02-25_NUnit\\PP_22-02-25_NUnit.csproj|solutionrelative:pp_22-02-25_nunit\\numberutils1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40A1C821-8952-4BC3-AE87-C04AC1E3C956}|CalculatorTest\\UnitTests.csproj|c:\\users\\sujeet\\onedrive\\desktop\\bl_cpg(practice)\\pp_22-02-25_nunit\\calculatortest\\numberutilstests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40A1C821-8952-4BC3-AE87-C04AC1E3C956}|CalculatorTest\\UnitTests.csproj|solutionrelative:calculatortest\\numberutilstests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2022BCE-01DC-49D7-83CB-934E0C5BB77F}|PP_22-02-25_NUnit\\PP_22-02-25_NUnit.csproj|c:\\users\\sujeet\\onedrive\\desktop\\bl_cpg(practice)\\pp_22-02-25_nunit\\pp_22-02-25_nunit\\numberutils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2022BCE-01DC-49D7-83CB-934E0C5BB77F}|PP_22-02-25_NUnit\\PP_22-02-25_NUnit.csproj|solutionrelative:pp_22-02-25_nunit\\numberutils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40A1C821-8952-4BC3-AE87-C04AC1E3C956}|CalculatorTest\\UnitTests.csproj|c:\\users\\sujeet\\onedrive\\desktop\\bl_cpg(practice)\\pp_22-02-25_nunit\\calculatortest\\databaseconnectiontests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40A1C821-8952-4BC3-AE87-C04AC1E3C956}|CalculatorTest\\UnitTests.csproj|solutionrelative:calculatortest\\databaseconnectiontests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2022BCE-01DC-49D7-83CB-934E0C5BB77F}|PP_22-02-25_NUnit\\PP_22-02-25_NUnit.csproj|c:\\users\\sujeet\\onedrive\\desktop\\bl_cpg(practice)\\pp_22-02-25_nunit\\pp_22-02-25_nunit\\databaseconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2022BCE-01DC-49D7-83CB-934E0C5BB77F}|PP_22-02-25_NUnit\\PP_22-02-25_NUnit.csproj|solutionrelative:pp_22-02-25_nunit\\databaseconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40A1C821-8952-4BC3-AE87-C04AC1E3C956}|CalculatorTest\\UnitTests.csproj|c:\\users\\sujeet\\onedrive\\desktop\\bl_cpg(practice)\\pp_22-02-25_nunit\\calculatortest\\calculatortest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40A1C821-8952-4BC3-AE87-C04AC1E3C956}|CalculatorTest\\UnitTests.csproj|solutionrelative:calculatortest\\calculatortest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2022BCE-01DC-49D7-83CB-934E0C5BB77F}|PP_22-02-25_NUnit\\PP_22-02-25_NUnit.csproj|c:\\users\\sujeet\\onedrive\\desktop\\bl_cpg(practice)\\pp_22-02-25_nunit\\pp_22-02-25_nunit\\calculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2022BCE-01DC-49D7-83CB-934E0C5BB77F}|PP_22-02-25_NUnit\\PP_22-02-25_NUnit.csproj|solutionrelative:pp_22-02-25_nunit\\calculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40A1C821-8952-4BC3-AE87-C04AC1E3C956}|CalculatorTest\\UnitTests.csproj|c:\\users\\sujeet\\onedrive\\desktop\\bl_cpg(practice)\\pp_22-02-25_nunit\\calculatortest\\clalculatortest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40A1C821-8952-4BC3-AE87-C04AC1E3C956}|CalculatorTest\\UnitTests.csproj|solutionrelative:calculatortest\\clalculatortest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2022BCE-01DC-49D7-83CB-934E0C5BB77F}|PP_22-02-25_NUnit\\PP_22-02-25_NUnit.csproj|c:\\users\\sujeet\\onedrive\\desktop\\bl_cpg(practice)\\pp_22-02-25_nunit\\pp_22-02-25_nunit\\calculator1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2022BCE-01DC-49D7-83CB-934E0C5BB77F}|PP_22-02-25_NUnit\\PP_22-02-25_NUnit.csproj|solutionrelative:pp_22-02-25_nunit\\calculator1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40A1C821-8952-4BC3-AE87-C04AC1E3C956}|CalculatorTest\\UnitTests.csproj|c:\\users\\sujeet\\onedrive\\desktop\\bl_cpg(practice)\\pp_22-02-25_nunit\\calculatortest\\listmanagertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40A1C821-8952-4BC3-AE87-C04AC1E3C956}|CalculatorTest\\UnitTests.csproj|solutionrelative:calculatortest\\listmanagertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2022BCE-01DC-49D7-83CB-934E0C5BB77F}|PP_22-02-25_NUnit\\PP_22-02-25_NUnit.csproj|c:\\users\\sujeet\\onedrive\\desktop\\bl_cpg(practice)\\pp_22-02-25_nunit\\pp_22-02-25_nunit\\listmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2022BCE-01DC-49D7-83CB-934E0C5BB77F}|PP_22-02-25_NUnit\\PP_22-02-25_NUnit.csproj|solutionrelative:pp_22-02-25_nunit\\listmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40A1C821-8952-4BC3-AE87-C04AC1E3C956}|CalculatorTest\\UnitTests.csproj|c:\\users\\sujeet\\onedrive\\desktop\\bl_cpg(practice)\\pp_22-02-25_nunit\\calculatortest\\stringutilstests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40A1C821-8952-4BC3-AE87-C04AC1E3C956}|CalculatorTest\\UnitTests.csproj|solutionrelative:calculatortest\\stringutilstests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2022BCE-01DC-49D7-83CB-934E0C5BB77F}|PP_22-02-25_NUnit\\PP_22-02-25_NUnit.csproj|c:\\users\\sujeet\\onedrive\\desktop\\bl_cpg(practice)\\pp_22-02-25_nunit\\pp_22-02-25_nunit\\stringutils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2022BCE-01DC-49D7-83CB-934E0C5BB77F}|PP_22-02-25_NUnit\\PP_22-02-25_NUnit.csproj|solutionrelative:pp_22-02-25_nunit\\stringutils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2022BCE-01DC-49D7-83CB-934E0C5BB77F}|PP_22-02-25_NUnit\\PP_22-02-25_NUnit.csproj|c:\\users\\sujeet\\onedrive\\desktop\\bl_cpg(practice)\\pp_22-02-25_nunit\\pp_22-02-25_nunit\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2022BCE-01DC-49D7-83CB-934E0C5BB77F}|PP_22-02-25_NUnit\\PP_22-02-25_NUnit.csproj|solutionrelative:pp_22-02-25_nunit\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserRegistrationTests.cs",
+              "DocumentMoniker": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_22-02-25_NUnit\\CalculatorTest\\UserRegistrationTests.cs",
+              "RelativeDocumentMoniker": "CalculatorTest\\UserRegistrationTests.cs",
+              "ToolTip": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_22-02-25_NUnit\\CalculatorTest\\UserRegistrationTests.cs",
+              "RelativeToolTip": "CalculatorTest\\UserRegistrationTests.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAmwDwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-22T17:24:21.273Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserRegistration.cs",
+              "DocumentMoniker": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_22-02-25_NUnit\\PP_22-02-25_NUnit\\UserRegistration.cs",
+              "RelativeDocumentMoniker": "PP_22-02-25_NUnit\\UserRegistration.cs",
+              "ToolTip": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_22-02-25_NUnit\\PP_22-02-25_NUnit\\UserRegistration.cs",
+              "RelativeToolTip": "PP_22-02-25_NUnit\\UserRegistration.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAqwBoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-22T17:23:32.749Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DateFormatterTests.cs",
+              "DocumentMoniker": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_22-02-25_NUnit\\CalculatorTest\\DateFormatterTests.cs",
+              "RelativeDocumentMoniker": "CalculatorTest\\DateFormatterTests.cs",
+              "ToolTip": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_22-02-25_NUnit\\CalculatorTest\\DateFormatterTests.cs",
+              "RelativeToolTip": "CalculatorTest\\DateFormatterTests.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAmwDIAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-22T17:20:24.738Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DateFormatter.cs",
+              "DocumentMoniker": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_22-02-25_NUnit\\PP_22-02-25_NUnit\\DateFormatter.cs",
+              "RelativeDocumentMoniker": "PP_22-02-25_NUnit\\DateFormatter.cs",
+              "ToolTip": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_22-02-25_NUnit\\PP_22-02-25_NUnit\\DateFormatter.cs",
+              "RelativeToolTip": "PP_22-02-25_NUnit\\DateFormatter.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAmwBMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-22T17:19:36.517Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TemperatureConverterTests.cs",
+              "DocumentMoniker": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_22-02-25_NUnit\\CalculatorTest\\TemperatureConverterTests.cs",
+              "RelativeDocumentMoniker": "CalculatorTest\\TemperatureConverterTests.cs",
+              "ToolTip": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_22-02-25_NUnit\\CalculatorTest\\TemperatureConverterTests.cs",
+              "RelativeToolTip": "CalculatorTest\\TemperatureConverterTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-22T17:15:42.087Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TemperatureConverter.cs",
+              "DocumentMoniker": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_22-02-25_NUnit\\PP_22-02-25_NUnit\\TemperatureConverter.cs",
+              "RelativeDocumentMoniker": "PP_22-02-25_NUnit\\TemperatureConverter.cs",
+              "ToolTip": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_22-02-25_NUnit\\PP_22-02-25_NUnit\\TemperatureConverter.cs",
+              "RelativeToolTip": "PP_22-02-25_NUnit\\TemperatureConverter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-22T17:15:09.543Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PasswordValidatorTests.cs",
+              "DocumentMoniker": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_22-02-25_NUnit\\CalculatorTest\\PasswordValidatorTests.cs",
+              "RelativeDocumentMoniker": "CalculatorTest\\PasswordValidatorTests.cs",
+              "ToolTip": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_22-02-25_NUnit\\CalculatorTest\\PasswordValidatorTests.cs",
+              "RelativeToolTip": "CalculatorTest\\PasswordValidatorTests.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAmwDUAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-22T17:11:34.81Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PasswordValidator.cs",
+              "DocumentMoniker": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_22-02-25_NUnit\\PP_22-02-25_NUnit\\PasswordValidator.cs",
+              "RelativeDocumentMoniker": "PP_22-02-25_NUnit\\PasswordValidator.cs",
+              "ToolTip": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_22-02-25_NUnit\\PP_22-02-25_NUnit\\PasswordValidator.cs",
+              "RelativeToolTip": "PP_22-02-25_NUnit\\PasswordValidator.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAmwBEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-22T17:10:37.065Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "BankAccountTests.cs",
+              "DocumentMoniker": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_22-02-25_NUnit\\CalculatorTest\\BankAccountTests.cs",
+              "RelativeDocumentMoniker": "CalculatorTest\\BankAccountTests.cs",
+              "ToolTip": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_22-02-25_NUnit\\CalculatorTest\\BankAccountTests.cs",
+              "RelativeToolTip": "CalculatorTest\\BankAccountTests.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAmwC4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-22T17:06:27.69Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "BankAccount.cs",
+              "DocumentMoniker": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_22-02-25_NUnit\\PP_22-02-25_NUnit\\BankAccount.cs",
+              "RelativeDocumentMoniker": "PP_22-02-25_NUnit\\BankAccount.cs",
+              "ToolTip": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_22-02-25_NUnit\\PP_22-02-25_NUnit\\BankAccount.cs",
+              "RelativeToolTip": "PP_22-02-25_NUnit\\BankAccount.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAmwCEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-22T17:05:31.7Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "FileProcessorTests.cs",
+              "DocumentMoniker": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_22-02-25_NUnit\\CalculatorTest\\FileProcessorTests.cs",
+              "RelativeDocumentMoniker": "CalculatorTest\\FileProcessorTests.cs",
+              "ToolTip": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_22-02-25_NUnit\\CalculatorTest\\FileProcessorTests.cs",
+              "RelativeToolTip": "CalculatorTest\\FileProcessorTests.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAqwDgAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-22T17:01:13.137Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "FileProcessor.cs",
+              "DocumentMoniker": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_22-02-25_NUnit\\PP_22-02-25_NUnit\\FileProcessor.cs",
+              "RelativeDocumentMoniker": "PP_22-02-25_NUnit\\FileProcessor.cs",
+              "ToolTip": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_22-02-25_NUnit\\PP_22-02-25_NUnit\\FileProcessor.cs",
+              "RelativeToolTip": "PP_22-02-25_NUnit\\FileProcessor.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAqwBwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-22T17:00:22.98Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "NumberUtilsTests1.cs",
+              "DocumentMoniker": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_22-02-25_NUnit\\CalculatorTest\\NumberUtilsTests1.cs",
+              "RelativeDocumentMoniker": "CalculatorTest\\NumberUtilsTests1.cs",
+              "ToolTip": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_22-02-25_NUnit\\CalculatorTest\\NumberUtilsTests1.cs",
+              "RelativeToolTip": "CalculatorTest\\NumberUtilsTests1.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAmwBcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-22T16:53:14.431Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "NumberUtils1.cs",
+              "DocumentMoniker": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_22-02-25_NUnit\\PP_22-02-25_NUnit\\NumberUtils1.cs",
+              "RelativeDocumentMoniker": "PP_22-02-25_NUnit\\NumberUtils1.cs",
+              "ToolTip": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_22-02-25_NUnit\\PP_22-02-25_NUnit\\NumberUtils1.cs",
+              "RelativeToolTip": "PP_22-02-25_NUnit\\NumberUtils1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-22T16:48:26.86Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "NumberUtilsTests.cs",
+              "DocumentMoniker": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_22-02-25_NUnit\\CalculatorTest\\NumberUtilsTests.cs",
+              "RelativeDocumentMoniker": "CalculatorTest\\NumberUtilsTests.cs",
+              "ToolTip": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_22-02-25_NUnit\\CalculatorTest\\NumberUtilsTests.cs",
+              "RelativeToolTip": "CalculatorTest\\NumberUtilsTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-22T16:44:32.543Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "NumberUtils.cs",
+              "DocumentMoniker": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_22-02-25_NUnit\\PP_22-02-25_NUnit\\NumberUtils.cs",
+              "RelativeDocumentMoniker": "PP_22-02-25_NUnit\\NumberUtils.cs",
+              "ToolTip": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_22-02-25_NUnit\\PP_22-02-25_NUnit\\NumberUtils.cs",
+              "RelativeToolTip": "PP_22-02-25_NUnit\\NumberUtils.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-22T16:43:30.03Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "DatabaseConnectionTests.cs",
+              "DocumentMoniker": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_22-02-25_NUnit\\CalculatorTest\\DatabaseConnectionTests.cs",
+              "RelativeDocumentMoniker": "CalculatorTest\\DatabaseConnectionTests.cs",
+              "ToolTip": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_22-02-25_NUnit\\CalculatorTest\\DatabaseConnectionTests.cs",
+              "RelativeToolTip": "CalculatorTest\\DatabaseConnectionTests.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAiwBoAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-22T16:37:40.783Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "DatabaseConnection.cs",
+              "DocumentMoniker": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_22-02-25_NUnit\\PP_22-02-25_NUnit\\DatabaseConnection.cs",
+              "RelativeDocumentMoniker": "PP_22-02-25_NUnit\\DatabaseConnection.cs",
+              "ToolTip": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_22-02-25_NUnit\\PP_22-02-25_NUnit\\DatabaseConnection.cs",
+              "RelativeToolTip": "PP_22-02-25_NUnit\\DatabaseConnection.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAiwA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-22T16:36:47.136Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ClalculatorTest1.cs",
+              "DocumentMoniker": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_22-02-25_NUnit\\CalculatorTest\\ClalculatorTest1.cs",
+              "RelativeDocumentMoniker": "CalculatorTest\\ClalculatorTest1.cs",
+              "ToolTip": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_22-02-25_NUnit\\CalculatorTest\\ClalculatorTest1.cs",
+              "RelativeToolTip": "CalculatorTest\\ClalculatorTest1.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAA6wBEAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-22T16:32:40.581Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Calculator1.cs",
+              "DocumentMoniker": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_22-02-25_NUnit\\PP_22-02-25_NUnit\\Calculator1.cs",
+              "RelativeDocumentMoniker": "PP_22-02-25_NUnit\\Calculator1.cs",
+              "ToolTip": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_22-02-25_NUnit\\PP_22-02-25_NUnit\\Calculator1.cs",
+              "RelativeToolTip": "PP_22-02-25_NUnit\\Calculator1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-22T16:29:43.242Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Calculator.cs",
+              "DocumentMoniker": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_22-02-25_NUnit\\PP_22-02-25_NUnit\\Calculator.cs",
+              "RelativeDocumentMoniker": "PP_22-02-25_NUnit\\Calculator.cs",
+              "ToolTip": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_22-02-25_NUnit\\PP_22-02-25_NUnit\\Calculator.cs",
+              "RelativeToolTip": "PP_22-02-25_NUnit\\Calculator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-22T14:55:18.232Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "CalculatorTest.cs",
+              "DocumentMoniker": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_22-02-25_NUnit\\CalculatorTest\\CalculatorTest.cs",
+              "RelativeDocumentMoniker": "CalculatorTest\\CalculatorTest.cs",
+              "ToolTip": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_22-02-25_NUnit\\CalculatorTest\\CalculatorTest.cs",
+              "RelativeToolTip": "CalculatorTest\\CalculatorTest.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAmwDAAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-22T14:59:13.758Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ListManagerTests.cs",
+              "DocumentMoniker": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_22-02-25_NUnit\\CalculatorTest\\ListManagerTests.cs",
+              "RelativeDocumentMoniker": "CalculatorTest\\ListManagerTests.cs",
+              "ToolTip": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_22-02-25_NUnit\\CalculatorTest\\ListManagerTests.cs",
+              "RelativeToolTip": "CalculatorTest\\ListManagerTests.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAmwCMAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-22T16:23:58.422Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ListManager.cs",
+              "DocumentMoniker": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_22-02-25_NUnit\\PP_22-02-25_NUnit\\ListManager.cs",
+              "RelativeDocumentMoniker": "PP_22-02-25_NUnit\\ListManager.cs",
+              "ToolTip": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_22-02-25_NUnit\\PP_22-02-25_NUnit\\ListManager.cs",
+              "RelativeToolTip": "PP_22-02-25_NUnit\\ListManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-22T16:23:34.001Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "StringUtilsTests.cs",
+              "DocumentMoniker": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_22-02-25_NUnit\\CalculatorTest\\StringUtilsTests.cs",
+              "RelativeDocumentMoniker": "CalculatorTest\\StringUtilsTests.cs",
+              "ToolTip": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_22-02-25_NUnit\\CalculatorTest\\StringUtilsTests.cs",
+              "RelativeToolTip": "CalculatorTest\\StringUtilsTests.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAmwCEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-22T16:19:03.227Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "StringUtils.cs",
+              "DocumentMoniker": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_22-02-25_NUnit\\PP_22-02-25_NUnit\\StringUtils.cs",
+              "RelativeDocumentMoniker": "PP_22-02-25_NUnit\\StringUtils.cs",
+              "ToolTip": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_22-02-25_NUnit\\PP_22-02-25_NUnit\\StringUtils.cs",
+              "RelativeToolTip": "PP_22-02-25_NUnit\\StringUtils.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-22T16:17:44.474Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_22-02-25_NUnit\\PP_22-02-25_NUnit\\Program.cs",
+              "RelativeDocumentMoniker": "PP_22-02-25_NUnit\\Program.cs",
+              "ToolTip": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_22-02-25_NUnit\\PP_22-02-25_NUnit\\Program.cs",
+              "RelativeToolTip": "PP_22-02-25_NUnit\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-22T14:50:44.587Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

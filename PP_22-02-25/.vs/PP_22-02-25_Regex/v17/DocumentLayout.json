@@ -1,0 +1,296 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_22-02-25\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{26D4BADD-9D06-4C58-A5C0-8C50D1E1411D}|PP_22-02-25\\PP_22-02-25_Regex.csproj|c:\\users\\sujeet\\onedrive\\desktop\\bl_cpg(practice)\\pp_22-02-25\\pp_22-02-25\\validatessn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26D4BADD-9D06-4C58-A5C0-8C50D1E1411D}|PP_22-02-25\\PP_22-02-25_Regex.csproj|solutionrelative:pp_22-02-25\\validatessn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26D4BADD-9D06-4C58-A5C0-8C50D1E1411D}|PP_22-02-25\\PP_22-02-25.csproj|c:\\users\\sujeet\\onedrive\\desktop\\bl_cpg(practice)\\pp_22-02-25\\pp_22-02-25\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26D4BADD-9D06-4C58-A5C0-8C50D1E1411D}|PP_22-02-25\\PP_22-02-25.csproj|solutionrelative:pp_22-02-25\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26D4BADD-9D06-4C58-A5C0-8C50D1E1411D}|PP_22-02-25\\PP_22-02-25.csproj|c:\\users\\sujeet\\onedrive\\desktop\\bl_cpg(practice)\\pp_22-02-25\\pp_22-02-25\\validatehexcolorcode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26D4BADD-9D06-4C58-A5C0-8C50D1E1411D}|PP_22-02-25\\PP_22-02-25.csproj|solutionrelative:pp_22-02-25\\validatehexcolorcode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26D4BADD-9D06-4C58-A5C0-8C50D1E1411D}|PP_22-02-25\\PP_22-02-25_Regex.csproj|c:\\users\\sujeet\\onedrive\\desktop\\bl_cpg(practice)\\pp_22-02-25\\pp_22-02-25\\findrepeatingwords.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26D4BADD-9D06-4C58-A5C0-8C50D1E1411D}|PP_22-02-25\\PP_22-02-25_Regex.csproj|solutionrelative:pp_22-02-25\\findrepeatingwords.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26D4BADD-9D06-4C58-A5C0-8C50D1E1411D}|PP_22-02-25\\PP_22-02-25_Regex.csproj|c:\\users\\sujeet\\onedrive\\desktop\\bl_cpg(practice)\\pp_22-02-25\\pp_22-02-25\\extractcurrencyvalues.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26D4BADD-9D06-4C58-A5C0-8C50D1E1411D}|PP_22-02-25\\PP_22-02-25_Regex.csproj|solutionrelative:pp_22-02-25\\extractcurrencyvalues.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26D4BADD-9D06-4C58-A5C0-8C50D1E1411D}|PP_22-02-25\\PP_22-02-25_Regex.csproj|c:\\users\\sujeet\\onedrive\\desktop\\bl_cpg(practice)\\pp_22-02-25\\pp_22-02-25\\extractprogramminglanguages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26D4BADD-9D06-4C58-A5C0-8C50D1E1411D}|PP_22-02-25\\PP_22-02-25_Regex.csproj|solutionrelative:pp_22-02-25\\extractprogramminglanguages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26D4BADD-9D06-4C58-A5C0-8C50D1E1411D}|PP_22-02-25\\PP_22-02-25.csproj|c:\\users\\sujeet\\onedrive\\desktop\\bl_cpg(practice)\\pp_22-02-25\\pp_22-02-25\\emailextraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26D4BADD-9D06-4C58-A5C0-8C50D1E1411D}|PP_22-02-25\\PP_22-02-25.csproj|solutionrelative:pp_22-02-25\\emailextraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26D4BADD-9D06-4C58-A5C0-8C50D1E1411D}|PP_22-02-25\\PP_22-02-25_Regex.csproj|c:\\users\\sujeet\\onedrive\\desktop\\bl_cpg(practice)\\pp_22-02-25\\pp_22-02-25\\validatecreditcard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26D4BADD-9D06-4C58-A5C0-8C50D1E1411D}|PP_22-02-25\\PP_22-02-25_Regex.csproj|solutionrelative:pp_22-02-25\\validatecreditcard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26D4BADD-9D06-4C58-A5C0-8C50D1E1411D}|PP_22-02-25\\PP_22-02-25_Regex.csproj|c:\\users\\sujeet\\onedrive\\desktop\\bl_cpg(practice)\\pp_22-02-25\\pp_22-02-25\\validateip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26D4BADD-9D06-4C58-A5C0-8C50D1E1411D}|PP_22-02-25\\PP_22-02-25_Regex.csproj|solutionrelative:pp_22-02-25\\validateip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26D4BADD-9D06-4C58-A5C0-8C50D1E1411D}|PP_22-02-25\\PP_22-02-25.csproj|c:\\users\\sujeet\\onedrive\\desktop\\bl_cpg(practice)\\pp_22-02-25\\pp_22-02-25\\validateusername.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26D4BADD-9D06-4C58-A5C0-8C50D1E1411D}|PP_22-02-25\\PP_22-02-25.csproj|solutionrelative:pp_22-02-25\\validateusername.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26D4BADD-9D06-4C58-A5C0-8C50D1E1411D}|PP_22-02-25\\PP_22-02-25.csproj|c:\\users\\sujeet\\onedrive\\desktop\\bl_cpg(practice)\\pp_22-02-25\\pp_22-02-25\\validatelicensenumber.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26D4BADD-9D06-4C58-A5C0-8C50D1E1411D}|PP_22-02-25\\PP_22-02-25.csproj|solutionrelative:pp_22-02-25\\validatelicensenumber.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26D4BADD-9D06-4C58-A5C0-8C50D1E1411D}|PP_22-02-25\\PP_22-02-25_Regex.csproj|c:\\users\\sujeet\\onedrive\\desktop\\bl_cpg(practice)\\pp_22-02-25\\pp_22-02-25\\badwords.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26D4BADD-9D06-4C58-A5C0-8C50D1E1411D}|PP_22-02-25\\PP_22-02-25_Regex.csproj|solutionrelative:pp_22-02-25\\badwords.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26D4BADD-9D06-4C58-A5C0-8C50D1E1411D}|PP_22-02-25\\PP_22-02-25_Regex.csproj|c:\\users\\sujeet\\onedrive\\desktop\\bl_cpg(practice)\\pp_22-02-25\\pp_22-02-25\\replacespaces.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26D4BADD-9D06-4C58-A5C0-8C50D1E1411D}|PP_22-02-25\\PP_22-02-25_Regex.csproj|solutionrelative:pp_22-02-25\\replacespaces.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26D4BADD-9D06-4C58-A5C0-8C50D1E1411D}|PP_22-02-25\\PP_22-02-25_Regex.csproj|c:\\users\\sujeet\\onedrive\\desktop\\bl_cpg(practice)\\pp_22-02-25\\pp_22-02-25\\linkextraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26D4BADD-9D06-4C58-A5C0-8C50D1E1411D}|PP_22-02-25\\PP_22-02-25_Regex.csproj|solutionrelative:pp_22-02-25\\linkextraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26D4BADD-9D06-4C58-A5C0-8C50D1E1411D}|PP_22-02-25\\PP_22-02-25_Regex.csproj|c:\\users\\sujeet\\onedrive\\desktop\\bl_cpg(practice)\\pp_22-02-25\\pp_22-02-25\\dateextraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26D4BADD-9D06-4C58-A5C0-8C50D1E1411D}|PP_22-02-25\\PP_22-02-25_Regex.csproj|solutionrelative:pp_22-02-25\\dateextraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26D4BADD-9D06-4C58-A5C0-8C50D1E1411D}|PP_22-02-25\\PP_22-02-25_Regex.csproj|c:\\users\\sujeet\\onedrive\\desktop\\bl_cpg(practice)\\pp_22-02-25\\pp_22-02-25\\capitalwordextraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26D4BADD-9D06-4C58-A5C0-8C50D1E1411D}|PP_22-02-25\\PP_22-02-25_Regex.csproj|solutionrelative:pp_22-02-25\\capitalwordextraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ValidateSSN.cs",
+              "DocumentMoniker": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_22-02-25\\PP_22-02-25\\ValidateSSN.cs",
+              "RelativeDocumentMoniker": "PP_22-02-25\\ValidateSSN.cs",
+              "ToolTip": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_22-02-25\\PP_22-02-25\\ValidateSSN.cs",
+              "RelativeToolTip": "PP_22-02-25\\ValidateSSN.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAmwBcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-22T14:38:45.837Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ExtractProgrammingLanguages.cs",
+              "DocumentMoniker": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_22-02-25\\PP_22-02-25\\ExtractProgrammingLanguages.cs",
+              "RelativeDocumentMoniker": "PP_22-02-25\\ExtractProgrammingLanguages.cs",
+              "ToolTip": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_22-02-25\\PP_22-02-25\\ExtractProgrammingLanguages.cs",
+              "RelativeToolTip": "PP_22-02-25\\ExtractProgrammingLanguages.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAqwBsAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-22T14:13:45.519Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ValidateHexColorCode.cs",
+              "DocumentMoniker": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_22-02-25\\PP_22-02-25\\ValidateHexColorCode.cs",
+              "RelativeDocumentMoniker": "PP_22-02-25\\ValidateHexColorCode.cs",
+              "ToolTip": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_22-02-25\\PP_22-02-25\\ValidateHexColorCode.cs",
+              "RelativeToolTip": "PP_22-02-25\\ValidateHexColorCode.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwBIAAABfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-22T12:37:42.612Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ValidateLicenseNumber.cs",
+              "DocumentMoniker": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_22-02-25\\PP_22-02-25\\ValidateLicenseNumber.cs",
+              "RelativeDocumentMoniker": "PP_22-02-25\\ValidateLicenseNumber.cs",
+              "ToolTip": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_22-02-25\\PP_22-02-25\\ValidateLicenseNumber.cs",
+              "RelativeToolTip": "PP_22-02-25\\ValidateLicenseNumber.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAA8wBIAAABjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-22T12:24:44.785Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_22-02-25\\PP_22-02-25\\Program.cs",
+              "RelativeDocumentMoniker": "PP_22-02-25\\Program.cs",
+              "ToolTip": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_22-02-25\\PP_22-02-25\\Program.cs",
+              "RelativeToolTip": "PP_22-02-25\\Program.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwBQAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-22T12:08:46.866Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FindRepeatingWords.cs",
+              "DocumentMoniker": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_22-02-25\\PP_22-02-25\\FindRepeatingWords.cs",
+              "RelativeDocumentMoniker": "PP_22-02-25\\FindRepeatingWords.cs",
+              "ToolTip": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_22-02-25\\PP_22-02-25\\FindRepeatingWords.cs",
+              "RelativeToolTip": "PP_22-02-25\\FindRepeatingWords.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAqwCoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-22T14:33:38.772Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ExtractCurrencyValues.cs",
+              "DocumentMoniker": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_22-02-25\\PP_22-02-25\\ExtractCurrencyValues.cs",
+              "RelativeDocumentMoniker": "PP_22-02-25\\ExtractCurrencyValues.cs",
+              "ToolTip": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_22-02-25\\PP_22-02-25\\ExtractCurrencyValues.cs",
+              "RelativeToolTip": "PP_22-02-25\\ExtractCurrencyValues.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAiwBcAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-22T14:29:40.727Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ValidateUserName.cs",
+              "DocumentMoniker": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_22-02-25\\PP_22-02-25\\ValidateUserName.cs",
+              "RelativeDocumentMoniker": "PP_22-02-25\\ValidateUserName.cs",
+              "ToolTip": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_22-02-25\\PP_22-02-25\\ValidateUserName.cs",
+              "RelativeToolTip": "PP_22-02-25\\ValidateUserName.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAA+wBQAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-22T12:10:09.165Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ValidateCreditCard.cs",
+              "DocumentMoniker": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_22-02-25\\PP_22-02-25\\ValidateCreditCard.cs",
+              "RelativeDocumentMoniker": "PP_22-02-25\\ValidateCreditCard.cs",
+              "ToolTip": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_22-02-25\\PP_22-02-25\\ValidateCreditCard.cs",
+              "RelativeToolTip": "PP_22-02-25\\ValidateCreditCard.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAmwBUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-22T14:07:19.067Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EmailExtraction.cs",
+              "DocumentMoniker": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_22-02-25\\PP_22-02-25\\EmailExtraction.cs",
+              "RelativeDocumentMoniker": "PP_22-02-25\\EmailExtraction.cs",
+              "ToolTip": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_22-02-25\\PP_22-02-25\\EmailExtraction.cs",
+              "RelativeToolTip": "PP_22-02-25\\EmailExtraction.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-22T13:23:48.576Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "LInkExtraction.cs",
+              "DocumentMoniker": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_22-02-25\\PP_22-02-25\\LInkExtraction.cs",
+              "RelativeDocumentMoniker": "PP_22-02-25\\LInkExtraction.cs",
+              "ToolTip": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_22-02-25\\PP_22-02-25\\LInkExtraction.cs",
+              "RelativeToolTip": "PP_22-02-25\\LInkExtraction.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAA8wBYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-22T13:35:55.495Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ValidateIP.cs",
+              "DocumentMoniker": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_22-02-25\\PP_22-02-25\\ValidateIP.cs",
+              "RelativeDocumentMoniker": "PP_22-02-25\\ValidateIP.cs",
+              "ToolTip": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_22-02-25\\PP_22-02-25\\ValidateIP.cs",
+              "RelativeToolTip": "PP_22-02-25\\ValidateIP.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAqwBIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-22T14:00:29.518Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "BadWords.cs",
+              "DocumentMoniker": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_22-02-25\\PP_22-02-25\\BadWords.cs",
+              "RelativeDocumentMoniker": "PP_22-02-25\\BadWords.cs",
+              "ToolTip": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_22-02-25\\PP_22-02-25\\BadWords.cs",
+              "RelativeToolTip": "PP_22-02-25\\BadWords.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAqwBYAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-22T13:48:38.784Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ReplaceSpaces.cs",
+              "DocumentMoniker": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_22-02-25\\PP_22-02-25\\ReplaceSpaces.cs",
+              "RelativeDocumentMoniker": "PP_22-02-25\\ReplaceSpaces.cs",
+              "ToolTip": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_22-02-25\\PP_22-02-25\\ReplaceSpaces.cs",
+              "RelativeToolTip": "PP_22-02-25\\ReplaceSpaces.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAiwBIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-22T13:44:37.793Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "DateExtraction.cs",
+              "DocumentMoniker": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_22-02-25\\PP_22-02-25\\DateExtraction.cs",
+              "RelativeDocumentMoniker": "PP_22-02-25\\DateExtraction.cs",
+              "ToolTip": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_22-02-25\\PP_22-02-25\\DateExtraction.cs",
+              "RelativeToolTip": "PP_22-02-25\\DateExtraction.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAA8wBcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-22T13:32:45.478Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CapitalWordExtraction.cs",
+              "DocumentMoniker": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_22-02-25\\PP_22-02-25\\CapitalWordExtraction.cs",
+              "RelativeDocumentMoniker": "PP_22-02-25\\CapitalWordExtraction.cs",
+              "ToolTip": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_22-02-25\\PP_22-02-25\\CapitalWordExtraction.cs",
+              "RelativeToolTip": "PP_22-02-25\\CapitalWordExtraction.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAA8wBEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-22T13:29:12.667Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
