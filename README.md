@@ -116,3 +116,7 @@
 ### 21-02-2025
     -Read about Exceptional Handling.
     -Solved and Submitted its Practice Problem.
+
+### 22-02-2025
+    -Read about Rejex and Leart about NUnit.
+    -Solved and Submitted their Practice Problems.
