@@ -118,5 +118,9 @@
     -Solved and Submitted its Practice Problem.
 
 ### 22-02-2025
-    -Read about Rejex and Leart about NUnit.
+    -Read about Rejex and Learnt about NUnit.
     -Solved and Submitted their Practice Problems.
+
+### 24-02-2025
+    -Learnt about Annotation and Reflection.
+    -Solved and submitted their practice problem.
