@@ -1,0 +1,245 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_25-02-25_Csv\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F2F25230-6BFE-49FA-BF81-A6E46424877C}|PP_25-02-25_Csv\\PP_25-02-25_Csv.csproj|c:\\users\\sujeet\\onedrive\\desktop\\bl_cpg(practice)\\pp_25-02-25_csv\\pp_25-02-25_csv\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2F25230-6BFE-49FA-BF81-A6E46424877C}|PP_25-02-25_Csv\\PP_25-02-25_Csv.csproj|solutionrelative:pp_25-02-25_csv\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2F25230-6BFE-49FA-BF81-A6E46424877C}|PP_25-02-25_Csv\\PP_25-02-25_Csv.csproj|c:\\users\\sujeet\\onedrive\\desktop\\bl_cpg(practice)\\pp_25-02-25_csv\\pp_25-02-25_csv\\class12.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2F25230-6BFE-49FA-BF81-A6E46424877C}|PP_25-02-25_Csv\\PP_25-02-25_Csv.csproj|solutionrelative:pp_25-02-25_csv\\class12.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2F25230-6BFE-49FA-BF81-A6E46424877C}|PP_25-02-25_Csv\\PP_25-02-25_Csv.csproj|c:\\users\\sujeet\\onedrive\\desktop\\bl_cpg(practice)\\pp_25-02-25_csv\\pp_25-02-25_csv\\class11.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2F25230-6BFE-49FA-BF81-A6E46424877C}|PP_25-02-25_Csv\\PP_25-02-25_Csv.csproj|solutionrelative:pp_25-02-25_csv\\class11.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2F25230-6BFE-49FA-BF81-A6E46424877C}|PP_25-02-25_Csv\\PP_25-02-25_Csv.csproj|c:\\users\\sujeet\\onedrive\\desktop\\bl_cpg(practice)\\pp_25-02-25_csv\\pp_25-02-25_csv\\class10.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2F25230-6BFE-49FA-BF81-A6E46424877C}|PP_25-02-25_Csv\\PP_25-02-25_Csv.csproj|solutionrelative:pp_25-02-25_csv\\class10.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2F25230-6BFE-49FA-BF81-A6E46424877C}|PP_25-02-25_Csv\\PP_25-02-25_Csv.csproj|c:\\users\\sujeet\\onedrive\\desktop\\bl_cpg(practice)\\pp_25-02-25_csv\\pp_25-02-25_csv\\class9.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2F25230-6BFE-49FA-BF81-A6E46424877C}|PP_25-02-25_Csv\\PP_25-02-25_Csv.csproj|solutionrelative:pp_25-02-25_csv\\class9.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2F25230-6BFE-49FA-BF81-A6E46424877C}|PP_25-02-25_Csv\\PP_25-02-25_Csv.csproj|c:\\users\\sujeet\\onedrive\\desktop\\bl_cpg(practice)\\pp_25-02-25_csv\\pp_25-02-25_csv\\class8.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2F25230-6BFE-49FA-BF81-A6E46424877C}|PP_25-02-25_Csv\\PP_25-02-25_Csv.csproj|solutionrelative:pp_25-02-25_csv\\class8.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2F25230-6BFE-49FA-BF81-A6E46424877C}|PP_25-02-25_Csv\\PP_25-02-25_Csv.csproj|c:\\users\\sujeet\\onedrive\\desktop\\bl_cpg(practice)\\pp_25-02-25_csv\\pp_25-02-25_csv\\class7.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2F25230-6BFE-49FA-BF81-A6E46424877C}|PP_25-02-25_Csv\\PP_25-02-25_Csv.csproj|solutionrelative:pp_25-02-25_csv\\class7.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2F25230-6BFE-49FA-BF81-A6E46424877C}|PP_25-02-25_Csv\\PP_25-02-25_Csv.csproj|c:\\users\\sujeet\\onedrive\\desktop\\bl_cpg(practice)\\pp_25-02-25_csv\\pp_25-02-25_csv\\class6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2F25230-6BFE-49FA-BF81-A6E46424877C}|PP_25-02-25_Csv\\PP_25-02-25_Csv.csproj|solutionrelative:pp_25-02-25_csv\\class6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2F25230-6BFE-49FA-BF81-A6E46424877C}|PP_25-02-25_Csv\\PP_25-02-25_Csv.csproj|c:\\users\\sujeet\\onedrive\\desktop\\bl_cpg(practice)\\pp_25-02-25_csv\\pp_25-02-25_csv\\class5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2F25230-6BFE-49FA-BF81-A6E46424877C}|PP_25-02-25_Csv\\PP_25-02-25_Csv.csproj|solutionrelative:pp_25-02-25_csv\\class5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2F25230-6BFE-49FA-BF81-A6E46424877C}|PP_25-02-25_Csv\\PP_25-02-25_Csv.csproj|c:\\users\\sujeet\\onedrive\\desktop\\bl_cpg(practice)\\pp_25-02-25_csv\\pp_25-02-25_csv\\class4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2F25230-6BFE-49FA-BF81-A6E46424877C}|PP_25-02-25_Csv\\PP_25-02-25_Csv.csproj|solutionrelative:pp_25-02-25_csv\\class4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2F25230-6BFE-49FA-BF81-A6E46424877C}|PP_25-02-25_Csv\\PP_25-02-25_Csv.csproj|c:\\users\\sujeet\\onedrive\\desktop\\bl_cpg(practice)\\pp_25-02-25_csv\\pp_25-02-25_csv\\class3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2F25230-6BFE-49FA-BF81-A6E46424877C}|PP_25-02-25_Csv\\PP_25-02-25_Csv.csproj|solutionrelative:pp_25-02-25_csv\\class3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2F25230-6BFE-49FA-BF81-A6E46424877C}|PP_25-02-25_Csv\\PP_25-02-25_Csv.csproj|c:\\users\\sujeet\\onedrive\\desktop\\bl_cpg(practice)\\pp_25-02-25_csv\\pp_25-02-25_csv\\class2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2F25230-6BFE-49FA-BF81-A6E46424877C}|PP_25-02-25_Csv\\PP_25-02-25_Csv.csproj|solutionrelative:pp_25-02-25_csv\\class2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2F25230-6BFE-49FA-BF81-A6E46424877C}|PP_25-02-25_Csv\\PP_25-02-25_Csv.csproj|c:\\users\\sujeet\\onedrive\\desktop\\bl_cpg(practice)\\pp_25-02-25_csv\\pp_25-02-25_csv\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2F25230-6BFE-49FA-BF81-A6E46424877C}|PP_25-02-25_Csv\\PP_25-02-25_Csv.csproj|solutionrelative:pp_25-02-25_csv\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Class12.cs",
+              "DocumentMoniker": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_25-02-25_Csv\\PP_25-02-25_Csv\\Class12.cs",
+              "RelativeDocumentMoniker": "PP_25-02-25_Csv\\Class12.cs",
+              "ToolTip": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_25-02-25_Csv\\PP_25-02-25_Csv\\Class12.cs*",
+              "RelativeToolTip": "PP_25-02-25_Csv\\Class12.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T17:19:15.462Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Class6.cs",
+              "DocumentMoniker": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_25-02-25_Csv\\PP_25-02-25_Csv\\Class6.cs",
+              "RelativeDocumentMoniker": "PP_25-02-25_Csv\\Class6.cs",
+              "ToolTip": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_25-02-25_Csv\\PP_25-02-25_Csv\\Class6.cs",
+              "RelativeToolTip": "PP_25-02-25_Csv\\Class6.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAIwDcAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T15:38:22.014Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Class5.cs",
+              "DocumentMoniker": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_25-02-25_Csv\\PP_25-02-25_Csv\\Class5.cs",
+              "RelativeDocumentMoniker": "PP_25-02-25_Csv\\Class5.cs",
+              "ToolTip": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_25-02-25_Csv\\PP_25-02-25_Csv\\Class5.cs",
+              "RelativeToolTip": "PP_25-02-25_Csv\\Class5.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAIwDMAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T15:32:37.494Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Class4.cs",
+              "DocumentMoniker": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_25-02-25_Csv\\PP_25-02-25_Csv\\Class4.cs",
+              "RelativeDocumentMoniker": "PP_25-02-25_Csv\\Class4.cs",
+              "ToolTip": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_25-02-25_Csv\\PP_25-02-25_Csv\\Class4.cs",
+              "RelativeToolTip": "PP_25-02-25_Csv\\Class4.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAIwCkAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T15:24:13.912Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Class3.cs",
+              "DocumentMoniker": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_25-02-25_Csv\\PP_25-02-25_Csv\\Class3.cs",
+              "RelativeDocumentMoniker": "PP_25-02-25_Csv\\Class3.cs",
+              "ToolTip": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_25-02-25_Csv\\PP_25-02-25_Csv\\Class3.cs",
+              "RelativeToolTip": "PP_25-02-25_Csv\\Class3.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAIwCkAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T15:13:19.777Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Class2.cs",
+              "DocumentMoniker": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_25-02-25_Csv\\PP_25-02-25_Csv\\Class2.cs",
+              "RelativeDocumentMoniker": "PP_25-02-25_Csv\\Class2.cs",
+              "ToolTip": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_25-02-25_Csv\\PP_25-02-25_Csv\\Class2.cs",
+              "RelativeToolTip": "PP_25-02-25_Csv\\Class2.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAIwBIAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T15:07:17.156Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_25-02-25_Csv\\PP_25-02-25_Csv\\Class1.cs",
+              "RelativeDocumentMoniker": "PP_25-02-25_Csv\\Class1.cs",
+              "ToolTip": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_25-02-25_Csv\\PP_25-02-25_Csv\\Class1.cs",
+              "RelativeToolTip": "PP_25-02-25_Csv\\Class1.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwBIAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T14:46:04.278Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_25-02-25_Csv\\PP_25-02-25_Csv\\Program.cs",
+              "RelativeDocumentMoniker": "PP_25-02-25_Csv\\Program.cs",
+              "ToolTip": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_25-02-25_Csv\\PP_25-02-25_Csv\\Program.cs*",
+              "RelativeToolTip": "PP_25-02-25_Csv\\Program.cs*",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAkwBEAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T14:43:52.566Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Class11.cs",
+              "DocumentMoniker": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_25-02-25_Csv\\PP_25-02-25_Csv\\Class11.cs",
+              "RelativeDocumentMoniker": "PP_25-02-25_Csv\\Class11.cs",
+              "ToolTip": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_25-02-25_Csv\\PP_25-02-25_Csv\\Class11.cs",
+              "RelativeToolTip": "PP_25-02-25_Csv\\Class11.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAIwDEAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T17:07:27.05Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Class7.cs",
+              "DocumentMoniker": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_25-02-25_Csv\\PP_25-02-25_Csv\\Class7.cs",
+              "RelativeDocumentMoniker": "PP_25-02-25_Csv\\Class7.cs",
+              "ToolTip": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_25-02-25_Csv\\PP_25-02-25_Csv\\Class7.cs",
+              "RelativeToolTip": "PP_25-02-25_Csv\\Class7.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAIwDoAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T15:47:31.447Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Class10.cs",
+              "DocumentMoniker": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_25-02-25_Csv\\PP_25-02-25_Csv\\Class10.cs",
+              "RelativeDocumentMoniker": "PP_25-02-25_Csv\\Class10.cs",
+              "ToolTip": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_25-02-25_Csv\\PP_25-02-25_Csv\\Class10.cs",
+              "RelativeToolTip": "PP_25-02-25_Csv\\Class10.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAIwCcAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T16:59:07.39Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Class9.cs",
+              "DocumentMoniker": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_25-02-25_Csv\\PP_25-02-25_Csv\\Class9.cs",
+              "RelativeDocumentMoniker": "PP_25-02-25_Csv\\Class9.cs",
+              "ToolTip": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_25-02-25_Csv\\PP_25-02-25_Csv\\Class9.cs",
+              "RelativeToolTip": "PP_25-02-25_Csv\\Class9.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAUwEQAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T16:08:02.906Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Class8.cs",
+              "DocumentMoniker": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_25-02-25_Csv\\PP_25-02-25_Csv\\Class8.cs",
+              "RelativeDocumentMoniker": "PP_25-02-25_Csv\\Class8.cs",
+              "ToolTip": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_25-02-25_Csv\\PP_25-02-25_Csv\\Class8.cs",
+              "RelativeToolTip": "PP_25-02-25_Csv\\Class8.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAIwE4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T15:59:55.236Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
