@@ -124,3 +124,7 @@
 ### 24-02-2025
     -Learnt about Annotation and Reflection.
     -Solved and submitted their practice problem.
+
+### 25-02-2025
+    -Learnt about Csv file handling.
+    -Solved and Submitted its practice problem.
