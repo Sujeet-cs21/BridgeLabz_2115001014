@@ -128,3 +128,7 @@
 ### 25-02-2025
     -Learnt about Csv file handling.
     -Solved and Submitted its practice problem.
+
+### 26-02-2025
+    -Learn about JSON file Handling.
+    -Solved and Submitted its Practice Problem.
