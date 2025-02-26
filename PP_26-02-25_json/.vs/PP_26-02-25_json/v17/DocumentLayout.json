@@ -1,0 +1,245 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_26-02-25_json\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CA57A2A5-7BD0-4401-AE76-5F7DB1F6E016}|PP_26-02-25_json\\PP_26-02-25_json.csproj|c:\\users\\sujeet\\onedrive\\desktop\\bl_cpg(practice)\\pp_26-02-25_json\\pp_26-02-25_json\\iplcensorshipanalyzer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA57A2A5-7BD0-4401-AE76-5F7DB1F6E016}|PP_26-02-25_json\\PP_26-02-25_json.csproj|solutionrelative:pp_26-02-25_json\\iplcensorshipanalyzer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA57A2A5-7BD0-4401-AE76-5F7DB1F6E016}|PP_26-02-25_json\\PP_26-02-25_json.csproj|c:\\users\\sujeet\\onedrive\\desktop\\bl_cpg(practice)\\pp_26-02-25_json\\pp_26-02-25_json\\ipl_data.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{CA57A2A5-7BD0-4401-AE76-5F7DB1F6E016}|PP_26-02-25_json\\PP_26-02-25_json.csproj|solutionrelative:pp_26-02-25_json\\ipl_data.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA57A2A5-7BD0-4401-AE76-5F7DB1F6E016}|PP_26-02-25_json\\PP_26-02-25_json.csproj|c:\\users\\sujeet\\onedrive\\desktop\\bl_cpg(practice)\\pp_26-02-25_json\\pp_26-02-25_json\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA57A2A5-7BD0-4401-AE76-5F7DB1F6E016}|PP_26-02-25_json\\PP_26-02-25_json.csproj|solutionrelative:pp_26-02-25_json\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA57A2A5-7BD0-4401-AE76-5F7DB1F6E016}|PP_26-02-25_json\\PP_26-02-25_json.csproj|c:\\users\\sujeet\\onedrive\\desktop\\bl_cpg(practice)\\pp_26-02-25_json\\pp_26-02-25_json\\class13.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA57A2A5-7BD0-4401-AE76-5F7DB1F6E016}|PP_26-02-25_json\\PP_26-02-25_json.csproj|solutionrelative:pp_26-02-25_json\\class13.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA57A2A5-7BD0-4401-AE76-5F7DB1F6E016}|PP_26-02-25_json\\PP_26-02-25_json.csproj|c:\\users\\sujeet\\onedrive\\desktop\\bl_cpg(practice)\\pp_26-02-25_json\\pp_26-02-25_json\\class12.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA57A2A5-7BD0-4401-AE76-5F7DB1F6E016}|PP_26-02-25_json\\PP_26-02-25_json.csproj|solutionrelative:pp_26-02-25_json\\class12.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA57A2A5-7BD0-4401-AE76-5F7DB1F6E016}|PP_26-02-25_json\\PP_26-02-25_json.csproj|c:\\users\\sujeet\\onedrive\\desktop\\bl_cpg(practice)\\pp_26-02-25_json\\pp_26-02-25_json\\class11.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA57A2A5-7BD0-4401-AE76-5F7DB1F6E016}|PP_26-02-25_json\\PP_26-02-25_json.csproj|solutionrelative:pp_26-02-25_json\\class11.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA57A2A5-7BD0-4401-AE76-5F7DB1F6E016}|PP_26-02-25_json\\PP_26-02-25_json.csproj|c:\\users\\sujeet\\onedrive\\desktop\\bl_cpg(practice)\\pp_26-02-25_json\\pp_26-02-25_json\\class9.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA57A2A5-7BD0-4401-AE76-5F7DB1F6E016}|PP_26-02-25_json\\PP_26-02-25_json.csproj|solutionrelative:pp_26-02-25_json\\class9.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA57A2A5-7BD0-4401-AE76-5F7DB1F6E016}|PP_26-02-25_json\\PP_26-02-25_json.csproj|c:\\users\\sujeet\\onedrive\\desktop\\bl_cpg(practice)\\pp_26-02-25_json\\pp_26-02-25_json\\class8.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA57A2A5-7BD0-4401-AE76-5F7DB1F6E016}|PP_26-02-25_json\\PP_26-02-25_json.csproj|solutionrelative:pp_26-02-25_json\\class8.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA57A2A5-7BD0-4401-AE76-5F7DB1F6E016}|PP_26-02-25_json\\PP_26-02-25_json.csproj|c:\\users\\sujeet\\onedrive\\desktop\\bl_cpg(practice)\\pp_26-02-25_json\\pp_26-02-25_json\\class7.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA57A2A5-7BD0-4401-AE76-5F7DB1F6E016}|PP_26-02-25_json\\PP_26-02-25_json.csproj|solutionrelative:pp_26-02-25_json\\class7.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA57A2A5-7BD0-4401-AE76-5F7DB1F6E016}|PP_26-02-25_json\\PP_26-02-25_json.csproj|c:\\users\\sujeet\\onedrive\\desktop\\bl_cpg(practice)\\pp_26-02-25_json\\pp_26-02-25_json\\class4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA57A2A5-7BD0-4401-AE76-5F7DB1F6E016}|PP_26-02-25_json\\PP_26-02-25_json.csproj|solutionrelative:pp_26-02-25_json\\class4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA57A2A5-7BD0-4401-AE76-5F7DB1F6E016}|PP_26-02-25_json\\PP_26-02-25_json.csproj|c:\\users\\sujeet\\onedrive\\desktop\\bl_cpg(practice)\\pp_26-02-25_json\\pp_26-02-25_json\\class3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA57A2A5-7BD0-4401-AE76-5F7DB1F6E016}|PP_26-02-25_json\\PP_26-02-25_json.csproj|solutionrelative:pp_26-02-25_json\\class3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA57A2A5-7BD0-4401-AE76-5F7DB1F6E016}|PP_26-02-25_json\\PP_26-02-25_json.csproj|c:\\users\\sujeet\\onedrive\\desktop\\bl_cpg(practice)\\pp_26-02-25_json\\pp_26-02-25_json\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA57A2A5-7BD0-4401-AE76-5F7DB1F6E016}|PP_26-02-25_json\\PP_26-02-25_json.csproj|solutionrelative:pp_26-02-25_json\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA57A2A5-7BD0-4401-AE76-5F7DB1F6E016}|PP_26-02-25_json\\PP_26-02-25_json.csproj|c:\\users\\sujeet\\onedrive\\desktop\\bl_cpg(practice)\\pp_26-02-25_json\\pp_26-02-25_json\\class2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA57A2A5-7BD0-4401-AE76-5F7DB1F6E016}|PP_26-02-25_json\\PP_26-02-25_json.csproj|solutionrelative:pp_26-02-25_json\\class2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ipl_data.json",
+              "DocumentMoniker": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_26-02-25_json\\PP_26-02-25_json\\ipl_data.json",
+              "RelativeDocumentMoniker": "PP_26-02-25_json\\ipl_data.json",
+              "ToolTip": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_26-02-25_json\\PP_26-02-25_json\\ipl_data.json",
+              "RelativeToolTip": "PP_26-02-25_json\\ipl_data.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-26T14:28:14.151Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "IPLCensorshipAnalyzer.cs",
+              "DocumentMoniker": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_26-02-25_json\\PP_26-02-25_json\\IPLCensorshipAnalyzer.cs",
+              "RelativeDocumentMoniker": "PP_26-02-25_json\\IPLCensorshipAnalyzer.cs",
+              "ToolTip": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_26-02-25_json\\PP_26-02-25_json\\IPLCensorshipAnalyzer.cs",
+              "RelativeToolTip": "PP_26-02-25_json\\IPLCensorshipAnalyzer.cs",
+              "ViewState": "AgIAAFAAAAAAAAAAAADwv2MAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T14:24:39.535Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Class13.cs",
+              "DocumentMoniker": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_26-02-25_json\\PP_26-02-25_json\\Class13.cs",
+              "RelativeDocumentMoniker": "PP_26-02-25_json\\Class13.cs",
+              "ToolTip": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_26-02-25_json\\PP_26-02-25_json\\Class13.cs",
+              "RelativeToolTip": "PP_26-02-25_json\\Class13.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwCQAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T14:10:34.543Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Class4.cs",
+              "DocumentMoniker": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_26-02-25_json\\PP_26-02-25_json\\Class4.cs",
+              "RelativeDocumentMoniker": "PP_26-02-25_json\\Class4.cs",
+              "ToolTip": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_26-02-25_json\\PP_26-02-25_json\\Class4.cs",
+              "RelativeToolTip": "PP_26-02-25_json\\Class4.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAIwBgAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T12:24:00.826Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Class3.cs",
+              "DocumentMoniker": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_26-02-25_json\\PP_26-02-25_json\\Class3.cs",
+              "RelativeDocumentMoniker": "PP_26-02-25_json\\Class3.cs",
+              "ToolTip": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_26-02-25_json\\PP_26-02-25_json\\Class3.cs",
+              "RelativeToolTip": "PP_26-02-25_json\\Class3.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAIwCAAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T12:16:35.341Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Class2.cs",
+              "DocumentMoniker": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_26-02-25_json\\PP_26-02-25_json\\Class2.cs",
+              "RelativeDocumentMoniker": "PP_26-02-25_json\\Class2.cs",
+              "ToolTip": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_26-02-25_json\\PP_26-02-25_json\\Class2.cs",
+              "RelativeToolTip": "PP_26-02-25_json\\Class2.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAwwCAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T12:05:08.512Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_26-02-25_json\\PP_26-02-25_json\\Program.cs",
+              "RelativeDocumentMoniker": "PP_26-02-25_json\\Program.cs",
+              "ToolTip": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_26-02-25_json\\PP_26-02-25_json\\Program.cs",
+              "RelativeToolTip": "PP_26-02-25_json\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAowBIAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T11:57:13.445Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Class12.cs",
+              "DocumentMoniker": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_26-02-25_json\\PP_26-02-25_json\\Class12.cs",
+              "RelativeDocumentMoniker": "PP_26-02-25_json\\Class12.cs",
+              "ToolTip": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_26-02-25_json\\PP_26-02-25_json\\Class12.cs",
+              "RelativeToolTip": "PP_26-02-25_json\\Class12.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAwwBgAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T14:03:53.907Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Class11.cs",
+              "DocumentMoniker": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_26-02-25_json\\PP_26-02-25_json\\Class11.cs",
+              "RelativeDocumentMoniker": "PP_26-02-25_json\\Class11.cs",
+              "ToolTip": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_26-02-25_json\\PP_26-02-25_json\\Class11.cs",
+              "RelativeToolTip": "PP_26-02-25_json\\Class11.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAIwB4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T14:00:11.9Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Class7.cs",
+              "DocumentMoniker": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_26-02-25_json\\PP_26-02-25_json\\Class7.cs",
+              "RelativeDocumentMoniker": "PP_26-02-25_json\\Class7.cs",
+              "ToolTip": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_26-02-25_json\\PP_26-02-25_json\\Class7.cs",
+              "RelativeToolTip": "PP_26-02-25_json\\Class7.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAswDEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T13:18:09.912Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_26-02-25_json\\PP_26-02-25_json\\Class1.cs",
+              "RelativeDocumentMoniker": "PP_26-02-25_json\\Class1.cs",
+              "ToolTip": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_26-02-25_json\\PP_26-02-25_json\\Class1.cs",
+              "RelativeToolTip": "PP_26-02-25_json\\Class1.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAIwCIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T11:57:32.084Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Class9.cs",
+              "DocumentMoniker": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_26-02-25_json\\PP_26-02-25_json\\Class9.cs",
+              "RelativeDocumentMoniker": "PP_26-02-25_json\\Class9.cs",
+              "ToolTip": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_26-02-25_json\\PP_26-02-25_json\\Class9.cs",
+              "RelativeToolTip": "PP_26-02-25_json\\Class9.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAIwEIAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T13:43:15.506Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Class8.cs",
+              "DocumentMoniker": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_26-02-25_json\\PP_26-02-25_json\\Class8.cs",
+              "RelativeDocumentMoniker": "PP_26-02-25_json\\Class8.cs",
+              "ToolTip": "C:\\Users\\Sujeet\\OneDrive\\Desktop\\BL_Cpg(practice)\\PP_26-02-25_json\\PP_26-02-25_json\\Class8.cs",
+              "RelativeToolTip": "PP_26-02-25_json\\Class8.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAADwvycAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T13:24:58.484Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
