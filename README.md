@@ -130,9 +130,13 @@
     -Solved and Submitted its practice problem.
 
 ### 26-02-2025
-    -Learn about JSON file Handling.
+    -Learnt about JSON file Handling.
     -Solved and Submitted its Practice Problem.
 
 ### 27-02-2025
-    -Learn basics of ASP.NET core web API.
+    -Learnt basics of ASP.NET core web API.
     -Created few basic web Applications.
+
+### 28-02-2025
+    -Read about status code and API reuests.
+    -Create UserRegistration web Portal.
