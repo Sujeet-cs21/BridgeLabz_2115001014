@@ -140,3 +140,7 @@
 ### 28-02-2025
     -Read about status code and API reuests.
     -Create UserRegistration web Portal.
+
+### 02-03-2025
+    -Read about Swagger and logger(NLog)
+    -Applied both in UserRegistration web Application.
