@@ -1,0 +1,217 @@
+2025-03-02 19:46:02.7067 | INFO | UserRegistration.Program | Application Starting... 
+2025-03-02 19:46:04.0323 | INFO | Microsoft.Hosting.Lifetime | Now listening on: https://localhost:7004 
+2025-03-02 19:46:04.0410 | INFO | Microsoft.Hosting.Lifetime | Now listening on: http://localhost:5203 
+2025-03-02 19:46:04.1465 | INFO | Microsoft.Hosting.Lifetime | Application started. Press Ctrl+C to shut down. 
+2025-03-02 19:46:04.1465 | INFO | Microsoft.Hosting.Lifetime | Hosting environment: Development 
+2025-03-02 19:46:04.1465 | INFO | Microsoft.Hosting.Lifetime | Content root path: C:\Users\Sujeet\OneDrive\Desktop\BL_Cpg(practice)\PP_28-02-25\UserRegistration\ 
+2025-03-02 19:46:05.2136 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/2 GET https://localhost:7004/UserRegistration - - 
+2025-03-02 19:46:05.4587 | INFO | Microsoft.AspNetCore.Routing.EndpointMiddleware | Executing endpoint 'UserRegistration.Controllers.UserRegistrationController.Get (UserRegistration)' 
+2025-03-02 19:46:05.5265 | INFO | Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker | Route matched with {action = "Get", controller = "UserRegistration"}. Executing controller action with signature System.String Get() on controller UserRegistration.Controllers.UserRegistrationController (UserRegistration). 
+2025-03-02 19:46:05.8278 | INFO | Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor | Executing ObjectResult, writing value of type 'System.String'. 
+2025-03-02 19:46:05.8498 | INFO | Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker | Executed action UserRegistration.Controllers.UserRegistrationController.Get (UserRegistration) in 319.5917ms 
+2025-03-02 19:46:05.8498 | INFO | Microsoft.AspNetCore.Routing.EndpointMiddleware | Executed endpoint 'UserRegistration.Controllers.UserRegistrationController.Get (UserRegistration)' 
+2025-03-02 19:46:05.8498 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/2 GET https://localhost:7004/UserRegistration - - - 200 - text/plain;+charset=utf-8 651.9214ms 
+2025-03-02 19:46:25.8988 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/2 GET https://localhost:7004/UserRegistration/users - - 
+2025-03-02 19:46:25.8988 | INFO | Microsoft.AspNetCore.Routing.EndpointMiddleware | Executing endpoint 'UserRegistration.Controllers.UserRegistrationController.GetUsers (UserRegistration)' 
+2025-03-02 19:46:25.8988 | INFO | Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker | Route matched with {action = "GetUsers", controller = "UserRegistration"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetUsers() on controller UserRegistration.Controllers.UserRegistrationController (UserRegistration). 
+2025-03-02 19:46:25.9293 | INFO | UserRegistration.Controllers.UserRegistrationController | API initiated to fetch all registered users. 
+2025-03-02 19:46:25.9293 | INFO | BusinessLayer.Service.UserRegistrationBL | Business Layer - Fetching all registered users. 
+2025-03-02 19:46:25.9428 | INFO | RepositoryLayer.Service.UserRegistrationRL | Fetching all registered users from the database. 
+2025-03-02 19:46:26.6070 | INFO | Microsoft.EntityFrameworkCore.Infrastructure | Entity Framework Core 6.0.36 initialized 'UserRegistrationContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.36' with options: None 
+2025-03-02 19:46:41.5949 | ERROR | Microsoft.EntityFrameworkCore.Database.Connection | An error occurred using the connection to database 'UserRegistrationAPI' on server 'LAPTOP-81P5ERNB\SQLEXPRESS'. 
+2025-03-02 19:46:41.6845 | ERROR | Microsoft.EntityFrameworkCore.Query | An exception occurred while iterating over the results of a query for context type 'RepositoryLayer.Context.UserRegistrationContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Connection Timeout Expired.  The timeout period elapsed during the post-login phase.  The connection could have timed out while waiting for server to complete the login process and respond; Or it could have timed out while attempting to create multiple active connections.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=84; handshake=39; [Login] initialization=17; authentication=23; [Post-Login] complete=14034; 
+ ---> System.ComponentModel.Win32Exception (258): The wait operation timed out.
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParserStateObject.ReadSniError(TdsParserStateObject stateObj, UInt32 error)
+   at Microsoft.Data.SqlClient.TdsParserStateObject.ReadSniSyncOverAsync()
+   at Microsoft.Data.SqlClient.TdsParserStateObject.TryReadNetworkPacket()
+   at Microsoft.Data.SqlClient.TdsParserStateObject.TryPrepareBuffer()
+   at Microsoft.Data.SqlClient.TdsParserStateObject.TryReadByte(Byte& value)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.CompleteLogin(Boolean enlistOK)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry, SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open(SqlConnectionOverrides overrides)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternal(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+ClientConnectionId:cd8d28f8-6f18-436e-88f9-f0e5f39c782a
+Error Number:-2,State:0,Class:11 Microsoft.Data.SqlClient.SqlException (0x80131904): Connection Timeout Expired.  The timeout period elapsed during the post-login phase.  The connection could have timed out while waiting for server to complete the login process and respond; Or it could have timed out while attempting to create multiple active connections.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=84; handshake=39; [Login] initialization=17; authentication=23; [Post-Login] complete=14034; 
+ ---> System.ComponentModel.Win32Exception (258): The wait operation timed out.
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParserStateObject.ReadSniError(TdsParserStateObject stateObj, UInt32 error)
+   at Microsoft.Data.SqlClient.TdsParserStateObject.ReadSniSyncOverAsync()
+   at Microsoft.Data.SqlClient.TdsParserStateObject.TryReadNetworkPacket()
+   at Microsoft.Data.SqlClient.TdsParserStateObject.TryPrepareBuffer()
+   at Microsoft.Data.SqlClient.TdsParserStateObject.TryReadByte(Byte& value)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.CompleteLogin(Boolean enlistOK)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry, SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open(SqlConnectionOverrides overrides)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternal(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+ClientConnectionId:cd8d28f8-6f18-436e-88f9-f0e5f39c782a
+Error Number:-2,State:0,Class:11 HelpLink.ProdName: Microsoft SQL Server;HelpLink.EvtSrc: MSSQLServer;HelpLink.EvtID: -2;HelpLink.BaseHelpUrl: https://go.microsoft.com/fwlink;HelpLink.LinkId: 20476
+2025-03-02 19:46:41.8655 | ERROR | RepositoryLayer.Service.UserRegistrationRL | Error in Repository Layer while fetching all users. Microsoft.Data.SqlClient.SqlException (0x80131904): Connection Timeout Expired.  The timeout period elapsed during the post-login phase.  The connection could have timed out while waiting for server to complete the login process and respond; Or it could have timed out while attempting to create multiple active connections.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=84; handshake=39; [Login] initialization=17; authentication=23; [Post-Login] complete=14034; 
+ ---> System.ComponentModel.Win32Exception (258): The wait operation timed out.
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParserStateObject.ReadSniError(TdsParserStateObject stateObj, UInt32 error)
+   at Microsoft.Data.SqlClient.TdsParserStateObject.ReadSniSyncOverAsync()
+   at Microsoft.Data.SqlClient.TdsParserStateObject.TryReadNetworkPacket()
+   at Microsoft.Data.SqlClient.TdsParserStateObject.TryPrepareBuffer()
+   at Microsoft.Data.SqlClient.TdsParserStateObject.TryReadByte(Byte& value)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.CompleteLogin(Boolean enlistOK)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry, SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open(SqlConnectionOverrides overrides)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternal(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at RepositoryLayer.Service.UserRegistrationRL.GetAllUsers() in C:\Users\Sujeet\OneDrive\Desktop\BL_Cpg(practice)\PP_28-02-25\RepositoryLayer\Service\UserRegistrationRL.cs:line 56
+ClientConnectionId:cd8d28f8-6f18-436e-88f9-f0e5f39c782a
+Error Number:-2,State:0,Class:11 HelpLink.ProdName: Microsoft SQL Server;HelpLink.EvtSrc: MSSQLServer;HelpLink.EvtID: -2;HelpLink.BaseHelpUrl: https://go.microsoft.com/fwlink;HelpLink.LinkId: 20476
+2025-03-02 19:46:41.9248 | ERROR | BusinessLayer.Service.UserRegistrationBL | Business Layer - Error fetching all users. System.Exception: Connection Timeout Expired.  The timeout period elapsed during the post-login phase.  The connection could have timed out while waiting for server to complete the login process and respond; Or it could have timed out while attempting to create multiple active connections.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=84; handshake=39; [Login] initialization=17; authentication=23; [Post-Login] complete=14034; 
+   at RepositoryLayer.Service.UserRegistrationRL.GetAllUsers() in C:\Users\Sujeet\OneDrive\Desktop\BL_Cpg(practice)\PP_28-02-25\RepositoryLayer\Service\UserRegistrationRL.cs:line 68
+   at BusinessLayer.Service.UserRegistrationBL.GetAllUsers() in C:\Users\Sujeet\OneDrive\Desktop\BL_Cpg(practice)\PP_28-02-25\BusinessLayer\Service\UserRegistrationBL.cs:line 38
+2025-03-02 19:46:41.9737 | ERROR | UserRegistration.Controllers.UserRegistrationController | Error fetching all users. System.Exception: Connection Timeout Expired.  The timeout period elapsed during the post-login phase.  The connection could have timed out while waiting for server to complete the login process and respond; Or it could have timed out while attempting to create multiple active connections.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=84; handshake=39; [Login] initialization=17; authentication=23; [Post-Login] complete=14034; 
+   at BusinessLayer.Service.UserRegistrationBL.GetAllUsers() in C:\Users\Sujeet\OneDrive\Desktop\BL_Cpg(practice)\PP_28-02-25\BusinessLayer\Service\UserRegistrationBL.cs:line 43
+   at UserRegistration.Controllers.UserRegistrationController.GetUsers() in C:\Users\Sujeet\OneDrive\Desktop\BL_Cpg(practice)\PP_28-02-25\UserRegistration\Controllers\UserRegistrationController.cs:line 73
+2025-03-02 19:50:16.1704 | INFO | UserRegistration.Program | Application Starting... 
+2025-03-02 19:50:17.3562 | INFO | Microsoft.Hosting.Lifetime | Now listening on: https://localhost:7004 
+2025-03-02 19:50:17.3698 | INFO | Microsoft.Hosting.Lifetime | Now listening on: http://localhost:5203 
+2025-03-02 19:50:17.4786 | INFO | Microsoft.Hosting.Lifetime | Application started. Press Ctrl+C to shut down. 
+2025-03-02 19:50:17.4786 | INFO | Microsoft.Hosting.Lifetime | Hosting environment: Development 
+2025-03-02 19:50:17.4786 | INFO | Microsoft.Hosting.Lifetime | Content root path: C:\Users\Sujeet\OneDrive\Desktop\BL_Cpg(practice)\PP_28-02-25\UserRegistration\ 
+2025-03-02 19:50:18.7427 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/2 GET https://localhost:7004/UserRegistration - - 
+2025-03-02 19:50:18.9946 | INFO | Microsoft.AspNetCore.Routing.EndpointMiddleware | Executing endpoint 'UserRegistration.Controllers.UserRegistrationController.Get (UserRegistration)' 
+2025-03-02 19:50:19.0593 | INFO | Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker | Route matched with {action = "Get", controller = "UserRegistration"}. Executing controller action with signature System.String Get() on controller UserRegistration.Controllers.UserRegistrationController (UserRegistration). 
+2025-03-02 19:50:19.3906 | INFO | Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor | Executing ObjectResult, writing value of type 'System.String'. 
+2025-03-02 19:50:19.4094 | INFO | Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker | Executed action UserRegistration.Controllers.UserRegistrationController.Get (UserRegistration) in 346.7003ms 
+2025-03-02 19:50:19.4094 | INFO | Microsoft.AspNetCore.Routing.EndpointMiddleware | Executed endpoint 'UserRegistration.Controllers.UserRegistrationController.Get (UserRegistration)' 
+2025-03-02 19:50:19.4202 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/2 GET https://localhost:7004/UserRegistration - - - 200 - text/plain;+charset=utf-8 681.3353ms 
+2025-03-02 19:50:37.5907 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/1.1 GET https://localhost:7004/UserRegistration/users application/json 113 
+2025-03-02 19:50:37.5907 | INFO | Microsoft.AspNetCore.Routing.EndpointMiddleware | Executing endpoint 'UserRegistration.Controllers.UserRegistrationController.GetUsers (UserRegistration)' 
+2025-03-02 19:50:37.5907 | INFO | Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker | Route matched with {action = "GetUsers", controller = "UserRegistration"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetUsers() on controller UserRegistration.Controllers.UserRegistrationController (UserRegistration). 
+2025-03-02 19:50:37.6148 | INFO | UserRegistration.Controllers.UserRegistrationController | API initiated to fetch all registered users. 
+2025-03-02 19:50:37.6148 | INFO | BusinessLayer.Service.UserRegistrationBL | Business Layer - Fetching all registered users. 
+2025-03-02 19:50:37.6293 | INFO | RepositoryLayer.Service.UserRegistrationRL | Fetching all registered users from the database. 
+2025-03-02 19:50:38.7974 | INFO | Microsoft.EntityFrameworkCore.Infrastructure | Entity Framework Core 6.0.36 initialized 'UserRegistrationContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.36' with options: None 
+2025-03-02 19:50:39.9414 | INFO | Microsoft.EntityFrameworkCore.Database.Command | Executed DbCommand (85ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [u].[Email] AS [email], [u].[FirstName] AS [firstname], [u].[LastName] AS [lastname], [u].[Password] AS [password]
+FROM [Users] AS [u] 
+2025-03-02 19:50:39.9774 | INFO | Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor | Executing OkObjectResult, writing value of type 'ModelLayer.DTO.ResponseModel`1[[System.Collections.Generic.List`1[[ModelLayer.DTO.RegistrationDTO, ModelLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'. 
+2025-03-02 19:50:39.9946 | INFO | Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker | Executed action UserRegistration.Controllers.UserRegistrationController.GetUsers (UserRegistration) in 2398.2392ms 
+2025-03-02 19:50:39.9946 | INFO | Microsoft.AspNetCore.Routing.EndpointMiddleware | Executed endpoint 'UserRegistration.Controllers.UserRegistrationController.GetUsers (UserRegistration)' 
+2025-03-02 19:50:39.9946 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/1.1 GET https://localhost:7004/UserRegistration/users application/json 113 - 200 - application/json;+charset=utf-8 2412.0151ms 
+2025-03-02 19:51:13.8671 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/2 GET https://localhost:7004/UserRegistration/users - - 
+2025-03-02 19:51:13.8843 | INFO | Microsoft.AspNetCore.Routing.EndpointMiddleware | Executing endpoint 'UserRegistration.Controllers.UserRegistrationController.GetUsers (UserRegistration)' 
+2025-03-02 19:51:13.8843 | INFO | Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker | Route matched with {action = "GetUsers", controller = "UserRegistration"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetUsers() on controller UserRegistration.Controllers.UserRegistrationController (UserRegistration). 
+2025-03-02 19:51:13.8843 | INFO | UserRegistration.Controllers.UserRegistrationController | API initiated to fetch all registered users. 
+2025-03-02 19:51:13.8843 | INFO | BusinessLayer.Service.UserRegistrationBL | Business Layer - Fetching all registered users. 
+2025-03-02 19:51:13.8843 | INFO | RepositoryLayer.Service.UserRegistrationRL | Fetching all registered users from the database. 
+2025-03-02 19:51:13.8971 | INFO | Microsoft.EntityFrameworkCore.Infrastructure | Entity Framework Core 6.0.36 initialized 'UserRegistrationContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.36' with options: None 
+2025-03-02 19:51:13.9345 | INFO | Microsoft.EntityFrameworkCore.Database.Command | Executed DbCommand (21ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [u].[Email] AS [email], [u].[FirstName] AS [firstname], [u].[LastName] AS [lastname], [u].[Password] AS [password]
+FROM [Users] AS [u] 
+2025-03-02 19:51:13.9345 | INFO | Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor | Executing OkObjectResult, writing value of type 'ModelLayer.DTO.ResponseModel`1[[System.Collections.Generic.List`1[[ModelLayer.DTO.RegistrationDTO, ModelLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'. 
+2025-03-02 19:51:13.9345 | INFO | Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker | Executed action UserRegistration.Controllers.UserRegistrationController.GetUsers (UserRegistration) in 50.5542ms 
+2025-03-02 19:51:13.9345 | INFO | Microsoft.AspNetCore.Routing.EndpointMiddleware | Executed endpoint 'UserRegistration.Controllers.UserRegistrationController.GetUsers (UserRegistration)' 
+2025-03-02 19:51:13.9345 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/2 GET https://localhost:7004/UserRegistration/users - - - 200 - application/json;+charset=utf-8 69.2566ms 
+2025-03-02 20:04:27.0244 | INFO | UserRegistration.Program | Application Starting... 
+2025-03-02 20:04:28.3437 | INFO | Microsoft.Hosting.Lifetime | Now listening on: https://localhost:7004 
+2025-03-02 20:04:28.3684 | INFO | Microsoft.Hosting.Lifetime | Now listening on: http://localhost:5203 
+2025-03-02 20:04:28.5018 | INFO | Microsoft.Hosting.Lifetime | Application started. Press Ctrl+C to shut down. 
+2025-03-02 20:04:28.5018 | INFO | Microsoft.Hosting.Lifetime | Hosting environment: Development 
+2025-03-02 20:04:28.5018 | INFO | Microsoft.Hosting.Lifetime | Content root path: C:\Users\Sujeet\OneDrive\Desktop\BL_Cpg(practice)\PP_28-02-25\UserRegistration\ 
+2025-03-02 20:04:29.5911 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/2 GET https://localhost:7004/Swagger - - 
+2025-03-02 20:04:29.8870 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/2 GET https://localhost:7004/Swagger - - - 301 0 - 302.4412ms 
+2025-03-02 20:04:29.9343 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/2 GET https://localhost:7004/Swagger/index.html - - 
+2025-03-02 20:04:30.0512 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/2 GET https://localhost:7004/Swagger/index.html - - - 200 - text/html;charset=utf-8 116.8545ms 
+2025-03-02 20:04:30.0805 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/2 GET https://localhost:7004/Swagger/swagger-ui.css - - 
+2025-03-02 20:04:30.0847 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/2 GET https://localhost:7004/Swagger/index.css - - 
+2025-03-02 20:04:30.0847 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/2 GET https://localhost:7004/Swagger/swagger-ui-bundle.js - - 
+2025-03-02 20:04:30.0847 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/2 GET https://localhost:7004/Swagger/swagger-ui-standalone-preset.js - - 
+2025-03-02 20:04:30.0847 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/2 GET https://localhost:7004/Swagger/index.js - - 
+2025-03-02 20:04:30.0847 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/2 GET https://localhost:7004/_framework/aspnetcore-browser-refresh.js - - 
+2025-03-02 20:04:30.1768 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/2 GET https://localhost:7004/Swagger/index.js - - - 200 - application/javascript;charset=utf-8 90.9248ms 
+2025-03-02 20:04:30.2082 | INFO | Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware | Sending file. Request path: '/index.css'. Physical path: 'N/A' 
+2025-03-02 20:04:30.2082 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/2 GET https://localhost:7004/_framework/aspnetcore-browser-refresh.js - - - 200 12364 application/javascript;+charset=utf-8 130.9115ms 
+2025-03-02 20:04:30.3318 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/2 GET https://localhost:7004/_vs/browserLink - - 
+2025-03-02 20:04:30.3714 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/2 GET https://localhost:7004/Swagger/index.css - - - 200 202 text/css 286.6765ms 
+2025-03-02 20:04:30.3830 | INFO | Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware | Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A' 
+2025-03-02 20:04:30.3830 | INFO | Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware | Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A' 
+2025-03-02 20:04:30.3830 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/2 GET https://localhost:7004/Swagger/swagger-ui-standalone-preset.js - - - 200 229223 application/javascript 305.5427ms 
+2025-03-02 20:04:30.3830 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/2 GET https://localhost:7004/Swagger/swagger-ui.css - - - 200 154948 text/css 310.7780ms 
+2025-03-02 20:04:30.4300 | INFO | Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware | Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A' 
+2025-03-02 20:04:30.4300 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/2 GET https://localhost:7004/Swagger/swagger-ui-bundle.js - - - 200 1466324 application/javascript 344.7592ms 
+2025-03-02 20:04:30.8240 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/2 GET https://localhost:7004/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 492.2387ms 
+2025-03-02 20:04:31.4727 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/2 GET https://localhost:7004/Swagger/v1/swagger.json - - 
+2025-03-02 20:04:31.4779 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/2 GET https://localhost:7004/Swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 5.3250ms 
+2025-03-02 20:04:31.5133 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/2 GET https://localhost:7004/Swagger/favicon-32x32.png - - 
+2025-03-02 20:04:31.5133 | INFO | Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware | Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A' 
+2025-03-02 20:04:31.5133 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/2 GET https://localhost:7004/Swagger/favicon-32x32.png - - - 200 628 image/png 0.7052ms 
+2025-03-02 20:05:01.0037 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/2 GET https://localhost:7004/UserRegistration/users - - 
+2025-03-02 20:05:01.0165 | INFO | Microsoft.AspNetCore.Routing.EndpointMiddleware | Executing endpoint 'UserRegistration.Controllers.UserRegistrationController.GetUsers (UserRegistration)' 
+2025-03-02 20:05:01.0329 | INFO | Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker | Route matched with {action = "GetUsers", controller = "UserRegistration"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetUsers() on controller UserRegistration.Controllers.UserRegistrationController (UserRegistration). 
+2025-03-02 20:05:01.3193 | INFO | UserRegistration.Controllers.UserRegistrationController | API initiated to fetch all registered users. 
+2025-03-02 20:05:01.3193 | INFO | BusinessLayer.Service.UserRegistrationBL | Business Layer - Fetching all registered users. 
+2025-03-02 20:05:01.3341 | INFO | RepositoryLayer.Service.UserRegistrationRL | Fetching all registered users from the database. 
+2025-03-02 20:05:02.0230 | INFO | Microsoft.EntityFrameworkCore.Infrastructure | Entity Framework Core 6.0.36 initialized 'UserRegistrationContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.36' with options: None 
+2025-03-02 20:05:03.1262 | INFO | Microsoft.EntityFrameworkCore.Database.Command | Executed DbCommand (43ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [u].[Email] AS [email], [u].[FirstName] AS [firstname], [u].[LastName] AS [lastname], [u].[Password] AS [password]
+FROM [Users] AS [u] 
+2025-03-02 20:05:03.1690 | INFO | Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor | Executing OkObjectResult, writing value of type 'ModelLayer.DTO.ResponseModel`1[[System.Collections.Generic.List`1[[ModelLayer.DTO.RegistrationDTO, ModelLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'. 
+2025-03-02 20:05:03.1783 | INFO | Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker | Executed action UserRegistration.Controllers.UserRegistrationController.GetUsers (UserRegistration) in 2140.8743ms 
+2025-03-02 20:05:03.1783 | INFO | Microsoft.AspNetCore.Routing.EndpointMiddleware | Executed endpoint 'UserRegistration.Controllers.UserRegistrationController.GetUsers (UserRegistration)' 
+2025-03-02 20:05:03.1783 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/2 GET https://localhost:7004/UserRegistration/users - - - 200 - application/json;+charset=utf-8 2186.4022ms 
