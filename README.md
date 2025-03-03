@@ -144,3 +144,6 @@
 ### 02-03-2025
     -Read about Swagger and logger(NLog)
     -Applied both in UserRegistration web Application.
+
+### 03-03-2025
+    -Learnt and applied CRUD operation.
