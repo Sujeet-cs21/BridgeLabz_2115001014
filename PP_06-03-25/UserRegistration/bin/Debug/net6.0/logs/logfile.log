@@ -1,0 +1,570 @@
+2025-03-02 19:46:02.7067 | INFO | UserRegistration.Program | Application Starting... 
+2025-03-02 19:46:04.0323 | INFO | Microsoft.Hosting.Lifetime | Now listening on: https://localhost:7004 
+2025-03-02 19:46:04.0410 | INFO | Microsoft.Hosting.Lifetime | Now listening on: http://localhost:5203 
+2025-03-02 19:46:04.1465 | INFO | Microsoft.Hosting.Lifetime | Application started. Press Ctrl+C to shut down. 
+2025-03-02 19:46:04.1465 | INFO | Microsoft.Hosting.Lifetime | Hosting environment: Development 
+2025-03-02 19:46:04.1465 | INFO | Microsoft.Hosting.Lifetime | Content root path: C:\Users\Sujeet\OneDrive\Desktop\BL_Cpg(practice)\PP_28-02-25\UserRegistration\ 
+2025-03-02 19:46:05.2136 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/2 GET https://localhost:7004/UserRegistration - - 
+2025-03-02 19:46:05.4587 | INFO | Microsoft.AspNetCore.Routing.EndpointMiddleware | Executing endpoint 'UserRegistration.Controllers.UserRegistrationController.Get (UserRegistration)' 
+2025-03-02 19:46:05.5265 | INFO | Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker | Route matched with {action = "Get", controller = "UserRegistration"}. Executing controller action with signature System.String Get() on controller UserRegistration.Controllers.UserRegistrationController (UserRegistration). 
+2025-03-02 19:46:05.8278 | INFO | Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor | Executing ObjectResult, writing value of type 'System.String'. 
+2025-03-02 19:46:05.8498 | INFO | Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker | Executed action UserRegistration.Controllers.UserRegistrationController.Get (UserRegistration) in 319.5917ms 
+2025-03-02 19:46:05.8498 | INFO | Microsoft.AspNetCore.Routing.EndpointMiddleware | Executed endpoint 'UserRegistration.Controllers.UserRegistrationController.Get (UserRegistration)' 
+2025-03-02 19:46:05.8498 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/2 GET https://localhost:7004/UserRegistration - - - 200 - text/plain;+charset=utf-8 651.9214ms 
+2025-03-02 19:46:25.8988 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/2 GET https://localhost:7004/UserRegistration/users - - 
+2025-03-02 19:46:25.8988 | INFO | Microsoft.AspNetCore.Routing.EndpointMiddleware | Executing endpoint 'UserRegistration.Controllers.UserRegistrationController.GetUsers (UserRegistration)' 
+2025-03-02 19:46:25.8988 | INFO | Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker | Route matched with {action = "GetUsers", controller = "UserRegistration"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetUsers() on controller UserRegistration.Controllers.UserRegistrationController (UserRegistration). 
+2025-03-02 19:46:25.9293 | INFO | UserRegistration.Controllers.UserRegistrationController | API initiated to fetch all registered users. 
+2025-03-02 19:46:25.9293 | INFO | BusinessLayer.Service.UserRegistrationBL | Business Layer - Fetching all registered users. 
+2025-03-02 19:46:25.9428 | INFO | RepositoryLayer.Service.UserRegistrationRL | Fetching all registered users from the database. 
+2025-03-02 19:46:26.6070 | INFO | Microsoft.EntityFrameworkCore.Infrastructure | Entity Framework Core 6.0.36 initialized 'UserRegistrationContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.36' with options: None 
+2025-03-02 19:46:41.5949 | ERROR | Microsoft.EntityFrameworkCore.Database.Connection | An error occurred using the connection to database 'UserRegistrationAPI' on server 'LAPTOP-81P5ERNB\SQLEXPRESS'. 
+2025-03-02 19:46:41.6845 | ERROR | Microsoft.EntityFrameworkCore.Query | An exception occurred while iterating over the results of a query for context type 'RepositoryLayer.Context.UserRegistrationContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Connection Timeout Expired.  The timeout period elapsed during the post-login phase.  The connection could have timed out while waiting for server to complete the login process and respond; Or it could have timed out while attempting to create multiple active connections.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=84; handshake=39; [Login] initialization=17; authentication=23; [Post-Login] complete=14034; 
+ ---> System.ComponentModel.Win32Exception (258): The wait operation timed out.
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParserStateObject.ReadSniError(TdsParserStateObject stateObj, UInt32 error)
+   at Microsoft.Data.SqlClient.TdsParserStateObject.ReadSniSyncOverAsync()
+   at Microsoft.Data.SqlClient.TdsParserStateObject.TryReadNetworkPacket()
+   at Microsoft.Data.SqlClient.TdsParserStateObject.TryPrepareBuffer()
+   at Microsoft.Data.SqlClient.TdsParserStateObject.TryReadByte(Byte& value)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.CompleteLogin(Boolean enlistOK)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry, SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open(SqlConnectionOverrides overrides)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternal(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+ClientConnectionId:cd8d28f8-6f18-436e-88f9-f0e5f39c782a
+Error Number:-2,State:0,Class:11 Microsoft.Data.SqlClient.SqlException (0x80131904): Connection Timeout Expired.  The timeout period elapsed during the post-login phase.  The connection could have timed out while waiting for server to complete the login process and respond; Or it could have timed out while attempting to create multiple active connections.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=84; handshake=39; [Login] initialization=17; authentication=23; [Post-Login] complete=14034; 
+ ---> System.ComponentModel.Win32Exception (258): The wait operation timed out.
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParserStateObject.ReadSniError(TdsParserStateObject stateObj, UInt32 error)
+   at Microsoft.Data.SqlClient.TdsParserStateObject.ReadSniSyncOverAsync()
+   at Microsoft.Data.SqlClient.TdsParserStateObject.TryReadNetworkPacket()
+   at Microsoft.Data.SqlClient.TdsParserStateObject.TryPrepareBuffer()
+   at Microsoft.Data.SqlClient.TdsParserStateObject.TryReadByte(Byte& value)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.CompleteLogin(Boolean enlistOK)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry, SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open(SqlConnectionOverrides overrides)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternal(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+ClientConnectionId:cd8d28f8-6f18-436e-88f9-f0e5f39c782a
+Error Number:-2,State:0,Class:11 HelpLink.ProdName: Microsoft SQL Server;HelpLink.EvtSrc: MSSQLServer;HelpLink.EvtID: -2;HelpLink.BaseHelpUrl: https://go.microsoft.com/fwlink;HelpLink.LinkId: 20476
+2025-03-02 19:46:41.8655 | ERROR | RepositoryLayer.Service.UserRegistrationRL | Error in Repository Layer while fetching all users. Microsoft.Data.SqlClient.SqlException (0x80131904): Connection Timeout Expired.  The timeout period elapsed during the post-login phase.  The connection could have timed out while waiting for server to complete the login process and respond; Or it could have timed out while attempting to create multiple active connections.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=84; handshake=39; [Login] initialization=17; authentication=23; [Post-Login] complete=14034; 
+ ---> System.ComponentModel.Win32Exception (258): The wait operation timed out.
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParserStateObject.ReadSniError(TdsParserStateObject stateObj, UInt32 error)
+   at Microsoft.Data.SqlClient.TdsParserStateObject.ReadSniSyncOverAsync()
+   at Microsoft.Data.SqlClient.TdsParserStateObject.TryReadNetworkPacket()
+   at Microsoft.Data.SqlClient.TdsParserStateObject.TryPrepareBuffer()
+   at Microsoft.Data.SqlClient.TdsParserStateObject.TryReadByte(Byte& value)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.CompleteLogin(Boolean enlistOK)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry, SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open(SqlConnectionOverrides overrides)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternal(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at RepositoryLayer.Service.UserRegistrationRL.GetAllUsers() in C:\Users\Sujeet\OneDrive\Desktop\BL_Cpg(practice)\PP_28-02-25\RepositoryLayer\Service\UserRegistrationRL.cs:line 56
+ClientConnectionId:cd8d28f8-6f18-436e-88f9-f0e5f39c782a
+Error Number:-2,State:0,Class:11 HelpLink.ProdName: Microsoft SQL Server;HelpLink.EvtSrc: MSSQLServer;HelpLink.EvtID: -2;HelpLink.BaseHelpUrl: https://go.microsoft.com/fwlink;HelpLink.LinkId: 20476
+2025-03-02 19:46:41.9248 | ERROR | BusinessLayer.Service.UserRegistrationBL | Business Layer - Error fetching all users. System.Exception: Connection Timeout Expired.  The timeout period elapsed during the post-login phase.  The connection could have timed out while waiting for server to complete the login process and respond; Or it could have timed out while attempting to create multiple active connections.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=84; handshake=39; [Login] initialization=17; authentication=23; [Post-Login] complete=14034; 
+   at RepositoryLayer.Service.UserRegistrationRL.GetAllUsers() in C:\Users\Sujeet\OneDrive\Desktop\BL_Cpg(practice)\PP_28-02-25\RepositoryLayer\Service\UserRegistrationRL.cs:line 68
+   at BusinessLayer.Service.UserRegistrationBL.GetAllUsers() in C:\Users\Sujeet\OneDrive\Desktop\BL_Cpg(practice)\PP_28-02-25\BusinessLayer\Service\UserRegistrationBL.cs:line 38
+2025-03-02 19:46:41.9737 | ERROR | UserRegistration.Controllers.UserRegistrationController | Error fetching all users. System.Exception: Connection Timeout Expired.  The timeout period elapsed during the post-login phase.  The connection could have timed out while waiting for server to complete the login process and respond; Or it could have timed out while attempting to create multiple active connections.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=84; handshake=39; [Login] initialization=17; authentication=23; [Post-Login] complete=14034; 
+   at BusinessLayer.Service.UserRegistrationBL.GetAllUsers() in C:\Users\Sujeet\OneDrive\Desktop\BL_Cpg(practice)\PP_28-02-25\BusinessLayer\Service\UserRegistrationBL.cs:line 43
+   at UserRegistration.Controllers.UserRegistrationController.GetUsers() in C:\Users\Sujeet\OneDrive\Desktop\BL_Cpg(practice)\PP_28-02-25\UserRegistration\Controllers\UserRegistrationController.cs:line 73
+2025-03-02 19:50:16.1704 | INFO | UserRegistration.Program | Application Starting... 
+2025-03-02 19:50:17.3562 | INFO | Microsoft.Hosting.Lifetime | Now listening on: https://localhost:7004 
+2025-03-02 19:50:17.3698 | INFO | Microsoft.Hosting.Lifetime | Now listening on: http://localhost:5203 
+2025-03-02 19:50:17.4786 | INFO | Microsoft.Hosting.Lifetime | Application started. Press Ctrl+C to shut down. 
+2025-03-02 19:50:17.4786 | INFO | Microsoft.Hosting.Lifetime | Hosting environment: Development 
+2025-03-02 19:50:17.4786 | INFO | Microsoft.Hosting.Lifetime | Content root path: C:\Users\Sujeet\OneDrive\Desktop\BL_Cpg(practice)\PP_28-02-25\UserRegistration\ 
+2025-03-02 19:50:18.7427 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/2 GET https://localhost:7004/UserRegistration - - 
+2025-03-02 19:50:18.9946 | INFO | Microsoft.AspNetCore.Routing.EndpointMiddleware | Executing endpoint 'UserRegistration.Controllers.UserRegistrationController.Get (UserRegistration)' 
+2025-03-02 19:50:19.0593 | INFO | Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker | Route matched with {action = "Get", controller = "UserRegistration"}. Executing controller action with signature System.String Get() on controller UserRegistration.Controllers.UserRegistrationController (UserRegistration). 
+2025-03-02 19:50:19.3906 | INFO | Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor | Executing ObjectResult, writing value of type 'System.String'. 
+2025-03-02 19:50:19.4094 | INFO | Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker | Executed action UserRegistration.Controllers.UserRegistrationController.Get (UserRegistration) in 346.7003ms 
+2025-03-02 19:50:19.4094 | INFO | Microsoft.AspNetCore.Routing.EndpointMiddleware | Executed endpoint 'UserRegistration.Controllers.UserRegistrationController.Get (UserRegistration)' 
+2025-03-02 19:50:19.4202 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/2 GET https://localhost:7004/UserRegistration - - - 200 - text/plain;+charset=utf-8 681.3353ms 
+2025-03-02 19:50:37.5907 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/1.1 GET https://localhost:7004/UserRegistration/users application/json 113 
+2025-03-02 19:50:37.5907 | INFO | Microsoft.AspNetCore.Routing.EndpointMiddleware | Executing endpoint 'UserRegistration.Controllers.UserRegistrationController.GetUsers (UserRegistration)' 
+2025-03-02 19:50:37.5907 | INFO | Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker | Route matched with {action = "GetUsers", controller = "UserRegistration"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetUsers() on controller UserRegistration.Controllers.UserRegistrationController (UserRegistration). 
+2025-03-02 19:50:37.6148 | INFO | UserRegistration.Controllers.UserRegistrationController | API initiated to fetch all registered users. 
+2025-03-02 19:50:37.6148 | INFO | BusinessLayer.Service.UserRegistrationBL | Business Layer - Fetching all registered users. 
+2025-03-02 19:50:37.6293 | INFO | RepositoryLayer.Service.UserRegistrationRL | Fetching all registered users from the database. 
+2025-03-02 19:50:38.7974 | INFO | Microsoft.EntityFrameworkCore.Infrastructure | Entity Framework Core 6.0.36 initialized 'UserRegistrationContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.36' with options: None 
+2025-03-02 19:50:39.9414 | INFO | Microsoft.EntityFrameworkCore.Database.Command | Executed DbCommand (85ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [u].[Email] AS [email], [u].[FirstName] AS [firstname], [u].[LastName] AS [lastname], [u].[Password] AS [password]
+FROM [Users] AS [u] 
+2025-03-02 19:50:39.9774 | INFO | Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor | Executing OkObjectResult, writing value of type 'ModelLayer.DTO.ResponseModel`1[[System.Collections.Generic.List`1[[ModelLayer.DTO.RegistrationDTO, ModelLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'. 
+2025-03-02 19:50:39.9946 | INFO | Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker | Executed action UserRegistration.Controllers.UserRegistrationController.GetUsers (UserRegistration) in 2398.2392ms 
+2025-03-02 19:50:39.9946 | INFO | Microsoft.AspNetCore.Routing.EndpointMiddleware | Executed endpoint 'UserRegistration.Controllers.UserRegistrationController.GetUsers (UserRegistration)' 
+2025-03-02 19:50:39.9946 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/1.1 GET https://localhost:7004/UserRegistration/users application/json 113 - 200 - application/json;+charset=utf-8 2412.0151ms 
+2025-03-02 19:51:13.8671 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/2 GET https://localhost:7004/UserRegistration/users - - 
+2025-03-02 19:51:13.8843 | INFO | Microsoft.AspNetCore.Routing.EndpointMiddleware | Executing endpoint 'UserRegistration.Controllers.UserRegistrationController.GetUsers (UserRegistration)' 
+2025-03-02 19:51:13.8843 | INFO | Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker | Route matched with {action = "GetUsers", controller = "UserRegistration"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetUsers() on controller UserRegistration.Controllers.UserRegistrationController (UserRegistration). 
+2025-03-02 19:51:13.8843 | INFO | UserRegistration.Controllers.UserRegistrationController | API initiated to fetch all registered users. 
+2025-03-02 19:51:13.8843 | INFO | BusinessLayer.Service.UserRegistrationBL | Business Layer - Fetching all registered users. 
+2025-03-02 19:51:13.8843 | INFO | RepositoryLayer.Service.UserRegistrationRL | Fetching all registered users from the database. 
+2025-03-02 19:51:13.8971 | INFO | Microsoft.EntityFrameworkCore.Infrastructure | Entity Framework Core 6.0.36 initialized 'UserRegistrationContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.36' with options: None 
+2025-03-02 19:51:13.9345 | INFO | Microsoft.EntityFrameworkCore.Database.Command | Executed DbCommand (21ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [u].[Email] AS [email], [u].[FirstName] AS [firstname], [u].[LastName] AS [lastname], [u].[Password] AS [password]
+FROM [Users] AS [u] 
+2025-03-02 19:51:13.9345 | INFO | Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor | Executing OkObjectResult, writing value of type 'ModelLayer.DTO.ResponseModel`1[[System.Collections.Generic.List`1[[ModelLayer.DTO.RegistrationDTO, ModelLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'. 
+2025-03-02 19:51:13.9345 | INFO | Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker | Executed action UserRegistration.Controllers.UserRegistrationController.GetUsers (UserRegistration) in 50.5542ms 
+2025-03-02 19:51:13.9345 | INFO | Microsoft.AspNetCore.Routing.EndpointMiddleware | Executed endpoint 'UserRegistration.Controllers.UserRegistrationController.GetUsers (UserRegistration)' 
+2025-03-02 19:51:13.9345 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/2 GET https://localhost:7004/UserRegistration/users - - - 200 - application/json;+charset=utf-8 69.2566ms 
+2025-03-02 20:04:27.0244 | INFO | UserRegistration.Program | Application Starting... 
+2025-03-02 20:04:28.3437 | INFO | Microsoft.Hosting.Lifetime | Now listening on: https://localhost:7004 
+2025-03-02 20:04:28.3684 | INFO | Microsoft.Hosting.Lifetime | Now listening on: http://localhost:5203 
+2025-03-02 20:04:28.5018 | INFO | Microsoft.Hosting.Lifetime | Application started. Press Ctrl+C to shut down. 
+2025-03-02 20:04:28.5018 | INFO | Microsoft.Hosting.Lifetime | Hosting environment: Development 
+2025-03-02 20:04:28.5018 | INFO | Microsoft.Hosting.Lifetime | Content root path: C:\Users\Sujeet\OneDrive\Desktop\BL_Cpg(practice)\PP_28-02-25\UserRegistration\ 
+2025-03-02 20:04:29.5911 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/2 GET https://localhost:7004/Swagger - - 
+2025-03-02 20:04:29.8870 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/2 GET https://localhost:7004/Swagger - - - 301 0 - 302.4412ms 
+2025-03-02 20:04:29.9343 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/2 GET https://localhost:7004/Swagger/index.html - - 
+2025-03-02 20:04:30.0512 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/2 GET https://localhost:7004/Swagger/index.html - - - 200 - text/html;charset=utf-8 116.8545ms 
+2025-03-02 20:04:30.0805 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/2 GET https://localhost:7004/Swagger/swagger-ui.css - - 
+2025-03-02 20:04:30.0847 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/2 GET https://localhost:7004/Swagger/index.css - - 
+2025-03-02 20:04:30.0847 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/2 GET https://localhost:7004/Swagger/swagger-ui-bundle.js - - 
+2025-03-02 20:04:30.0847 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/2 GET https://localhost:7004/Swagger/swagger-ui-standalone-preset.js - - 
+2025-03-02 20:04:30.0847 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/2 GET https://localhost:7004/Swagger/index.js - - 
+2025-03-02 20:04:30.0847 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/2 GET https://localhost:7004/_framework/aspnetcore-browser-refresh.js - - 
+2025-03-02 20:04:30.1768 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/2 GET https://localhost:7004/Swagger/index.js - - - 200 - application/javascript;charset=utf-8 90.9248ms 
+2025-03-02 20:04:30.2082 | INFO | Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware | Sending file. Request path: '/index.css'. Physical path: 'N/A' 
+2025-03-02 20:04:30.2082 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/2 GET https://localhost:7004/_framework/aspnetcore-browser-refresh.js - - - 200 12364 application/javascript;+charset=utf-8 130.9115ms 
+2025-03-02 20:04:30.3318 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/2 GET https://localhost:7004/_vs/browserLink - - 
+2025-03-02 20:04:30.3714 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/2 GET https://localhost:7004/Swagger/index.css - - - 200 202 text/css 286.6765ms 
+2025-03-02 20:04:30.3830 | INFO | Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware | Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A' 
+2025-03-02 20:04:30.3830 | INFO | Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware | Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A' 
+2025-03-02 20:04:30.3830 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/2 GET https://localhost:7004/Swagger/swagger-ui-standalone-preset.js - - - 200 229223 application/javascript 305.5427ms 
+2025-03-02 20:04:30.3830 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/2 GET https://localhost:7004/Swagger/swagger-ui.css - - - 200 154948 text/css 310.7780ms 
+2025-03-02 20:04:30.4300 | INFO | Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware | Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A' 
+2025-03-02 20:04:30.4300 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/2 GET https://localhost:7004/Swagger/swagger-ui-bundle.js - - - 200 1466324 application/javascript 344.7592ms 
+2025-03-02 20:04:30.8240 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/2 GET https://localhost:7004/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 492.2387ms 
+2025-03-02 20:04:31.4727 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/2 GET https://localhost:7004/Swagger/v1/swagger.json - - 
+2025-03-02 20:04:31.4779 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/2 GET https://localhost:7004/Swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 5.3250ms 
+2025-03-02 20:04:31.5133 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/2 GET https://localhost:7004/Swagger/favicon-32x32.png - - 
+2025-03-02 20:04:31.5133 | INFO | Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware | Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A' 
+2025-03-02 20:04:31.5133 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/2 GET https://localhost:7004/Swagger/favicon-32x32.png - - - 200 628 image/png 0.7052ms 
+2025-03-02 20:05:01.0037 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/2 GET https://localhost:7004/UserRegistration/users - - 
+2025-03-02 20:05:01.0165 | INFO | Microsoft.AspNetCore.Routing.EndpointMiddleware | Executing endpoint 'UserRegistration.Controllers.UserRegistrationController.GetUsers (UserRegistration)' 
+2025-03-02 20:05:01.0329 | INFO | Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker | Route matched with {action = "GetUsers", controller = "UserRegistration"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetUsers() on controller UserRegistration.Controllers.UserRegistrationController (UserRegistration). 
+2025-03-02 20:05:01.3193 | INFO | UserRegistration.Controllers.UserRegistrationController | API initiated to fetch all registered users. 
+2025-03-02 20:05:01.3193 | INFO | BusinessLayer.Service.UserRegistrationBL | Business Layer - Fetching all registered users. 
+2025-03-02 20:05:01.3341 | INFO | RepositoryLayer.Service.UserRegistrationRL | Fetching all registered users from the database. 
+2025-03-02 20:05:02.0230 | INFO | Microsoft.EntityFrameworkCore.Infrastructure | Entity Framework Core 6.0.36 initialized 'UserRegistrationContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.36' with options: None 
+2025-03-02 20:05:03.1262 | INFO | Microsoft.EntityFrameworkCore.Database.Command | Executed DbCommand (43ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [u].[Email] AS [email], [u].[FirstName] AS [firstname], [u].[LastName] AS [lastname], [u].[Password] AS [password]
+FROM [Users] AS [u] 
+2025-03-02 20:05:03.1690 | INFO | Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor | Executing OkObjectResult, writing value of type 'ModelLayer.DTO.ResponseModel`1[[System.Collections.Generic.List`1[[ModelLayer.DTO.RegistrationDTO, ModelLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'. 
+2025-03-02 20:05:03.1783 | INFO | Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker | Executed action UserRegistration.Controllers.UserRegistrationController.GetUsers (UserRegistration) in 2140.8743ms 
+2025-03-02 20:05:03.1783 | INFO | Microsoft.AspNetCore.Routing.EndpointMiddleware | Executed endpoint 'UserRegistration.Controllers.UserRegistrationController.GetUsers (UserRegistration)' 
+2025-03-02 20:05:03.1783 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/2 GET https://localhost:7004/UserRegistration/users - - - 200 - application/json;+charset=utf-8 2186.4022ms 
+2025-03-03 11:03:34.3073 | INFO | UserRegistration.Program | Application Starting... 
+2025-03-03 11:03:36.1730 | INFO | Microsoft.Hosting.Lifetime | Now listening on: https://localhost:7004 
+2025-03-03 11:03:36.1858 | INFO | Microsoft.Hosting.Lifetime | Now listening on: http://localhost:5203 
+2025-03-03 11:03:36.3114 | INFO | Microsoft.Hosting.Lifetime | Application started. Press Ctrl+C to shut down. 
+2025-03-03 11:03:36.3114 | INFO | Microsoft.Hosting.Lifetime | Hosting environment: Development 
+2025-03-03 11:03:36.3114 | INFO | Microsoft.Hosting.Lifetime | Content root path: C:\Users\Sujeet\OneDrive\Desktop\BL_Cpg(practice)\PP_28-02-25\UserRegistration\ 
+2025-03-03 11:03:38.5939 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/2 GET https://localhost:7004/Swagger - - 
+2025-03-03 11:03:39.0689 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/2 GET https://localhost:7004/Swagger/index.html - - 
+2025-03-03 11:03:39.0689 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/2 GET https://localhost:7004/Swagger - - - 301 0 - 478.6661ms 
+2025-03-03 11:03:39.2919 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/2 GET https://localhost:7004/Swagger/index.html - - - 200 - text/html;charset=utf-8 222.9881ms 
+2025-03-03 11:03:39.3266 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/2 GET https://localhost:7004/Swagger/swagger-ui.css - - 
+2025-03-03 11:03:39.3527 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/2 GET https://localhost:7004/Swagger/index.css - - 
+2025-03-03 11:03:39.3796 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/2 GET https://localhost:7004/Swagger/swagger-ui-standalone-preset.js - - 
+2025-03-03 11:03:39.6201 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/2 GET https://localhost:7004/Swagger/index.js - - 
+2025-03-03 11:03:39.6201 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/2 GET https://localhost:7004/Swagger/swagger-ui-bundle.js - - 
+2025-03-03 11:03:39.6345 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/2 GET https://localhost:7004/_framework/aspnetcore-browser-refresh.js - - 
+2025-03-03 11:03:39.6588 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/2 GET https://localhost:7004/Swagger/index.js - - - 200 - application/javascript;charset=utf-8 38.7844ms 
+2025-03-03 11:03:39.6880 | INFO | Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware | Sending file. Request path: '/index.css'. Physical path: 'N/A' 
+2025-03-03 11:03:39.6997 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/2 GET https://localhost:7004/Swagger/index.css - - - 200 202 text/css 346.9649ms 
+2025-03-03 11:03:39.6997 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/2 GET https://localhost:7004/_framework/aspnetcore-browser-refresh.js - - - 200 12364 application/javascript;+charset=utf-8 66.2325ms 
+2025-03-03 11:03:39.7307 | INFO | Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware | Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A' 
+2025-03-03 11:03:39.7470 | INFO | Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware | Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A' 
+2025-03-03 11:03:39.7581 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/2 GET https://localhost:7004/Swagger/swagger-ui-standalone-preset.js - - - 200 229223 application/javascript 378.5093ms 
+2025-03-03 11:03:39.7581 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/2 GET https://localhost:7004/Swagger/swagger-ui.css - - - 200 154948 text/css 431.5574ms 
+2025-03-03 11:03:39.7581 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/2 GET https://localhost:7004/_vs/browserLink - - 
+2025-03-03 11:03:39.8136 | INFO | Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware | Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A' 
+2025-03-03 11:03:39.8136 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/2 GET https://localhost:7004/Swagger/swagger-ui-bundle.js - - - 200 1466324 application/javascript 192.2541ms 
+2025-03-03 11:03:39.9292 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/2 GET https://localhost:7004/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 163.5326ms 
+2025-03-03 11:03:40.0793 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/2 GET https://localhost:7004/Swagger/v1/swagger.json - - 
+2025-03-03 11:03:40.0882 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/2 GET https://localhost:7004/Swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 8.8730ms 
+2025-03-03 11:03:40.1119 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/2 GET https://localhost:7004/Swagger/favicon-32x32.png - - 
+2025-03-03 11:03:40.1119 | INFO | Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware | Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A' 
+2025-03-03 11:03:40.1119 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/2 GET https://localhost:7004/Swagger/favicon-32x32.png - - - 200 628 image/png 1.1391ms 
+2025-03-03 11:04:20.5974 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/2 GET https://localhost:7004/UserRegistration - - 
+2025-03-03 11:04:20.6270 | INFO | Microsoft.AspNetCore.Routing.EndpointMiddleware | Executing endpoint 'UserRegistration.Controllers.UserRegistrationController.Get (UserRegistration)' 
+2025-03-03 11:04:20.6451 | INFO | Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker | Route matched with {action = "Get", controller = "UserRegistration"}. Executing controller action with signature System.String Get() on controller UserRegistration.Controllers.UserRegistrationController (UserRegistration). 
+2025-03-03 11:04:21.0292 | INFO | Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor | Executing ObjectResult, writing value of type 'System.String'. 
+2025-03-03 11:04:21.0363 | INFO | Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker | Executed action UserRegistration.Controllers.UserRegistrationController.Get (UserRegistration) in 385.0939ms 
+2025-03-03 11:04:21.0363 | INFO | Microsoft.AspNetCore.Routing.EndpointMiddleware | Executed endpoint 'UserRegistration.Controllers.UserRegistrationController.Get (UserRegistration)' 
+2025-03-03 11:04:21.0363 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/2 GET https://localhost:7004/UserRegistration - - - 200 - text/plain;+charset=utf-8 444.1431ms 
+2025-03-03 11:26:05.4247 | INFO | UserRegistration.Program | Application Starting... 
+2025-03-03 11:26:07.3359 | INFO | Microsoft.Hosting.Lifetime | Now listening on: https://localhost:7004 
+2025-03-03 11:26:07.3459 | INFO | Microsoft.Hosting.Lifetime | Now listening on: http://localhost:5203 
+2025-03-03 11:26:07.4260 | INFO | Microsoft.Hosting.Lifetime | Application started. Press Ctrl+C to shut down. 
+2025-03-03 11:26:07.4260 | INFO | Microsoft.Hosting.Lifetime | Hosting environment: Development 
+2025-03-03 11:26:07.4260 | INFO | Microsoft.Hosting.Lifetime | Content root path: C:\Users\Sujeet\OneDrive\Desktop\BL_Cpg(practice)\PP_28-02-25\UserRegistration\ 
+2025-03-03 11:26:32.7916 | INFO | UserRegistration.Program | Application Starting... 
+2025-03-03 11:26:34.2439 | INFO | Microsoft.Hosting.Lifetime | Now listening on: https://localhost:7004 
+2025-03-03 11:26:34.2583 | INFO | Microsoft.Hosting.Lifetime | Now listening on: http://localhost:5203 
+2025-03-03 11:26:34.3394 | INFO | Microsoft.Hosting.Lifetime | Application started. Press Ctrl+C to shut down. 
+2025-03-03 11:26:34.3402 | INFO | Microsoft.Hosting.Lifetime | Hosting environment: Development 
+2025-03-03 11:26:34.3402 | INFO | Microsoft.Hosting.Lifetime | Content root path: C:\Users\Sujeet\OneDrive\Desktop\BL_Cpg(practice)\PP_28-02-25\UserRegistration\ 
+2025-03-03 11:26:36.1026 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/2 GET https://localhost:7004/Swagger/index.html - - 
+2025-03-03 11:26:36.5923 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/2 GET https://localhost:7004/Swagger/index.html - - - 200 - text/html;charset=utf-8 494.5134ms 
+2025-03-03 11:26:36.5923 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/2 GET https://localhost:7004/_framework/aspnetcore-browser-refresh.js - - 
+2025-03-03 11:26:36.5923 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/2 GET https://localhost:7004/_vs/browserLink - - 
+2025-03-03 11:26:36.5923 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/2 GET https://localhost:7004/Swagger/index.js - - 
+2025-03-03 11:26:36.6154 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/2 GET https://localhost:7004/Swagger/index.js - - - 200 - application/javascript;charset=utf-8 12.0505ms 
+2025-03-03 11:26:36.6219 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/2 GET https://localhost:7004/_framework/aspnetcore-browser-refresh.js - - - 200 12364 application/javascript;+charset=utf-8 18.6279ms 
+2025-03-03 11:26:36.7444 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/2 GET https://localhost:7004/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 141.0855ms 
+2025-03-03 11:26:36.8698 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/2 GET https://localhost:7004/Swagger/v1/swagger.json - - 
+2025-03-03 11:26:36.8797 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/2 GET https://localhost:7004/Swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 10.1231ms 
+2025-03-03 11:26:50.2142 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/2 GET https://localhost:7004/UserRegistration/users - - 
+2025-03-03 11:26:50.2269 | INFO | Microsoft.AspNetCore.Routing.EndpointMiddleware | Executing endpoint 'UserRegistration.Controllers.UserRegistrationController.GetUsers (UserRegistration)' 
+2025-03-03 11:26:50.2464 | INFO | Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker | Route matched with {action = "GetUsers", controller = "UserRegistration"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetUsers() on controller UserRegistration.Controllers.UserRegistrationController (UserRegistration). 
+2025-03-03 11:26:50.6380 | INFO | UserRegistration.Controllers.UserRegistrationController | API initiated to fetch all registered users. 
+2025-03-03 11:26:50.6380 | INFO | BusinessLayer.Service.UserRegistrationBL | Business Layer - Fetching all registered users. 
+2025-03-03 11:26:50.6557 | INFO | RepositoryLayer.Service.UserRegistrationRL | Fetching all registered users from the database. 
+2025-03-03 11:26:51.5481 | INFO | Microsoft.EntityFrameworkCore.Infrastructure | Entity Framework Core 6.0.36 initialized 'UserRegistrationContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.36' with options: None 
+2025-03-03 11:26:52.8938 | INFO | Microsoft.EntityFrameworkCore.Database.Command | Executed DbCommand (51ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [u].[Email] AS [email], [u].[FirstName] AS [firstname], [u].[LastName] AS [lastname], [u].[Password] AS [password]
+FROM [Users] AS [u] 
+2025-03-03 11:26:52.9491 | INFO | Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor | Executing OkObjectResult, writing value of type 'ModelLayer.DTO.ResponseModel`1[[System.Collections.Generic.List`1[[ModelLayer.DTO.RegistrationDTO, ModelLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'. 
+2025-03-03 11:26:52.9491 | INFO | Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker | Executed action UserRegistration.Controllers.UserRegistrationController.GetUsers (UserRegistration) in 2708.38ms 
+2025-03-03 11:26:52.9491 | INFO | Microsoft.AspNetCore.Routing.EndpointMiddleware | Executed endpoint 'UserRegistration.Controllers.UserRegistrationController.GetUsers (UserRegistration)' 
+2025-03-03 11:26:52.9752 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/2 GET https://localhost:7004/UserRegistration/users - - - 200 - application/json;+charset=utf-8 2761.0267ms 
+2025-03-06 16:42:42.7138 | INFO | UserRegistration.Program | Application Starting... 
+2025-03-06 16:42:44.6529 | INFO | Microsoft.Hosting.Lifetime | Now listening on: https://localhost:7004 
+2025-03-06 16:42:44.6657 | INFO | Microsoft.Hosting.Lifetime | Now listening on: http://localhost:5203 
+2025-03-06 16:42:44.7469 | INFO | Microsoft.Hosting.Lifetime | Application started. Press Ctrl+C to shut down. 
+2025-03-06 16:42:44.7469 | INFO | Microsoft.Hosting.Lifetime | Hosting environment: Development 
+2025-03-06 16:42:44.7469 | INFO | Microsoft.Hosting.Lifetime | Content root path: C:\Users\Sujeet\OneDrive\Desktop\BL_Cpg(practice)\PP_28-02-25\UserRegistration\ 
+2025-03-06 16:42:49.3233 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/2 GET https://localhost:7004/Swagger/index.html - - 
+2025-03-06 16:42:50.0152 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/2 GET https://localhost:7004/Swagger/index.html - - - 200 - text/html;charset=utf-8 696.9027ms 
+2025-03-06 16:42:50.0654 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/2 GET https://localhost:7004/_framework/aspnetcore-browser-refresh.js - - 
+2025-03-06 16:42:50.0654 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/2 GET https://localhost:7004/Swagger/swagger-ui-bundle.js - - 
+2025-03-06 16:42:50.0654 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/2 GET https://localhost:7004/Swagger/swagger-ui.css - - 
+2025-03-06 16:42:50.0654 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/2 GET https://localhost:7004/Swagger/index.css - - 
+2025-03-06 16:42:50.0654 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/2 GET https://localhost:7004/Swagger/swagger-ui-standalone-preset.js - - 
+2025-03-06 16:42:50.0654 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/2 GET https://localhost:7004/Swagger/index.js - - 
+2025-03-06 16:42:50.0654 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/2 GET https://localhost:7004/Swagger/index.js - - - 200 - application/javascript;charset=utf-8 3.6154ms 
+2025-03-06 16:42:50.0752 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/2 GET https://localhost:7004/_framework/aspnetcore-browser-refresh.js - - - 200 12364 application/javascript;+charset=utf-8 9.7411ms 
+2025-03-06 16:42:50.0752 | INFO | Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware | The file /index.css was not modified 
+2025-03-06 16:42:50.0752 | INFO | Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware | The file /swagger-ui-standalone-preset.js was not modified 
+2025-03-06 16:42:50.0752 | INFO | Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware | The file /swagger-ui-bundle.js was not modified 
+2025-03-06 16:42:50.0752 | INFO | Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware | The file /swagger-ui.css was not modified 
+2025-03-06 16:42:50.0752 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/2 GET https://localhost:7004/Swagger/swagger-ui-bundle.js - - - 304 - application/javascript 19.1853ms 
+2025-03-06 16:42:50.0752 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/2 GET https://localhost:7004/Swagger/swagger-ui.css - - - 304 - text/css 19.3701ms 
+2025-03-06 16:42:50.0752 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/2 GET https://localhost:7004/Swagger/index.css - - - 304 - text/css 19.4350ms 
+2025-03-06 16:42:50.0752 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/2 GET https://localhost:7004/Swagger/swagger-ui-standalone-preset.js - - - 304 - application/javascript 19.3198ms 
+2025-03-06 16:42:50.4556 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/2 GET https://localhost:7004/_vs/browserLink - - 
+2025-03-06 16:42:50.6944 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/2 GET https://localhost:7004/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 238.8066ms 
+2025-03-06 16:42:52.0105 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/2 GET https://localhost:7004/Swagger/v1/swagger.json - - 
+2025-03-06 16:42:52.0105 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/2 GET https://localhost:7004/Swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 12.2866ms 
+2025-03-06 16:55:46.4899 | INFO | UserRegistration.Program | Application Starting... 
+2025-03-06 16:55:48.1350 | INFO | Microsoft.Hosting.Lifetime | Now listening on: https://localhost:7004 
+2025-03-06 16:55:48.1350 | INFO | Microsoft.Hosting.Lifetime | Now listening on: http://localhost:5203 
+2025-03-06 16:55:48.2177 | INFO | Microsoft.Hosting.Lifetime | Application started. Press Ctrl+C to shut down. 
+2025-03-06 16:55:48.2177 | INFO | Microsoft.Hosting.Lifetime | Hosting environment: Development 
+2025-03-06 16:55:48.2177 | INFO | Microsoft.Hosting.Lifetime | Content root path: C:\Users\Sujeet\OneDrive\Desktop\BL_Cpg(practice)\PP_28-02-25\UserRegistration\ 
+2025-03-06 16:55:49.2252 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/2 GET https://localhost:7004/Swagger/index.html - - 
+2025-03-06 16:55:49.7400 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/2 GET https://localhost:7004/Swagger/index.html - - - 200 - text/html;charset=utf-8 519.6807ms 
+2025-03-06 16:55:49.8030 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/2 GET https://localhost:7004/Swagger/index.js - - 
+2025-03-06 16:55:49.8030 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/2 GET https://localhost:7004/_framework/aspnetcore-browser-refresh.js - - 
+2025-03-06 16:55:49.8075 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/2 GET https://localhost:7004/Swagger/index.js - - - 200 - application/javascript;charset=utf-8 4.5189ms 
+2025-03-06 16:55:49.8075 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/2 GET https://localhost:7004/_framework/aspnetcore-browser-refresh.js - - - 200 12364 application/javascript;+charset=utf-8 11.9295ms 
+2025-03-06 16:55:50.1176 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/2 GET https://localhost:7004/_vs/browserLink - - 
+2025-03-06 16:55:50.2059 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/2 GET https://localhost:7004/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 88.2919ms 
+2025-03-06 16:55:51.2528 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/2 GET https://localhost:7004/Swagger/v1/swagger.json - - 
+2025-03-06 16:55:51.2615 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/2 GET https://localhost:7004/Swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 8.7252ms 
+2025-03-06 16:57:17.6325 | INFO | UserRegistration.Program | Application Starting... 
+2025-03-06 16:57:19.1582 | INFO | Microsoft.Hosting.Lifetime | Now listening on: https://localhost:7004 
+2025-03-06 16:57:19.1679 | INFO | Microsoft.Hosting.Lifetime | Now listening on: http://localhost:5203 
+2025-03-06 16:57:19.2424 | INFO | Microsoft.Hosting.Lifetime | Application started. Press Ctrl+C to shut down. 
+2025-03-06 16:57:19.2424 | INFO | Microsoft.Hosting.Lifetime | Hosting environment: Development 
+2025-03-06 16:57:19.2424 | INFO | Microsoft.Hosting.Lifetime | Content root path: C:\Users\Sujeet\OneDrive\Desktop\BL_Cpg(practice)\PP_28-02-25\UserRegistration\ 
+2025-03-06 16:57:20.0359 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/2 GET https://localhost:7004/Swagger/index.html - - 
+2025-03-06 16:57:20.4247 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/2 GET https://localhost:7004/Swagger/index.html - - - 200 - text/html;charset=utf-8 392.2163ms 
+2025-03-06 16:57:20.4480 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/2 GET https://localhost:7004/Swagger/index.js - - 
+2025-03-06 16:57:20.4480 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/2 GET https://localhost:7004/_framework/aspnetcore-browser-refresh.js - - 
+2025-03-06 16:57:20.4480 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/2 GET https://localhost:7004/Swagger/index.js - - - 200 - application/javascript;charset=utf-8 3.2029ms 
+2025-03-06 16:57:20.4480 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/2 GET https://localhost:7004/_framework/aspnetcore-browser-refresh.js - - - 200 12364 application/javascript;+charset=utf-8 8.6155ms 
+2025-03-06 16:57:20.7966 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/2 GET https://localhost:7004/_vs/browserLink - - 
+2025-03-06 16:57:20.9005 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/2 GET https://localhost:7004/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 103.8414ms 
+2025-03-06 16:57:21.8531 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/2 GET https://localhost:7004/Swagger/v1/swagger.json - - 
+2025-03-06 16:57:21.8531 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/2 GET https://localhost:7004/Swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 12.5171ms 
+2025-03-06 22:09:56.3480 | INFO | UserRegistration.Program | Application Starting... 
+2025-03-06 22:09:58.3595 | INFO | Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager | User profile is available. Using 'C:\Users\Sujeet\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2025-03-06 22:09:59.2650 | INFO | Microsoft.Hosting.Lifetime | Now listening on: https://localhost:7004 
+2025-03-06 22:09:59.2650 | INFO | Microsoft.Hosting.Lifetime | Now listening on: http://localhost:5203 
+2025-03-06 22:09:59.3291 | INFO | Microsoft.Hosting.Lifetime | Application started. Press Ctrl+C to shut down. 
+2025-03-06 22:09:59.3291 | INFO | Microsoft.Hosting.Lifetime | Hosting environment: Development 
+2025-03-06 22:09:59.3291 | INFO | Microsoft.Hosting.Lifetime | Content root path: C:\Users\Sujeet\OneDrive\Desktop\BL_Cpg(practice)\PP_28-02-25\UserRegistration\ 
+2025-03-06 22:10:02.4698 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/2 GET https://localhost:7004/Swagger/index.html - - 
+2025-03-06 22:10:03.2179 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/2 GET https://localhost:7004/Swagger/index.html - - - 200 - text/html;charset=utf-8 752.6089ms 
+2025-03-06 22:10:03.3388 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/2 GET https://localhost:7004/Swagger/index.js - - 
+2025-03-06 22:10:03.3388 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/2 GET https://localhost:7004/_framework/aspnetcore-browser-refresh.js - - 
+2025-03-06 22:10:03.3388 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/2 GET https://localhost:7004/Swagger/index.js - - - 200 - application/javascript;charset=utf-8 2.8236ms 
+2025-03-06 22:10:03.3388 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/2 GET https://localhost:7004/_framework/aspnetcore-browser-refresh.js - - - 200 12364 application/javascript;+charset=utf-8 10.6589ms 
+2025-03-06 22:10:03.6317 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/2 GET https://localhost:7004/_vs/browserLink - - 
+2025-03-06 22:10:03.9793 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/2 GET https://localhost:7004/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 347.7013ms 
+2025-03-06 22:10:04.7975 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/2 GET https://localhost:7004/Swagger/v1/swagger.json - - 
+2025-03-06 22:10:04.8059 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/2 GET https://localhost:7004/Swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 8.4683ms 
+2025-03-06 22:10:50.1759 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/2 GET https://localhost:7004/UserRegistration - - 
+2025-03-06 22:10:50.3404 | INFO | Microsoft.AspNetCore.Routing.EndpointMiddleware | Executing endpoint 'UserRegistration.Controllers.UserRegistrationController.Get (UserRegistration)' 
+2025-03-06 22:10:50.3592 | INFO | Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker | Route matched with {action = "Get", controller = "UserRegistration"}. Executing controller action with signature System.String Get() on controller UserRegistration.Controllers.UserRegistrationController (UserRegistration). 
+2025-03-06 22:10:51.2320 | INFO | Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor | Executing ObjectResult, writing value of type 'System.String'. 
+2025-03-06 22:10:51.2320 | INFO | Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker | Executed action UserRegistration.Controllers.UserRegistrationController.Get (UserRegistration) in 875.362ms 
+2025-03-06 22:10:51.2320 | INFO | Microsoft.AspNetCore.Routing.EndpointMiddleware | Executed endpoint 'UserRegistration.Controllers.UserRegistrationController.Get (UserRegistration)' 
+2025-03-06 22:10:51.2320 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/2 GET https://localhost:7004/UserRegistration - - - 200 - text/plain;+charset=utf-8 1067.4787ms 
+2025-03-06 22:12:45.9586 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/2 POST https://localhost:7004/UserRegistration/register application/json 104 
+2025-03-06 22:12:45.9721 | INFO | Microsoft.AspNetCore.Routing.EndpointMiddleware | Executing endpoint 'UserRegistration.Controllers.UserRegistrationController.RegisterUser (UserRegistration)' 
+2025-03-06 22:12:46.0252 | INFO | Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker | Route matched with {action = "RegisterUser", controller = "UserRegistration"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult RegisterUser(ModelLayer.DTO.RegistrationDTO) on controller UserRegistration.Controllers.UserRegistrationController (UserRegistration). 
+2025-03-06 22:12:46.1009 | INFO | UserRegistration.Controllers.UserRegistrationController | API initiated to register new user with email: user@gmail.com 
+2025-03-06 22:12:46.1022 | INFO | BusinessLayer.Service.UserRegistrationBL | Business Layer - Registering new user with Email : user@gmail.com 
+2025-03-06 22:12:46.7333 | INFO | Microsoft.EntityFrameworkCore.Infrastructure | Entity Framework Core 6.0.36 initialized 'UserRegistrationContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.36' with options: None 
+2025-03-06 22:12:47.8013 | INFO | Microsoft.EntityFrameworkCore.Database.Command | Executed DbCommand (117ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Users] ([Email], [FirstName], [LastName], [Password])
+VALUES (@p0, @p1, @p2, @p3);
+SELECT [UserId]
+FROM [Users]
+WHERE @@ROWCOUNT = 1 AND [UserId] = scope_identity(); 
+2025-03-06 22:12:47.8810 | INFO | RepositoryLayer.Service.UserRegistrationRL | User registered successfully! with email: user@gmail.com 
+2025-03-06 22:12:47.8810 | INFO | UserRegistration.Controllers.UserRegistrationController | User registered successfully! with email: user@gmail.com 
+2025-03-06 22:12:47.8810 | INFO | Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor | Executing OkObjectResult, writing value of type 'ModelLayer.DTO.ResponseModel`1[[ModelLayer.DTO.RegistrationDTO, ModelLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+2025-03-06 22:12:47.8810 | INFO | Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker | Executed action UserRegistration.Controllers.UserRegistrationController.RegisterUser (UserRegistration) in 1858.0648ms 
+2025-03-06 22:12:47.8810 | INFO | Microsoft.AspNetCore.Routing.EndpointMiddleware | Executed endpoint 'UserRegistration.Controllers.UserRegistrationController.RegisterUser (UserRegistration)' 
+2025-03-06 22:12:47.8894 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/2 POST https://localhost:7004/UserRegistration/register application/json 104 - 200 - application/json;+charset=utf-8 1930.7783ms 
+2025-03-06 22:13:56.8888 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/1.1 POST https://localhost:7004/UserRegistration/login application/json 60 
+2025-03-06 22:13:57.1358 | INFO | Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler | Failed to validate the token. Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '06-03-2025 4.13.18 PM', Current time (UTC): '06-03-2025 4.43.57 PM'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwtToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateJWS(String token, TokenValidationParameters validationParameters, BaseConfiguration currentConfiguration, SecurityToken& signatureValidatedToken, ExceptionDispatchInfo& exceptionThrown)
+--- End of stack trace from previous location ---
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, JwtSecurityToken outerToken, TokenValidationParameters validationParameters, SecurityToken& signatureValidatedToken)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+2025-03-06 22:13:57.2041 | INFO | Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler | Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '06-03-2025 4.13.18 PM', Current time (UTC): '06-03-2025 4.43.57 PM'. 
+2025-03-06 22:13:57.2041 | INFO | Microsoft.AspNetCore.Routing.EndpointMiddleware | Executing endpoint 'UserRegistration.Controllers.UserRegistrationController.Login (UserRegistration)' 
+2025-03-06 22:13:57.2041 | INFO | Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker | Route matched with {action = "Login", controller = "UserRegistration"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(ModelLayer.DTO.LoginDTO) on controller UserRegistration.Controllers.UserRegistrationController (UserRegistration). 
+2025-03-06 22:13:57.2393 | INFO | UserRegistration.Controllers.UserRegistrationController | API initiated to login user. 
+2025-03-06 22:13:57.2393 | INFO | BusinessLayer.Service.UserRegistrationBL | Business Layer - Logging in user. 
+2025-03-06 22:13:57.2527 | INFO | RepositoryLayer.Service.UserRegistrationRL | Fetching user password from the database. 
+2025-03-06 22:13:57.2866 | INFO | Microsoft.EntityFrameworkCore.Infrastructure | Entity Framework Core 6.0.36 initialized 'UserRegistrationContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.36' with options: None 
+2025-03-06 22:13:57.8097 | INFO | Microsoft.EntityFrameworkCore.Database.Command | Executed DbCommand (73ms) [Parameters=[@__loginDTO_Email_0='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[Email], [u].[FirstName], [u].[LastName], [u].[Password]
+FROM [Users] AS [u]
+WHERE [u].[Email] = @__loginDTO_Email_0 
+2025-03-06 22:13:57.8097 | INFO | RepositoryLayer.Service.UserRegistrationRL | User password fetched successfully. 
+2025-03-06 22:13:57.8097 | INFO | BusinessLayer.Service.UserRegistrationBL | Business Layer - Checking user password. 
+2025-03-06 22:13:57.8097 | INFO | BusinessLayer.Service.UserRegistrationBL | Business Layer - User password matched. 
+2025-03-06 22:13:57.8097 | INFO | BusinessLayer.Service.UserRegistrationBL | Business Layer - User logged in successfully. 
+2025-03-06 22:13:57.8097 | INFO | UserRegistration.Controllers.UserRegistrationController | User logged in successfully. 
+2025-03-06 22:13:57.8097 | INFO | UserRegistration.Controllers.UserRegistrationController | Token generated successfully. 
+2025-03-06 22:13:57.8097 | INFO | BusinessLayer.Service.TokenService | TokenService - Generating token for user. 
+2025-03-06 22:13:57.8225 | INFO | BusinessLayer.Service.TokenService | TokenService - Token generated successfully. 
+2025-03-06 22:13:57.8555 | INFO | UserRegistration.Controllers.UserRegistrationController | Token sent to user. 
+2025-03-06 22:13:57.8555 | INFO | Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor | Executing OkObjectResult, writing value of type '<>f__AnonymousType2`1[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'. 
+2025-03-06 22:13:57.8555 | INFO | Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker | Executed action UserRegistration.Controllers.UserRegistrationController.Login (UserRegistration) in 654.7979ms 
+2025-03-06 22:13:57.8555 | INFO | Microsoft.AspNetCore.Routing.EndpointMiddleware | Executed endpoint 'UserRegistration.Controllers.UserRegistrationController.Login (UserRegistration)' 
+2025-03-06 22:13:57.8555 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/1.1 POST https://localhost:7004/UserRegistration/login application/json 60 - 200 - application/json;+charset=utf-8 971.6531ms 
+2025-03-06 22:14:28.2525 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/1.1 GET https://localhost:7004/UserRegistration/users application/json 60 
+2025-03-06 22:14:28.2853 | INFO | Microsoft.AspNetCore.Routing.EndpointMiddleware | Executing endpoint 'UserRegistration.Controllers.UserRegistrationController.GetUsers (UserRegistration)' 
+2025-03-06 22:14:28.2853 | INFO | Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker | Route matched with {action = "GetUsers", controller = "UserRegistration"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetUsers() on controller UserRegistration.Controllers.UserRegistrationController (UserRegistration). 
+2025-03-06 22:14:28.3209 | INFO | UserRegistration.Controllers.UserRegistrationController | API initiated to fetch all registered users. 
+2025-03-06 22:14:28.3209 | INFO | BusinessLayer.Service.UserRegistrationBL | Business Layer - Fetching all registered users. 
+2025-03-06 22:14:28.3223 | INFO | RepositoryLayer.Service.RedisCacheService | Getting cache for key 
+2025-03-06 22:14:28.3223 | INFO | RepositoryLayer.Service.UserRegistrationRL | Fetching all users from the database. 
+2025-03-06 22:14:28.3412 | INFO | Microsoft.EntityFrameworkCore.Infrastructure | Entity Framework Core 6.0.36 initialized 'UserRegistrationContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.36' with options: None 
+2025-03-06 22:14:28.3772 | INFO | Microsoft.EntityFrameworkCore.Database.Command | Executed DbCommand (11ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [u].[UserId] AS [Id], [u].[FirstName], [u].[LastName], [u].[Email]
+FROM [Users] AS [u] 
+2025-03-06 22:14:28.3772 | INFO | RepositoryLayer.Service.UserRegistrationRL | Fetched all users from the database. 
+2025-03-06 22:14:28.3772 | INFO | RepositoryLayer.Service.RedisCacheService | Setting cache for key 
+2025-03-06 22:14:28.3911 | INFO | RepositoryLayer.Service.UserRegistrationRL | Returning all users. 
+2025-03-06 22:14:28.3911 | INFO | Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor | Executing OkObjectResult, writing value of type 'ModelLayer.DTO.ResponseModel`1[[System.Collections.Generic.List`1[[ModelLayer.DTO.AllUsersDTO, ModelLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'. 
+2025-03-06 22:14:28.3911 | INFO | Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker | Executed action UserRegistration.Controllers.UserRegistrationController.GetUsers (UserRegistration) in 106.5899ms 
+2025-03-06 22:14:28.3911 | INFO | Microsoft.AspNetCore.Routing.EndpointMiddleware | Executed endpoint 'UserRegistration.Controllers.UserRegistrationController.GetUsers (UserRegistration)' 
+2025-03-06 22:14:28.3911 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/1.1 GET https://localhost:7004/UserRegistration/users application/json 60 - 200 - application/json;+charset=utf-8 140.3857ms 
+2025-03-06 22:22:21.6399 | INFO | UserRegistration.Program | Application Starting... 
+2025-03-06 22:22:22.5160 | INFO | Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager | User profile is available. Using 'C:\Users\Sujeet\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2025-03-06 22:22:22.9389 | INFO | Microsoft.Hosting.Lifetime | Now listening on: https://localhost:7004 
+2025-03-06 22:22:22.9389 | INFO | Microsoft.Hosting.Lifetime | Now listening on: http://localhost:5203 
+2025-03-06 22:22:23.0196 | INFO | Microsoft.Hosting.Lifetime | Application started. Press Ctrl+C to shut down. 
+2025-03-06 22:22:23.0196 | INFO | Microsoft.Hosting.Lifetime | Hosting environment: Development 
+2025-03-06 22:22:23.0196 | INFO | Microsoft.Hosting.Lifetime | Content root path: C:\Users\Sujeet\OneDrive\Desktop\BL_Cpg(practice)\PP_28-02-25\UserRegistration\ 
+2025-03-06 22:22:24.8324 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/2 GET https://localhost:7004/Swagger/index.html - - 
+2025-03-06 22:22:25.1983 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/2 GET https://localhost:7004/Swagger/index.html - - - 200 - text/html;charset=utf-8 370.9036ms 
+2025-03-06 22:22:25.2191 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/2 GET https://localhost:7004/_framework/aspnetcore-browser-refresh.js - - 
+2025-03-06 22:22:25.2191 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/2 GET https://localhost:7004/Swagger/index.js - - 
+2025-03-06 22:22:25.2191 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/2 GET https://localhost:7004/Swagger/index.js - - - 200 - application/javascript;charset=utf-8 2.2683ms 
+2025-03-06 22:22:25.2191 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/2 GET https://localhost:7004/_framework/aspnetcore-browser-refresh.js - - - 200 12364 application/javascript;+charset=utf-8 6.4141ms 
+2025-03-06 22:22:25.4428 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/2 GET https://localhost:7004/_vs/browserLink - - 
+2025-03-06 22:22:25.5182 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/2 GET https://localhost:7004/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 75.3138ms 
+2025-03-06 22:22:26.2037 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/2 GET https://localhost:7004/swagger/v1/swagger.json - - 
+2025-03-06 22:22:26.2121 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/2 GET https://localhost:7004/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 8.4540ms 
+2025-03-06 23:03:25.4062 | INFO | UserRegistration.Program | Application Starting... 
+2025-03-06 23:03:26.6341 | INFO | Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager | User profile is available. Using 'C:\Users\Sujeet\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2025-03-06 23:03:27.2745 | INFO | Microsoft.Hosting.Lifetime | Now listening on: https://localhost:7004 
+2025-03-06 23:03:27.2745 | INFO | Microsoft.Hosting.Lifetime | Now listening on: http://localhost:5203 
+2025-03-06 23:03:27.3391 | INFO | Microsoft.Hosting.Lifetime | Application started. Press Ctrl+C to shut down. 
+2025-03-06 23:03:27.3391 | INFO | Microsoft.Hosting.Lifetime | Hosting environment: Development 
+2025-03-06 23:03:27.3391 | INFO | Microsoft.Hosting.Lifetime | Content root path: C:\Users\Sujeet\OneDrive\Desktop\BL_Cpg(practice)\PP_28-02-25\UserRegistration\ 
+2025-03-06 23:03:28.3095 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/2 GET https://localhost:7004/Swagger/index.html - - 
+2025-03-06 23:03:28.7432 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/2 GET https://localhost:7004/Swagger/index.html - - - 200 - text/html;charset=utf-8 438.9518ms 
+2025-03-06 23:03:28.7519 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/2 GET https://localhost:7004/_framework/aspnetcore-browser-refresh.js - - 
+2025-03-06 23:03:28.7519 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/2 GET https://localhost:7004/Swagger/index.js - - 
+2025-03-06 23:03:28.7885 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/2 GET https://localhost:7004/_framework/aspnetcore-browser-refresh.js - - - 200 12364 application/javascript;+charset=utf-8 36.5261ms 
+2025-03-06 23:03:28.7885 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/2 GET https://localhost:7004/Swagger/index.js - - - 200 - application/javascript;charset=utf-8 35.8428ms 
+2025-03-06 23:03:29.0281 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/2 GET https://localhost:7004/_vs/browserLink - - 
+2025-03-06 23:03:29.1614 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/2 GET https://localhost:7004/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 133.2791ms 
+2025-03-06 23:03:29.8730 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/2 GET https://localhost:7004/Swagger/v1/swagger.json - - 
+2025-03-06 23:03:29.8730 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/2 GET https://localhost:7004/Swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 7.9702ms 
+2025-03-06 23:04:00.4258 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/2 GET https://localhost:7004/UserRegistration - - 
+2025-03-06 23:04:00.5590 | INFO | Microsoft.AspNetCore.Routing.EndpointMiddleware | Executing endpoint 'UserRegistration.Controllers.UserRegistrationController.Get (UserRegistration)' 
+2025-03-06 23:04:00.5772 | INFO | Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker | Route matched with {action = "Get", controller = "UserRegistration"}. Executing controller action with signature System.String Get() on controller UserRegistration.Controllers.UserRegistrationController (UserRegistration). 
+2025-03-06 23:04:09.4979 | INFO | Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor | Executing ObjectResult, writing value of type 'System.String'. 
+2025-03-06 23:04:09.4979 | INFO | Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker | Executed action UserRegistration.Controllers.UserRegistrationController.Get (UserRegistration) in 8922.6497ms 
+2025-03-06 23:04:09.4979 | INFO | Microsoft.AspNetCore.Routing.EndpointMiddleware | Executed endpoint 'UserRegistration.Controllers.UserRegistrationController.Get (UserRegistration)' 
+2025-03-06 23:04:09.4979 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/2 GET https://localhost:7004/UserRegistration - - - 200 - text/plain;+charset=utf-8 9081.4303ms 
+2025-03-06 23:05:35.7653 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/2 GET https://localhost:7004/Swagger/index.html - - 
+2025-03-06 23:05:35.7653 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/2 GET https://localhost:7004/Swagger/index.html - - - 200 - text/html;charset=utf-8 9.6526ms 
+2025-03-06 23:05:35.8063 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/2 GET https://localhost:7004/Swagger/index.js - - 
+2025-03-06 23:05:35.8069 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/2 GET https://localhost:7004/_framework/aspnetcore-browser-refresh.js - - 
+2025-03-06 23:05:35.8069 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/2 GET https://localhost:7004/_vs/browserLink - - 
+2025-03-06 23:05:35.8069 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/2 GET https://localhost:7004/Swagger/index.js - - - 200 - application/javascript;charset=utf-8 1.4724ms 
+2025-03-06 23:05:35.8069 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/2 GET https://localhost:7004/_framework/aspnetcore-browser-refresh.js - - - 200 12364 application/javascript;+charset=utf-8 0.7521ms 
+2025-03-06 23:05:35.8069 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/2 GET https://localhost:7004/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 5.8978ms 
+2025-03-06 23:05:36.5813 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/2 GET https://localhost:7004/Swagger/v1/swagger.json - - 
+2025-03-06 23:05:36.5813 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/2 GET https://localhost:7004/Swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 2.2438ms 
+2025-03-06 23:05:36.5963 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/2 GET https://localhost:7004/Swagger/favicon-32x32.png - - 
+2025-03-06 23:05:36.6080 | INFO | Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware | The file /favicon-32x32.png was not modified 
+2025-03-06 23:05:36.6080 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/2 GET https://localhost:7004/Swagger/favicon-32x32.png - - - 304 - image/png 12.2563ms 
+2025-03-06 23:06:08.8686 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/2 GET https://localhost:7004/UserRegistration/users - - 
+2025-03-06 23:06:08.8801 | INFO | Microsoft.AspNetCore.Authorization.DefaultAuthorizationService | Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user. 
+2025-03-06 23:06:08.8898 | INFO | Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler | AuthenticationScheme: Bearer was challenged. 
+2025-03-06 23:06:08.8898 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/2 GET https://localhost:7004/UserRegistration/users - - - 401 0 - 21.8864ms 
+2025-03-06 23:07:15.8416 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/2 POST https://localhost:7004/UserRegistration/login application/json 57 
+2025-03-06 23:07:15.8416 | INFO | Microsoft.AspNetCore.Routing.EndpointMiddleware | Executing endpoint 'UserRegistration.Controllers.UserRegistrationController.Login (UserRegistration)' 
+2025-03-06 23:07:15.8592 | INFO | Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker | Route matched with {action = "Login", controller = "UserRegistration"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(ModelLayer.DTO.LoginDTO) on controller UserRegistration.Controllers.UserRegistrationController (UserRegistration). 
+2025-03-06 23:07:28.1820 | INFO | UserRegistration.Controllers.UserRegistrationController | API initiated to login user. 
+2025-03-06 23:07:28.1834 | INFO | BusinessLayer.Service.UserRegistrationBL | Business Layer - Logging in user. 
+2025-03-06 23:07:28.1834 | INFO | RepositoryLayer.Service.UserRegistrationRL | Fetching user password from the database. 
+2025-03-06 23:07:28.7741 | INFO | Microsoft.EntityFrameworkCore.Infrastructure | Entity Framework Core 6.0.36 initialized 'UserRegistrationContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.36' with options: None 
+2025-03-06 23:07:29.8611 | INFO | Microsoft.EntityFrameworkCore.Database.Command | Executed DbCommand (101ms) [Parameters=[@__loginDTO_Email_0='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[Email], [u].[FirstName], [u].[LastName], [u].[Password]
+FROM [Users] AS [u]
+WHERE [u].[Email] = @__loginDTO_Email_0 
+2025-03-06 23:07:29.9498 | INFO | RepositoryLayer.Service.UserRegistrationRL | User password fetched successfully. 
+2025-03-06 23:07:29.9498 | INFO | BusinessLayer.Service.UserRegistrationBL | Business Layer - Checking user password. 
+2025-03-06 23:07:29.9498 | INFO | BusinessLayer.Service.UserRegistrationBL | Business Layer - User password matched. 
+2025-03-06 23:07:29.9498 | INFO | BusinessLayer.Service.UserRegistrationBL | Business Layer - User logged in successfully. 
+2025-03-06 23:07:29.9498 | INFO | UserRegistration.Controllers.UserRegistrationController | User logged in successfully. 
+2025-03-06 23:07:29.9498 | INFO | UserRegistration.Controllers.UserRegistrationController | Token generated successfully. 
+2025-03-06 23:07:29.9498 | INFO | BusinessLayer.Service.TokenService | TokenService - Generating token for user. 
+2025-03-06 23:07:29.9498 | INFO | BusinessLayer.Service.TokenService | TokenService - Token generated successfully. 
+2025-03-06 23:07:30.0910 | INFO | UserRegistration.Controllers.UserRegistrationController | Token sent to user. 
+2025-03-06 23:07:30.0910 | INFO | Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor | Executing OkObjectResult, writing value of type '<>f__AnonymousType2`1[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'. 
+2025-03-06 23:07:30.0910 | INFO | Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker | Executed action UserRegistration.Controllers.UserRegistrationController.Login (UserRegistration) in 14234.927ms 
+2025-03-06 23:07:30.0910 | INFO | Microsoft.AspNetCore.Routing.EndpointMiddleware | Executed endpoint 'UserRegistration.Controllers.UserRegistrationController.Login (UserRegistration)' 
+2025-03-06 23:07:30.0910 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/2 POST https://localhost:7004/UserRegistration/login application/json 57 - 200 - application/json;+charset=utf-8 14259.5498ms 
+2025-03-06 23:08:33.7452 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/2 GET https://localhost:7004/UserRegistration/users - - 
+2025-03-06 23:08:33.8341 | INFO | Microsoft.AspNetCore.Routing.EndpointMiddleware | Executing endpoint 'UserRegistration.Controllers.UserRegistrationController.GetUsers (UserRegistration)' 
+2025-03-06 23:08:33.8341 | INFO | Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker | Route matched with {action = "GetUsers", controller = "UserRegistration"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetUsers() on controller UserRegistration.Controllers.UserRegistrationController (UserRegistration). 
+2025-03-06 23:08:46.1093 | INFO | UserRegistration.Controllers.UserRegistrationController | API initiated to fetch all registered users. 
+2025-03-06 23:08:46.1093 | INFO | BusinessLayer.Service.UserRegistrationBL | Business Layer - Fetching all registered users. 
+2025-03-06 23:08:46.1093 | INFO | RepositoryLayer.Service.RedisCacheService | Getting cache for key 
+2025-03-06 23:08:51.2372 | ERROR | RepositoryLayer.Service.RedisCacheService | Error getting cache 
+2025-03-06 23:08:51.2750 | ERROR | RepositoryLayer.Service.UserRegistrationRL | Error in Repository Layer while fetching all users. System.Exception: The message timed out in the backlog attempting to send because no connection became available (5000ms) - Last Connection Exception: It was not possible to connect to the redis server(s). ConnectTimeout, command=GET, timeout: 5000, inst: 0, qu: 1, qs: 0, aw: False, bw: SpinningDown, rs: NotStarted, ws: Idle, in: 0, last-in: 0, cur-in: 0, sync-ops: 1, async-ops: 0, serverEndpoint: localhost:6379, conn-sec: n/a, aoc: 0, mc: 1/1/0, mgr: 10 of 10 available, clientName: LAPTOP-81P5ERNB(SE.Redis-v2.8.24.3255), IOCP: (Busy=0,Free=1000,Min=12,Max=1000), WORKER: (Busy=1,Free=32766,Min=12,Max=32767), POOL: (Threads=12,QueuedItems=0,CompletedItems=2044,Timers=14), v: 2.8.24.3255 (Please take a look at this article for some common client-side issues that can cause timeouts: https://stackexchange.github.io/StackExchange.Redis/Timeouts)
+   at RepositoryLayer.Service.RedisCacheService.GetCache(String key) in C:\Users\Sujeet\OneDrive\Desktop\BL_Cpg(practice)\PP_28-02-25\RepositoryLayer\Service\RedisCacheService.cs:line 46
+   at RepositoryLayer.Service.UserRegistrationRL.GetAllUsers() in C:\Users\Sujeet\OneDrive\Desktop\BL_Cpg(practice)\PP_28-02-25\RepositoryLayer\Service\UserRegistrationRL.cs:line 84
+2025-03-06 23:08:51.3711 | ERROR | BusinessLayer.Service.UserRegistrationBL | Business Layer - Error fetching all users. System.Exception: The message timed out in the backlog attempting to send because no connection became available (5000ms) - Last Connection Exception: It was not possible to connect to the redis server(s). ConnectTimeout, command=GET, timeout: 5000, inst: 0, qu: 1, qs: 0, aw: False, bw: SpinningDown, rs: NotStarted, ws: Idle, in: 0, last-in: 0, cur-in: 0, sync-ops: 1, async-ops: 0, serverEndpoint: localhost:6379, conn-sec: n/a, aoc: 0, mc: 1/1/0, mgr: 10 of 10 available, clientName: LAPTOP-81P5ERNB(SE.Redis-v2.8.24.3255), IOCP: (Busy=0,Free=1000,Min=12,Max=1000), WORKER: (Busy=1,Free=32766,Min=12,Max=32767), POOL: (Threads=12,QueuedItems=0,CompletedItems=2044,Timers=14), v: 2.8.24.3255 (Please take a look at this article for some common client-side issues that can cause timeouts: https://stackexchange.github.io/StackExchange.Redis/Timeouts)
+   at RepositoryLayer.Service.UserRegistrationRL.GetAllUsers() in C:\Users\Sujeet\OneDrive\Desktop\BL_Cpg(practice)\PP_28-02-25\RepositoryLayer\Service\UserRegistrationRL.cs:line 112
+   at BusinessLayer.Service.UserRegistrationBL.GetAllUsers() in C:\Users\Sujeet\OneDrive\Desktop\BL_Cpg(practice)\PP_28-02-25\BusinessLayer\Service\UserRegistrationBL.cs:line 85
+2025-03-06 23:08:51.4109 | ERROR | UserRegistration.Controllers.UserRegistrationController | Error fetching all users. System.Exception: The message timed out in the backlog attempting to send because no connection became available (5000ms) - Last Connection Exception: It was not possible to connect to the redis server(s). ConnectTimeout, command=GET, timeout: 5000, inst: 0, qu: 1, qs: 0, aw: False, bw: SpinningDown, rs: NotStarted, ws: Idle, in: 0, last-in: 0, cur-in: 0, sync-ops: 1, async-ops: 0, serverEndpoint: localhost:6379, conn-sec: n/a, aoc: 0, mc: 1/1/0, mgr: 10 of 10 available, clientName: LAPTOP-81P5ERNB(SE.Redis-v2.8.24.3255), IOCP: (Busy=0,Free=1000,Min=12,Max=1000), WORKER: (Busy=1,Free=32766,Min=12,Max=32767), POOL: (Threads=12,QueuedItems=0,CompletedItems=2044,Timers=14), v: 2.8.24.3255 (Please take a look at this article for some common client-side issues that can cause timeouts: https://stackexchange.github.io/StackExchange.Redis/Timeouts)
+   at BusinessLayer.Service.UserRegistrationBL.GetAllUsers() in C:\Users\Sujeet\OneDrive\Desktop\BL_Cpg(practice)\PP_28-02-25\BusinessLayer\Service\UserRegistrationBL.cs:line 90
+   at UserRegistration.Controllers.UserRegistrationController.GetUsers()
+2025-03-06 23:12:06.7991 | INFO | UserRegistration.Program | Application Starting... 
+2025-03-06 23:12:07.6532 | INFO | Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager | User profile is available. Using 'C:\Users\Sujeet\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2025-03-06 23:12:07.9664 | INFO | Microsoft.Hosting.Lifetime | Now listening on: https://localhost:7004 
+2025-03-06 23:12:07.9664 | INFO | Microsoft.Hosting.Lifetime | Now listening on: http://localhost:5203 
+2025-03-06 23:12:08.0078 | INFO | Microsoft.Hosting.Lifetime | Application started. Press Ctrl+C to shut down. 
+2025-03-06 23:12:08.0078 | INFO | Microsoft.Hosting.Lifetime | Hosting environment: Development 
+2025-03-06 23:12:08.0078 | INFO | Microsoft.Hosting.Lifetime | Content root path: C:\Users\Sujeet\OneDrive\Desktop\BL_Cpg(practice)\PP_28-02-25\UserRegistration\ 
+2025-03-06 23:12:08.7206 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/2 GET https://localhost:7004/Swagger/index.html - - 
+2025-03-06 23:12:09.0207 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/2 GET https://localhost:7004/Swagger/index.html - - - 200 - text/html;charset=utf-8 301.7132ms 
+2025-03-06 23:12:09.0361 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/2 GET https://localhost:7004/_framework/aspnetcore-browser-refresh.js - - 
+2025-03-06 23:12:09.0361 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/2 GET https://localhost:7004/Swagger/index.js - - 
+2025-03-06 23:12:09.0361 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/2 GET https://localhost:7004/Swagger/index.js - - - 200 - application/javascript;charset=utf-8 1.9099ms 
+2025-03-06 23:12:09.0361 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/2 GET https://localhost:7004/_framework/aspnetcore-browser-refresh.js - - - 200 12364 application/javascript;+charset=utf-8 5.3890ms 
+2025-03-06 23:12:09.2636 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/2 GET https://localhost:7004/_vs/browserLink - - 
+2025-03-06 23:12:09.3265 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/2 GET https://localhost:7004/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 62.8204ms 
+2025-03-06 23:12:09.9898 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/2 GET https://localhost:7004/Swagger/v1/swagger.json - - 
+2025-03-06 23:12:09.9954 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/2 GET https://localhost:7004/Swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 5.5630ms 
+2025-03-06 23:12:17.2234 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/2 GET https://localhost:7004/UserRegistration - - 
+2025-03-06 23:12:17.3054 | INFO | Microsoft.AspNetCore.Routing.EndpointMiddleware | Executing endpoint 'UserRegistration.Controllers.UserRegistrationController.Get (UserRegistration)' 
+2025-03-06 23:12:17.3131 | INFO | Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker | Route matched with {action = "Get", controller = "UserRegistration"}. Executing controller action with signature System.String Get() on controller UserRegistration.Controllers.UserRegistrationController (UserRegistration). 
+2025-03-06 23:12:25.8238 | INFO | Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor | Executing ObjectResult, writing value of type 'System.String'. 
+2025-03-06 23:12:25.8238 | INFO | Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker | Executed action UserRegistration.Controllers.UserRegistrationController.Get (UserRegistration) in 8511.8316ms 
+2025-03-06 23:12:25.8238 | INFO | Microsoft.AspNetCore.Routing.EndpointMiddleware | Executed endpoint 'UserRegistration.Controllers.UserRegistrationController.Get (UserRegistration)' 
+2025-03-06 23:12:25.8238 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/2 GET https://localhost:7004/UserRegistration - - - 200 - text/plain;+charset=utf-8 8612.1105ms 
