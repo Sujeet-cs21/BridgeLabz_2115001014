@@ -147,3 +147,6 @@
 
 ### 03-03-2025
     -Learnt and applied CRUD operation.
+
+### 06-03-2025
+    -Applied Redis to UserRegistration web App.
