@@ -150,3 +150,7 @@
 
 ### 06-03-2025
     -Applied Redis to UserRegistration web App.
+
+### 17-03-2025
+    -Read about NodeJs programming construct.
+    -solved its practice problem.
