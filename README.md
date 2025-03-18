@@ -154,3 +154,7 @@
 ### 17-03-2025
     -Read about NodeJs programming construct.
     -solved its practice problem.
+
+### 18-03-2025
+    -Read about JavaScript programming construct.
+    -solved its practice problem.
