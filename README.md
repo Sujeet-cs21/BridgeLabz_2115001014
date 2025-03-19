@@ -158,3 +158,6 @@
 ### 18-03-2025
     -Read about JavaScript programming construct.
     -solved its practice problem.
+
+### 19-03-2025
+    -Created AddressBook and EmployeeWage JavaScript Project.
